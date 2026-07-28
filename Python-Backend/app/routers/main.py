@@ -8,7 +8,7 @@ app = FastAPI(
     description="Backend endpoints for signup, login, and user CRUD operations."
 )
 
-# Enable CORS so your future HTML/JS frontend can interact with this API
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # Adjust in production

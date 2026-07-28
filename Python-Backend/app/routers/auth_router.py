@@ -21,3 +21,39 @@ def login(credentials: UserLoginSchema):
             detail="Invalid username or password"
         )
     return {"message": "Login successful", "user_id": user["id"], "username": user["username"]}
+
+@router.get("/dashboard")
+def get_dashboard_data(username: str = None):
+    """
+    Dashboard endpoint reached after successful login.
+    """
+    if not username:
+        return {
+            "status": "success",
+            "message": "Welcome to your Dashboard!",
+            "data": {
+                "user": "Guest User",
+                "stats": {
+                    "total_views": 120,
+                    "active_sessions": 1,
+                    "notifications": 3
+                }
+            }
+        }  
+    
+    return {
+        "status": "success",
+        "message": f"Welcome back to your dashboard, {username}!",
+        "data": {
+            "user": username,
+            "stats": {
+                "total_views": 450,
+                "active_sessions": 2,
+                "notifications": 5
+            },
+            "recent_activity": [
+                "Logged in recently",
+                "Updated profile info"
+            ]
+        }
+    }  

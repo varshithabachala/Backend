@@ -1,0 +1,2686 @@
+{
+	"table": "UnknownTable",
+	"rows":
+	[
+		[
+			495,
+			"Brady Liu",
+			"bradyliu@fortinet.com",
+			"2026-07-03 11:24:51",
+			"Create a FortiSOAR playbook which it has to fetch WiFi disconnect events with filter as 'disconnected' from FortiGate connector. Extract client MAC address and access point.If the same client disconnects more than 5 times → notify the analyst in email jkingsont@fortinet.com.",
+			"failed",
+			null,
+			null
+		],
+		[
+			494,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-07-03 00:09:49",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"failed",
+			null,
+			null
+		],
+		[
+			493,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-07-03 00:00:55",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"failed",
+			null,
+			null
+		],
+		[
+			492,
+			"Guoxiong Zou",
+			"gzou@fortinet.com",
+			"2026-07-02 18:58:55",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"failed",
+			null,
+			null
+		],
+		[
+			488,
+			"jmcgrath",
+			"jmcgrath@fortinet.com",
+			"2026-07-02 07:22:24",
+			"Playbook needs to onboard new users to Microsoft entra id and also be able to offboard users from microsoft entra id",
+			"failed",
+			null,
+			null
+		],
+		[
+			487,
+			"jmcgrath",
+			"jmcgrath@fortinet.com",
+			"2026-07-02 07:20:12",
+			"Onboard users to microsoft entra and offboard user frrom entra",
+			"failed",
+			null,
+			null
+		],
+		[
+			485,
+			"An Ping Kwee",
+			"akwee@fortinet.com",
+			"2026-06-30 20:06:46",
+			"In fortigate fetch first 10 Technology as Browser-Based applications and send me in email jkingston@fortinet-us.com",
+			"failed",
+			null,
+			null
+		],
+		[
+			484,
+			"David Almeida Alcantara Ribeiro",
+			"dalcantara@fortinet.com",
+			"2026-06-30 18:48:57",
+			"Create a playbook with FortiNDR Cloud and Bitdefender EDR, to block a host ",
+			"failed",
+			null,
+			null
+		],
+		[
+			483,
+			"David Almeida Alcantara Ribeiro",
+			"dalcantara@fortinet.com",
+			"2026-06-30 18:48:22",
+			"Create a playbook with FortiNDR Cloud and BitDefender EDR, to block a host based on the veredict",
+			"failed",
+			null,
+			null
+		],
+		[
+			482,
+			"David Almeida Alcantara Ribeiro",
+			"dalcantara@fortinet.com",
+			"2026-06-30 18:47:50",
+			"Create a playbook with FortiNDR Cloud and BitDefender EDR, to block a host based on the veredict",
+			"failed",
+			null,
+			null
+		],
+		[
+			478,
+			"Guoxiong Zou",
+			"gzou@fortinet.com",
+			"2026-06-28 19:01:45",
+			"收到名字中包含“High Severity IPS Exploit FortiGate-ips-signature”的告警时，判断其中的目标IP是否为外网地址，若为外网地址添加到FortiGate进行隔离.",
+			"failed",
+			null,
+			null
+		],
+		[
+			477,
+			"Guoxiong Zou",
+			"gzou@fortinet.com",
+			"2026-06-28 19:01:16",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"failed",
+			null,
+			null
+		],
+		[
+			473,
+			"An Ping Kwee",
+			"akwee@fortinet.com",
+			"2026-06-24 20:18:07",
+			"Create a FortiSOAR playbook which it has to fetch WiFi disconnect events with filter as 'disconnected' from FortiGate connector. Extract client MAC address and access point.If the same client disconnects more than 5 times → notify the analyst in email jkingsont@fortinet.com.",
+			"failed",
+			null,
+			null
+		],
+		[
+			472,
+			"An Ping Kwee",
+			"akwee@fortinet.com",
+			"2026-06-24 20:15:07",
+			"In fortigate fetch first 10 Technology as Browser-Based applications and send me in email jkingston@fortinet-us.com",
+			"failed",
+			null,
+			null
+		],
+		[
+			470,
+			"An Ping Kwee",
+			"akwee@fortinet.com",
+			"2026-06-24 20:14:02",
+			"In fortigate fetch first 10 Technology as Browser-Based applications and send me in email jkingston@fortinet-us.com",
+			"failed",
+			null,
+			null
+		],
+		[
+			469,
+			"An Ping Kwee",
+			"akwee@fortinet.com",
+			"2026-06-24 20:13:44",
+			"Create a FortiSOAR playbook triggered by multiple suspicious traffic alerts from FortiAnalyzer. Extract the source IP and count how many times it appears within a short duration.If the same IP appears more than 3 times → block the IP using FortiManager. Otherwise, send it for analyst review.Send notification to jkingston@fortinet.com",
+			"failed",
+			null,
+			null
+		],
+		[
+			468,
+			"An Ping Kwee",
+			"akwee@fortinet.com",
+			"2026-06-24 20:13:13",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"failed",
+			null,
+			null
+		],
+		[
+			467,
+			"Andy Lee",
+			"andyl@fortinet.com",
+			"2026-06-24 08:52:10",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"failed",
+			null,
+			null
+		],
+		[
+			465,
+			"Guoxiong Zou",
+			"gzou@fortinet.com",
+			"2026-06-23 18:49:09",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2. ",
+			"failed",
+			null,
+			null
+		],
+		[
+			464,
+			"Guoxiong Zou",
+			"gzou@fortinet.com",
+			"2026-06-23 18:42:44",
+			"收到名字中包含“High Severity IPS Exploit FortiGate-ips-signature”的告警时，判断其中的目标IP是否为外网地址，若为外网地址添加到FortiGate进行隔离.",
+			"failed",
+			null,
+			null
+		],
+		[
+			463,
+			"Guoxiong Zou",
+			"gzou@fortinet.com",
+			"2026-06-23 18:42:16",
+			"收到名字中包含“High Severity IPS Exploit FortiGate-ips-signature”的告警时，判断其中的目标IP是否为外网地址，若为外网地址添加到FortiGate进行隔离",
+			"failed",
+			null,
+			null
+		],
+		[
+			462,
+			"Guoxiong Zou",
+			"gzou@fortinet.com",
+			"2026-06-23 18:41:40",
+			"收到名字中包含“High Severity IPS Exploit FortiGate-ips-signature”的告警时，判断其中的目标IP是否为外网地址，若为外网地址添加到FortiGate进行隔离.",
+			"failed",
+			null,
+			null
+		],
+		[
+			459,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-23 01:56:42",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"failed",
+			null,
+			null
+		],
+		[
+			458,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-23 01:46:47",
+			"Create a fortisoar playbook to create a scoring matrix with 4 options for a malware use case.  We will be taking artifacts already extracted and applying the following logic.  Option 1 should be an approved tool from a list and the binary matches approved software and the threat intelligence context is marked as safe.  Option 2 should be that the binary tool is not in the approved list and the threat intelligence look up is not malicious.  Option 3 should be that the binary is not in the approved list or displays obfuscation markers or parent lineage is unclear.  Option 4 Threat inteligence lookup is malicious or IOC's are detected.",
+			"failed",
+			null,
+			null
+		],
+		[
+			454,
+			"Mohamed Osama",
+			"mosama@fortinet.com",
+			"2026-06-21 01:26:30",
+			"Generate a playbook that connects with FortiGate and once more than 5 failed login attempts on FortiGate's management portal from FortiAnalyzer, extracts the public Source IP Address and blocks any of its inbound traffic on this FortiGate",
+			"failed",
+			null,
+			null
+		],
+		[
+			453,
+			"Mohamed Osama",
+			"mosama@fortinet.com",
+			"2026-06-21 01:07:38",
+			"Generate a playbook that connects with FortiGate and once more than 5 failed login attempts on FortiGate's management portal from FortiAnalyzer, extracts the public Source IP Address and blocks any of its inbound traffic on this FortiGate",
+			"failed",
+			null,
+			null
+		],
+		[
+			452,
+			"Mohamed Osama",
+			"mosama@fortinet.com",
+			"2026-06-21 00:55:52",
+			"Generate a playbook that connects with FortiGate and once more than 5 failed login attempts on FortiGate's management portal from FortiAnalyzer, extracts the public Source IP Address and blocks any of its inbound traffic on this FortiGate",
+			"failed",
+			null,
+			null
+		],
+		[
+			451,
+			"Mohamed Osama",
+			"mosama@fortinet.com",
+			"2026-06-21 00:55:06",
+			"Generate a playbook that connects with FortiGate and once more than 5 failed login attempts on FortiGates management portal, extracts the public Source IP Address and blocks any of its inbound traffic on this FortiGate",
+			"failed",
+			null,
+			null
+		],
+		[
+			450,
+			"Mohamed Osama",
+			"mosama@fortinet.com",
+			"2026-06-21 00:54:25",
+			"Generate a playbook that integrates with FortiGate and once more than 5 failed login attempts on FortiGates management portal, extracts the public Source IP Address and blocks any of its inbound traffic on this FortiGate",
+			"failed",
+			null,
+			null
+		],
+		[
+			449,
+			"Jeffrey Kong",
+			"jeffreykong@fortinet.com",
+			"2026-06-20 09:12:12",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"failed",
+			null,
+			null
+		],
+		[
+			448,
+			"Jeffrey Kong",
+			"jeffreykong@fortinet.com",
+			"2026-06-20 09:12:01",
+			"Create a FortiSOAR playbook that integrates with FortiAnalyzer and FortiGate. The playbook should fetch alerts from the root ADOM in FortiAnalyzer using the filter threattype='malware', extract the source IP address from each alert, and automatically block that IP on FortiGate. Ensure the playbook handles duplicate IPs, includes proper parsing of fields, and logs the actions performed.",
+			"failed",
+			null,
+			null
+		],
+		[
+			446,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-19 06:54:52",
+			"create a fortisoar playbook to perform a IOC check on an IP address and then run a search across microsoft sentinel to see if that IP has been referenced in any other alerts within the last 30 days.",
+			"failed",
+			null,
+			null
+		],
+		[
+			445,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-19 06:54:15",
+			"create a fortisoar playbook to perform a IOC check on an IP address and then run a search across microsoft sentinel to see if that IP has been referenced in any other alerts within the last 30 days",
+			"failed",
+			null,
+			null
+		],
+		[
+			441,
+			"Faruk Yalcin",
+			"fyalcin@fortinet.com",
+			"2026-06-16 23:47:22",
+			"Create a FortiSOAR playbook which it has to fetch WiFi disconnect events with filter as 'disconnected' from FortiGate connector. Extract client MAC address and access point.If the same client disconnects more than 5 times → notify the analyst in email jkingsont@fortinet.com.",
+			"failed",
+			null,
+			null
+		],
+		[
+			440,
+			"Faruk Yalcin",
+			"fyalcin@fortinet.com",
+			"2026-06-16 23:45:32",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"failed",
+			null,
+			null
+		],
+		[
+			436,
+			"German VillavicencioDonoso",
+			"gvillavicencio@fortinet.com",
+			"2026-06-16 12:45:36",
+			"Build a Fortisoar playbook for add multiples fortigate to fortimanager adom ",
+			"failed",
+			null,
+			null
+		],
+		[
+			435,
+			"German VillavicencioDonoso",
+			"gvillavicencio@fortinet.com",
+			"2026-06-16 12:44:50",
+			"Build a Fortisoar playbook Where a FortiGate can be configured through FortiManager using data obtained from a Cisco router configuration, data such as interfaces, static routes, dynamic routing, and SNMP should be extracted.",
+			"failed",
+			null,
+			null
+		],
+		[
+			432,
+			"Pavlin Koldamov-Fortinet",
+			"pkoldamov@fortinet.com",
+			"2026-06-16 06:28:39",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"7ca6cb3f-c91a-48bc-8c95-d565e6e0cc0a\"",
+			"\"https://69.167.104.158:13006/playbooks/7ca6cb3f-c91a-48bc-8c95-d565e6e0cc0a\""
+		],
+		[
+			430,
+			"Andre Lee",
+			"landre@fortinet.com",
+			"2026-06-16 01:11:20",
+			"create a playbook to do check for change request on window server ",
+			"success",
+			"\"8e0799cc-875b-45d9-ab90-d299cbaab309\"",
+			"\"https://69.167.104.158:13006/playbooks/8e0799cc-875b-45d9-ab90-d299cbaab309\""
+		],
+		[
+			428,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-15 06:36:45",
+			"Create a Fortisoar playbook to achieve the following steps: - Use the Microsoft Defender 365 connector to fetch the initial alert process tree, execution arguments, and targeted machine details.   - Get the logged-in user profile details from the target machine.   - Query file hash values against FortiGuard and Recorded Future reputation engines to determine if the signature is known or signed by an approved vendor.   - Query Entra ID for anomalous user activities, sign in locations, or concurrent authentication failures related to the host identity.   - Use the ServiceNow connector to search active or scheduled Change Requests mapped to the target asset to see if a maintenance window accounts for the behavioural anomalies.   - Run a search step using the Microsoft Sentinel to check if identical process hashes are trending across other endpoints.",
+			"failed",
+			null,
+			null
+		],
+		[
+			427,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-15 06:32:16",
+			"Create a Fortisoar playbook to use the Microsoft Defender 365 connector to fetch the initial alert process tree, execution arguments, and targeted machine details.  Get the logged-in user profile details from the target machine.  Query file hash values against FortiGuard and Recorded Future reputation engines to determine if the signature is known or signed by an approved vendor.  Query Entra ID for anomalous user activities, sign in locations, or concurrent login MFA failures related to the host identity.  Use the ServiceNow connector to search active or scheduled Change Requests mapped to the target asset to see if a maintenance window accounts for the behavioural anomalies.  Run a search step using the Microsoft Sentinel to check if identical process hashes are trending across other endpoints.",
+			"failed",
+			null,
+			null
+		],
+		[
+			426,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-15 06:30:03",
+			"Use the Microsoft Defender 365 connector to fetch the initial alert process tree, execution arguments, and targeted machine details.  Get the logged-in user profile details from the target machine.  Query file hash values against FortiGuard and Recorded Future reputation engines to determine if the signature is known or signed by an approved vendor.  Query Entra ID for anomalous user activities, sign-in locations, or concurrent login MFA failures related to the host identity.  Use the ServiceNow connector to search active or scheduled Change Requests mapped to the target asset to see if a maintenance window accounts for the behavioural anomalies.  Run a search step using the Microsoft Sentinel to check if identical process hashes are trending across other endpoints.",
+			"failed",
+			null,
+			null
+		],
+		[
+			425,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-15 06:28:12",
+			"Use the Microsoft Defender 365 connector to fetch the initial alert process tree, execution arguments, and targeted machine details.  Get the logged-in user profile details from the target machine.  Query file hash values against FortiGuard and Recorded Future reputation engines to determine if the signature is known or signed by an approved vendor.  Query Entra ID for anomalous user activities, sign-in locations, or concurrent login MFA failures related to the host identity.  Use the ServiceNow connector to search active or scheduled Change Requests mapped to the target asset to see if a maintenance window accounts for the behavioural anomalies.  Run a search step using the Microsoft Sentinel to check if identical process hashes are trending across other endpoints.",
+			"failed",
+			null,
+			null
+		],
+		[
+			423,
+			"Simon Hoh",
+			"shoh@fortinet.com",
+			"2026-06-14 16:52:54",
+			"Build a FortiSOAR playbook for a scheduled Fortigate FortiOS upgrade via FortiManager. The steps must include a collection of get command outputs that will be used as a pre and post FortiOS upgrade comparision",
+			"success",
+			"\"07f013ec-7bdc-4ae9-b355-e2489083c585\"",
+			"\"https://69.167.104.158:13006/playbooks/07f013ec-7bdc-4ae9-b355-e2489083c585\""
+		],
+		[
+			422,
+			"Hussain Altayeb",
+			"haltayeb@fortinet.com",
+			"2026-06-14 02:16:51",
+			"I want a play book where crowdstrike agent will share a vertain risk score .. if this goes beyond 80%, then Foriclient shall isolate the endpoint , collect all proceses running and network connections  ",
+			"success",
+			"\"631c368b-2e4a-4fe0-9589-804081c7200e\"",
+			"\"https://69.167.104.158:13006/playbooks/631c368b-2e4a-4fe0-9589-804081c7200e\""
+		],
+		[
+			421,
+			"Michael A. Mason",
+			"mmason@fortinet.com",
+			"2026-06-12 12:13:19",
+			"I want the playbook to block external IP addresses trying to scan for ports on my WAN interfaces ",
+			"success",
+			"\"71af31d2-6dcb-465b-b5a1-aefa3300d37d\"",
+			"\"https://69.167.104.158:13006/playbooks/71af31d2-6dcb-465b-b5a1-aefa3300d37d\""
+		],
+		[
+			420,
+			"Michael A. Mason",
+			"mmason@fortinet.com",
+			"2026-06-12 12:10:55",
+			"I want the playbook to block external IP addresses trying to scan for ports on my WAN interfaces ",
+			"success",
+			"\"34cdbcc1-7b3a-43a3-8f0f-1dfd9c116b4f\"",
+			"\"https://69.167.104.158:13006/playbooks/34cdbcc1-7b3a-43a3-8f0f-1dfd9c116b4f\""
+		],
+		[
+			419,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-12 09:50:52",
+			"Trigger the playbook based on the alert creation where the conditions are that the alert relates to a malware investigation discovered in Microsoft defender.   Fetch the incident details Using the Microsoft defender, Identify the process that triggered the alert, including the full command line string, suspicious flags and unusual paths, whilst noting any suspicious ancestry in the parent chain, also the account that executed the process with timestamps.  Obtain the affected device hostname, Identify: device owner, department, OS version, patch level, and criticality tier from Microsoft Defender.  ",
+			"success",
+			"\"c7909790-175b-426f-ab6e-580b439349be\"",
+			"\"https://69.167.104.158:13006/playbooks/c7909790-175b-426f-ab6e-580b439349be\""
+		],
+		[
+			418,
+			"David Link",
+			"dlink@fortinet.com",
+			"2026-06-11 22:55:15",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"6b629ef3-fdee-491e-a23c-aae1fb8fc515\"",
+			"\"https://69.167.104.158:13006/playbooks/6b629ef3-fdee-491e-a23c-aae1fb8fc515\""
+		],
+		[
+			417,
+			"Ahcene Oubagha",
+			"aoubagha@fortinet.com",
+			"2026-06-11 14:58:09",
+			"In fortigate fetch first 10 Technology as Browser-Based applications and send me in email jkingston@fortinet-us.com",
+			"success",
+			"\"75d86e78-6f33-4018-832f-71f36bd4addb\"",
+			"\"https://69.167.104.158:13006/playbooks/75d86e78-6f33-4018-832f-71f36bd4addb\""
+		],
+		[
+			415,
+			"Ricky Li",
+			"rickyli@fortinet.com",
+			"2026-06-11 02:34:31",
+			"Connect to FortiAnalyzer and retrieve all report schedules for the specified ADOM. Then retrieve all the generated reports within the time range of 1st January 2026, 02:00 AM to 10th January 2026, 02:00 AM. Finally, run a report on FortiAnalyzer.",
+			"success",
+			"\"65d995da-37c7-4107-b931-184f38838387\"",
+			"\"https://69.167.104.158:13006/playbooks/65d995da-37c7-4107-b931-184f38838387\""
+		],
+		[
+			412,
+			"Jeffrey Clark",
+			"cjeff@fortinet.com",
+			"2026-06-10 13:26:10",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"success",
+			"\"a0e4edb9-9580-4bf1-abf9-2ba9379877a9\"",
+			"\"https://69.167.104.158:13006/playbooks/a0e4edb9-9580-4bf1-abf9-2ba9379877a9\""
+		],
+		[
+			410,
+			"Lokesh Suthar",
+			"lsuthar@fortinet.com",
+			"2026-06-10 03:21:21",
+			"Create a playbook to fetch all policies from each policy package from root ADOM",
+			"success",
+			"\"07c41039-d5fe-4d1c-a4ea-48090e67d2d0\"",
+			"\"https://69.167.104.158:13006/playbooks/07c41039-d5fe-4d1c-a4ea-48090e67d2d0\""
+		],
+		[
+			407,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-09 10:42:04",
+			"Trigger the playbook based on the alert creation where the conditions are that the alert relates to a malware investigation discovered in Microsoft defender.   Fetch the incident details Using the Microsoft defender, Identify the process that triggered the alert, including the full command line string, suspicious flags and unusual paths, whilst noting any suspicious ancestry in the parent chain, also the account that executed the process with timestamps.  Obtain the affected device hostname, Identify: device owner, department, OS version, patch level, and criticality tier from Microsoft Defender.   Obtain device role, IP address, OS and current patch status from Service now. Obtain the installed software inventory for the affected device and cross-reference the alerting process against the approved software list from Microsoft Defender, if the process / application is not in the approved list, flag the alert as malicious and isolate the machine.  Check the alerting binary's install date on the affected host to see if it correlates with the actual alert date from Microsoft defender.   Using the Microsoft entra, find the user account that launched the process, retrieve group memberships and assigned roles and determine if the user has local admin rights on their machine.  Using Microsoft entra, include a manual step to verify if the account is a service account or a real person account.   Using the Microsoft entra, check for a password reset on the affected account within the last 72 hours.   Using the Microsoft entra, retrieve the last 10 login events for the account that triggered the process.   Using the service now, check to see if there is an approved change window that covers the affected machine hostname during the timestamp of the alert, if there is, create a manual step for an analyst to review the change request.   Run a KQL query against microsoft defender to determine if the process is contained within the application whitelist, if yes close the alert, if no continue.   Create a manual task for the analyst to check whether the binary belongs to an existing scheduled task.   Fetch the binary file from Microsoft defender.   Using the Recorded Future Threat Intelligence connector and Fortinet Fortiguard Threat Intelligence connector, get a threat rating on the binary file, if no reputation is returned for the binary file, then send the binary file to Fortinet FortiSandbox for analysis.   If the binary or process is suspicious or malicious, create a manual task for the analyst to reach out directly to the user via Microsoft Teams to ask if they executed the process.   Check to see if the impacted user and machine has any other correlated alerts over the past 72 hours on Microsoft Sentinel.   Examine the network logs for command-and-control indicators relating to the affected host machine on Microsoft sentinel.  If any IOCs discovered from the network logs, run a KQL search on Microsoft sentinel to determine whether the compromise is isolated to one machine or is part of a broader campaign. Create a scoring playbook step would classify alerts based on one of the following 4 the following classifications: 1. Authorised Known tool - approved user group. All checks pass, action is to close alert 2. Unapproved tool - not on approved list but tool is not known to be malicious from the Threat inteligence lookup, action is to close the alert, and raise a ticket in Servicenow for the IT team to remove the unapproved software and investigate how it got installed. 3. Suspicious Unusual lineage - not on approved list or unusual lineage or obfuscation detected, or behavioural anomaly or unclear intent, action is to isolate the endpoint via Microsoft defender, capture a memory dump and then terminate the malicious process 4. Malicious IOCs confirmed - IOC's detected or process found to be malicious, action is to isolate the endpoint through Microsoft defender and raise a high severity case in service now linking any correlated assets running the process or calling the identified IOCs and label as an active threat. ",
+			"failed",
+			null,
+			null
+		],
+		[
+			406,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-09 10:40:31",
+			"Trigger the playbook based on the alert creation where the conditions are that the alert relates to a malware investigation discovered in Microsoft defender.   Fetch the incident details Using the Microsoft defender, Identify the process that triggered the alert, including the full command line string, suspicious flags and unusual paths, whilst noting any suspicious ancestry in the parent chain, also the account that executed the process with timestamps.  Obtain the affected device hostname, Identify: device owner, department, OS version, patch level, and criticality tier from Microsoft Defender.   Obtain device role, IP address, OS and current patch status from Service now. Obtain the installed software inventory for the affected device and cross-reference the alerting process against the approved software list from Microsoft Defender, if the process / application is not in the approved list, flag the alert as malicious and isolate the machine.  Check the alerting binary's install date on the affected host to see if it correlates with the actual alert date from Microsoft defender.   Using the Microsoft entra, find the user account that launched the process, retrieve group memberships and assigned roles and determine if the user has local admin rights on their machine.  Using Microsoft entra, include a manual step to verify if the account is a service account or a real person account.   Using the Microsoft entra, check for a password reset on the affected account within the last 72 hours.   Using the Microsoft entra, retrieve the last 10 login events for the account that triggered the process.   Using the service now, check to see if there is an approved change window that covers the affected machine hostname during the timestamp of the alert, if there is, create a manual step for an analyst to review the change request.   Run a KQL query against microsoft defender to determine if the process is contained within the application whitelist, if yes close the alert, if no continue.   Create a manual task for the analyst to check whether the binary belongs to an existing scheduled task.   Fetch the binary file from Microsoft defender.   Using the Recorded Future Threat Intelligence connector and Fortinet Fortiguard Threat Intelligence connector, get a threat rating on the binary file, if no reputation is returned for the binary file, then send the binary file to Fortinet FortiSandbox for analysis.   If the binary or process is suspicious or malicious, create a manual task for the analyst to reach out directly to the user via Microsoft Teams to ask if they executed the process.   Check to see if the impacted user and machine has any other correlated alerts over the past 72 hours on Microsoft Sentinel.   Examine the network logs for command-and-control indicators relating to the affected host machine on Microsoft sentinel.  If any IOCs discovered from the network logs, run a KQL search on Microsoft sentinel to determine whether the compromise is isolated to one machine or is part of a broader campaign. Create a scoring playbook step would classify alerts based on one of the following 4 the following classifications: 1. Authorised Known tool - approved user group. All checks pass, action is to close alert 2. Unapproved tool - not on approved list but tool is not known to be malicious from the Threat inteligence lookup, action is to close the alert, and raise a ticket in Servicenow for the IT team to remove the unapproved software and investigate how it got installed. 3. Suspicious Unusual lineage - not on approved list or unusual lineage or obfuscation detected, or behavioural anomaly or unclear intent, action is to isolate the endpoint via Microsoft defender, capture a memory dump and then terminate the malicious process 4. Malicious IOCs confirmed - IOC's detected or process found to be malicious, action is to isolate the endpoint through Microsoft defender and raise a high severity case in service now linking any correlated assets running the process or calling the identified IOCs and label as an active threat. ",
+			"failed",
+			null,
+			null
+		],
+		[
+			405,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-09 10:33:24",
+			"Trigger the playbook based on the alert creation where the condition is that the alert relates to a malware investigation discovered in Microsoft defender.   Using the Microsoft defender connector, fetch the incident details, Identify the process that triggered the alert, including the full command line string, suspicious flags and unusual paths, whilst noting any suspicious ancestry in the parent chain, also the account that executed the process with timestamps. Using the Microsoft Defender connector, Obtain the affected device hostname, Identify: device owner, department, OS version, patch level, and criticality tier.   In Service now, Classify device role, IP address, OS and current patch status. From within Microsoft Defender, pull the installed software inventory for the effected endpoint and Cross-reference the alerting binary/process against the approved software list, If the tool is not in the approved list, flag the alert as malicious. From within Microsoft defender check alerting binary's install date to see if it correlates with the actual alert date. Query Microsoft entra for the user account  that triggered the process, retrieve group memberships and assigned roles and determine if the user has local admin rights on their machine. Check Microsoft entra to see if the account is a service or a real person account. Check in Microsoft for password reset on the effected account in the last 72 hours. Check in Microsoft entra for the last 10 login events for the account that triggered the process In servicenow check to see if there is an approved change window that covers the affected machine during the timestamp of the alert, if there is mark the Alert  On microsoft defender run a KQL query determine if the process is to be whitelisted, add it to whitelist if needed. Create a manual task for the analyst to check whether the binary belongs to an existing scheduled task. From Microsoft defender, fetch the binary, rate with Recorded Future Threat Inteligence and Fortinet Fortiguard Threat Intelligence, if no reputation send to Fortinet FortiSandbox for analysis. If the binary or process is suspicious, create a manual task for the analyst to reach out directly to the user via Microsoft Teams to ask if they executed the process. Check Microsoft Sentinel to see if the impacted user and machine has any other correlated alerts over the past 72 hours. Check Microsoft sentinel to examine network logs for command-and-control indicators relating to the affected host machine. If any IOCs discovered, run a KQL search on Microsoft sentinel to determine whether the compromise is isolated to one machine or is part of a broader campaign. Check in Microsoft defender to see if the binary is regularly used by that user for the past 3 months Create a scoring playbook step would classify alerts based on one of the following 4 the following classifications: \t1) Authorised Known tool - approved user group. All checks pass, action is to close alert \t2) Unapproved tool - not on approved list but tool is not known to be malicious from the Threat inteligence lookup, action is to close the alert, and raise a ticket in Servicenow for the IT team to remove the unapproved software and investigate how it got installed. \t3) Suspicious Unusual lineage - not on approved list or unusual lineage or obfuscation detected, or behavioural anomaly or unclear intent, action is to isolate the endpoint via Microsoft defender, capture a memory dump and then terminate the malicious process Malicious IOCs confirmed - IOC's detected or process found to be malicious, action is to isolate the endpoint through Microsoft defender and raise a high severity case in service now linking any correlated assets running the process or calling the identified IOCs and label as an active threat.",
+			"success",
+			"\"4cf082b3-e1ee-4ab1-b7fc-b160038f6ccd\"",
+			"\"https://69.167.104.158:13006/playbooks/4cf082b3-e1ee-4ab1-b7fc-b160038f6ccd\""
+		],
+		[
+			404,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-09 10:30:40",
+			"Trigger the playbook based on the alert creation where the conditions are that the alert relates to a malware investigation discovered in Microsoft defender.   Fetch the incident details Using the Microsoft defender, Identify the process that triggered the alert, including the full command line string, suspicious flags and unusual paths, whilst noting any suspicious ancestry in the parent chain, also the account that executed the process with timestamps.  Obtain the affected device hostname, Identify: device owner, department, OS version, patch level, and criticality tier from Microsoft Defender.   Obtain device role, IP address, OS and current patch status from Servicenow. Obtain the installed software inventory for the affected device and cross-reference the alerting process against the approved software list from Microsoft Defender, if the process / application is not in the approved list, flag the alert as malicious and isolate the machine.  Check the alerting binary's install date on the affected host to see if it correlates with the actual alert date from Microsoft defender.   Using the Microsoft entra, find the user account that launched the process, retrieve group memberships and assigned roles and determine if the user has local admin rights on their machine.  Using Microsoft entra, include a manual step to verify if the account is a service account or a real person account.   Using the Microsoft entra, check for a password reset on the affected account within the last 72 hours.   Using the Microsoft entra, retrieve the last 10 login events for the account that triggered the process.   Using the service now, check to see if there is an approved change window that covers the affected machine hostname during the timestamp of the alert, if there is, create a manual step for an analyst to review the change request.   Run a KQL query against microsoft defender to determine if the process is contained within the application whitelist, if yes close the alert, if no continue.   Create a manual task for the analyst to check whether the binary belongs to an existing scheduled task.   Fetch the binary file from Microsoft defender.   Using the Recorded Future Threat Intelligence connector and Fortinet Fortiguard Threat Intelligence connector, get a threat rating on the binary file, if no reputation is returned for the binary file, then send the binary file to Fortinet FortiSandbox for analysis.   If the binary or process is suspicious or malicious, create a manual task for the analyst to reach out directly to the user via Microsoft Teams to ask if they executed the process.   Check to see if the impacted user and machine has any other correlated alerts over the past 72 hours on Microsoft Sentinel.   Examine the network logs for command-and-control indicators relating to the affected host machine on Microsoft sentinel.  If any IOCs discovered from the network logs, run a KQL search on Microsoft sentinel to determine whether the compromise is isolated to one machine or is part of a broader campaign. Create a scoring playbook step would classify alerts based on one of the following 4 the following classifications: \t1)  Authorised Known tool - approved user group. All checks pass, action is to close alert \t2)  Unapproved tool - not on approved list but tool is not known to be malicious from the Threat inteligence lookup, action is to close the alert, and raise a ticket in Servicenow for the IT team to remove the unapproved software and investigate how it got installed. \t3)  Suspicious Unusual lineage - not on approved list or unusual lineage or obfuscation detected, or behavioural anomaly or unclear intent, action is to isolate the endpoint via Microsoft defender, capture a memory dump and then terminate the malicious process Malicious IOCs confirmed - IOC's detected or process found to be malicious, action is to isolate the endpoint through Microsoft defender and raise a high severity case in service now linking any correlated assets running the process or calling the identified IOCs and label as an active threat.",
+			"failed",
+			null,
+			null
+		],
+		[
+			402,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-09 05:06:03",
+			"Trigger the playbook based on the alert creation where the condition is that the alert relates to a malware investigation discovered in Microsoft defender.  Using the Microsoft defender, fetch the incident details, Identify the process that triggered the alert, including the full command line string, suspicious flags and unusual paths, whilst noting any suspicious ancestry in the parent chain, also the account that executed the process with timestamps. Using the Microsoft Defender connector, Obtain the affected device hostname, Identify: device owner, department, OS version, patch level, and criticality tier.  Using the Servicenow, Classify device role, IP address, OS and current patch status. Using the Microsoft Defender, obtain the installed software inventory for the effected endpoint and cross-reference the alerting binary/process against the approved software list, If the tool is not in the approved list, flag the alert as malicious.  Using the Microsoft defender, check the alerting binary's install date on the affected machine to see if it correlates with the actual alert date.  Using the Microsoft entra, query the user account that launched the process, retrieve group memberships and assigned roles and determine if the user has local admin rights on their machine. Using the Microsoft entra, include a manual step to verify if the account is a service account or a real person account.  Using the Microsoft entra, check for password reset on the effected account in the last 72 hours.  Using the Microsoft entra, check the last 10 login events for the account that triggered the process.  Using the servicenow, check to see if there is an approved change window that covers the affected machine hostname during the timestamp of the alert, if there is, create a manual step for an analyst to review the change request.  Using the microsoft defender connector, run a KQL query determine if the process is contained within the whitelist, if yes close the alert, if no continue.  Create a manual task for the analyst to check whether the binary belongs to an existing scheduled task.  Using the Microsoft defender connector, fetch the binary file.  Using the Recorded Future Threat Intelligence connector and Fortinet Fortiguard Threat Intelligence connector, get a threat rating on the binary file.  if no reputation is found for the binary file, then send to Fortinet FortiSandbox for analysis.  If the binary or process is suspicious, create a manual task for the analyst to reach out directly to the user via Microsoft Teams to ask if they executed the process.  Using the Microsoft Sentinel connector, check to see if the impacted user and machine has any other correlated alerts over the past 72 hours.  Using the Microsoft sentinel connector, examine network logs for command-and-control indicators relating to the affected host machine.  If any IOCs discovered from the network logs, run a KQL search on Microsoft sentinel to determine whether the compromise is isolated to one machine or is part of a broader campaign.  Using the Microsoft defender connector, search to see if the identified binary is regularly used by that user for the past 3 months. Create a scoring playbook step would classify alerts based on one of the following 4 the following classifications: \t1) Authorised Known tool - approved user group. All checks pass, action is to close alert \t2) Unapproved tool - not on approved list but tool is not known to be malicious from the Threat inteligence lookup, action is to close the alert, and raise a ticket in Servicenow for the IT team to remove the unapproved software and investigate how it got installed. \t3) Suspicious Unusual lineage - not on approved list or unusual lineage or obfuscation detected, or behavioural anomaly or unclear intent, action is to isolate the endpoint via Microsoft defender, capture a memory dump and then terminate the malicious process Malicious IOCs confirmed - IOC's detected or process found to be malicious, action is to isolate the endpoint through Microsoft defender and raise a high severity case in service now linking any correlated assets running the process or calling the identified IOCs and label as an active threat. \t4) Malicious IOCs confirmed - IOC's detected or process found to be malicious, action is to isolate the endpoint through Microsoft defender and raise a high severity case in service now linking any correlated assets running the process or calling the identified IOCs and label as an active threat.",
+			"failed",
+			null,
+			null
+		],
+		[
+			401,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-09 04:50:09",
+			"Trigger the playbook based on the alert creation where the condition is that the alert relates to a malware investigation discovered in Microsoft defender.   Using the Microsoft defender connector, fetch the incident details, Identify the process that triggered the alert, including the full command line string, suspicious flags and unusual paths, whilst noting any suspicious ancestry in the parent chain, also the account that executed the process with timestamps. Using the Microsoft Defender connector, Obtain the affected device hostname, Identify: device owner, department, OS version, patch level, and criticality tier.   Using the Service now connector, Classify device role, IP address, OS and current patch status. Using the Microsoft Defender connector, obtain the installed software inventory for the effected endpoint and Cross-reference the alerting binary/process against the approved software list, If the tool is not in the approved list, flag the alert as malicious. Using the Microsoft defender connector, check the alerting binary's install date to see if it correlates with the actual alert date. Using the Microsoft entra connector, query the user account that triggered the process, retrieve group memberships and assigned roles and determine if the user has local admin rights on their machine. Using the Microsoft entra connector, include a manual step to verify if the account is a service account or a real person account. Using the Microsoft entra connector, check for password reset on the effected account in the last 72 hours. Using the Microsoft entra connector, check the last 10 login events for the account that triggered the process. Using the servicenow connector, check to see if there is an approved change window that covers the affected machine during the timestamp of the alert, if there is mark the Alert. Using the microsoft defender connector, run a KQL query determine if the process is to be whitelisted, add it to whitelist if needed. Create a manual task for the analyst to check whether the binary belongs to an existing scheduled task. Using the Microsoft defender connector, fetch the binary file  Using the Recorded Future Threat Intelligence connector and Fortinet Fortiguard Threat Intelligence connector, get a threat rating on the binary file.  if no reputation is found for the binary file, then send to Fortinet FortiSandbox for analysis. If the binary or process is suspicious, create a manual task for the analyst to reach out directly to the user via Microsoft Teams to ask if they executed the process. Using the Microsoft Sentinel connector, check to see if the impacted user and machine has any other correlated alerts over the past 72 hours. Using the Microsoft sentinel connector, examine network logs for command-and-control indicators relating to the affected host machine. If any IOCs discovered, run a KQL search on Microsoft sentinel to determine whether the compromise is isolated to one machine or is part of a broader campaign. Using the Microsoft defender connector, search to see if the identified binary is regularly used by that user for the past 3 months Create a scoring playbook step would classify alerts based on one of the following 4 the following classifications: \t1) Authorised Known tool - approved user group. All checks pass, action is to close alert \t2) Unapproved tool - not on approved list but tool is not known to be malicious from the Threat inteligence lookup, action is to close the alert, and raise a ticket in Servicenow for the IT team to remove the unapproved software and investigate how it got installed. \t3) Suspicious Unusual lineage - not on approved list or unusual lineage or obfuscation detected, or behavioural anomaly or unclear intent, action is to isolate the endpoint via Microsoft defender, capture a memory dump and then terminate the malicious process Malicious IOCs confirmed - IOC's detected or process found to be malicious, action is to isolate the endpoint through Microsoft defender and raise a high severity case in service now linking any correlated assets running the process or calling the identified IOCs and label as an active threat. \t4) Malicious IOCs confirmed - IOC's detected or process found to be malicious, action is to isolate the endpoint through Microsoft defender and raise a high severity case in service now linking any correlated assets running the process or calling the identified IOCs and label as an active threat.",
+			"failed",
+			null,
+			null
+		],
+		[
+			400,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-09 04:48:35",
+			"Trigger the playbook based on the alert creation where the condition is that the alert relates to a malware investigation discovered in Microsoft defender.   Using the Microsoft defender connector, fetch the incident details, Identify the process that triggered the alert, including the full command line string, suspicious flags and unusual paths, whilst noting any suspicious ancestry in the parent chain, also the account that executed the process with timestamps. Using the Microsoft Defender connector, Obtain the affected device hostname, Identify: device owner, department, OS version, patch level, and criticality tier.   Using the Service now connector, Classify device role, IP address, OS and current patch status. Using the Microsoft Defender connector, obtain the installed software inventory for the effected endpoint and Cross-reference the alerting binary/process against the approved software list, If the tool is not in the approved list, flag the alert as malicious. Using the Microsoft defender connector, check the alerting binary's install date to see if it correlates with the actual alert date. Using the Microsoft entra connector, query the user account that triggered the process, retrieve group memberships and assigned roles and determine if the user has local admin rights on their machine. Using the Microsoft entra connector, include a manual step to verify if the account is a service account or a real person account. Using the Microsoft entra connector, check for password reset on the effected account in the last 72 hours. Using the Microsoft entra connector, check the last 10 login events for the account that triggered the process. Using the servicenow connector, check to see if there is an approved change window that covers the affected machine during the timestamp of the alert, if there is mark the Alert. Using the microsoft defender connector, run a KQL query determine if the process is to be whitelisted, add it to whitelist if needed. Create a manual task for the analyst to check whether the binary belongs to an existing scheduled task. Using the Microsoft defender connector, fetch the binary file  Using the Recorded Future Threat Intelligence connector and Fortinet Fortiguard Threat Intelligence connector, get a threat rating on the binary file.  if no reputation is found for the binary file, then send to Fortinet FortiSandbox for analysis. If the binary or process is suspicious, create a manual task for the analyst to reach out directly to the user via Microsoft Teams to ask if they executed the process. Using the Microsoft Sentinel connector, check to see if the impacted user and machine has any other correlated alerts over the past 72 hours. Using the Microsoft sentinel connector, examine network logs for command-and-control indicators relating to the affected host machine. If any IOCs discovered, run a KQL search on Microsoft sentinel to determine whether the compromise is isolated to one machine or is part of a broader campaign. Using the Microsoft defender connector, search to see if the identified binary is regularly used by that user for the past 3 months Create a scoring playbook step would classify alerts based on one of the following 4 the following classifications: \t1) Authorised Known tool - approved user group. All checks pass, action is to close alert \t2) Unapproved tool - not on approved list but tool is not known to be malicious from the Threat inteligence lookup, action is to close the alert, and raise a ticket in Servicenow for the IT team to remove the unapproved software and investigate how it got installed. \t3) Suspicious Unusual lineage - not on approved list or unusual lineage or obfuscation detected, or behavioural anomaly or unclear intent, action is to isolate the endpoint via Microsoft defender, capture a memory dump and then terminate the malicious process Malicious IOCs confirmed - IOC's detected or process found to be malicious, action is to isolate the endpoint through Microsoft defender and raise a high severity case in service now linking any correlated assets running the process or calling the identified IOCs and label as an active threat. \t4) Malicious IOCs confirmed - IOC's detected or process found to be malicious, action is to isolate the endpoint through Microsoft defender and raise a high severity case in service now linking any correlated assets running the process or calling the identified IOCs and label as an active threat.",
+			"failed",
+			null,
+			null
+		],
+		[
+			399,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-06-09 04:42:15",
+			"Trigger the playbook based on the alert creation where the condition is that the alert relates to a malware investigation discovered in Microsoft defender.   Using the Microsoft defender connector, fetch the incident details, Identify the process that triggered the alert, including the full command line string, suspicious flags and unusual paths, whilst noting any suspicious ancestry in the parent chain, also the account that executed the process with timestamps. Using the Microsoft Defender connector, Obtain the affected device hostname, Identify: device owner, department, OS version, patch level, and criticality tier.   Using the Service now connector, Classify device role, IP address, OS and current patch status. Using the Microsoft Defender connector, obtain the installed software inventory for the effected endpoint and Cross-reference the alerting binary/process against the approved software list, If the tool is not in the approved list, flag the alert as malicious. Using the Microsoft defender connector, check the alerting binary's install date to see if it correlates with the actual alert date. Using the Microsoft entra connector, query the user account that triggered the process, retrieve group memberships and assigned roles and determine if the user has local admin rights on their machine. Using the Microsoft entra connector, include a manual step to verify if the account is a service account or a real person account. Using the Microsoft entra connector, check for password reset on the effected account in the last 72 hours. Using the Microsoft entra connector, check the last 10 login events for the account that triggered the process. Using the servicenow connector, check to see if there is an approved change window that covers the affected machine during the timestamp of the alert, if there is mark the Alert. Using the microsoft defender connector, run a KQL query determine if the process is to be whitelisted, add it to whitelist if needed. Create a manual task for the analyst to check whether the binary belongs to an existing scheduled task. Using the Microsoft defender connector, fetch the binary file  Using the Recorded Future Threat Intelligence connector and Fortinet Fortiguard Threat Intelligence connector, get a threat rating on the binary file.  if no reputation is found for the binary file, then send to Fortinet FortiSandbox for analysis. If the binary or process is suspicious, create a manual task for the analyst to reach out directly to the user via Microsoft Teams to ask if they executed the process. Using the Microsoft Sentinel connector, check to see if the impacted user and machine has any other correlated alerts over the past 72 hours. Using the Microsoft sentinel connector, examine network logs for command-and-control indicators relating to the affected host machine. If any IOCs discovered, run a KQL search on Microsoft sentinel to determine whether the compromise is isolated to one machine or is part of a broader campaign. Using the Microsoft defender connector, search to see if the identified binary is regularly used by that user for the past 3 months Create a scoring playbook step would classify alerts based on one of the following 4 the following classifications: \t1) Authorised Known tool - approved user group. All checks pass, action is to close alert \t2) Unapproved tool - not on approved list but tool is not known to be malicious from the Threat inteligence lookup, action is to close the alert, and raise a ticket in Servicenow for the IT team to remove the unapproved software and investigate how it got installed. \t3) Suspicious Unusual lineage - not on approved list or unusual lineage or obfuscation detected, or behavioural anomaly or unclear intent, action is to isolate the endpoint via Microsoft defender, capture a memory dump and then terminate the malicious process Malicious IOCs confirmed - IOC's detected or process found to be malicious, action is to isolate the endpoint through Microsoft defender and raise a high severity case in service now linking any correlated assets running the process or calling the identified IOCs and label as an active threat.",
+			"failed",
+			null,
+			null
+		],
+		[
+			398,
+			"Markus  Maggi",
+			"mmaggi@fortinet.com",
+			"2026-06-09 04:38:31",
+			"build a fortisoar playbook where an incident is generated and the affected user has to fill a questionnaire form",
+			"success",
+			"\"96242a66-eb07-42ad-af53-70205634e8c9\"",
+			"\"https://69.167.104.158:13006/playbooks/96242a66-eb07-42ad-af53-70205634e8c9\""
+		],
+		[
+			395,
+			"Deepak Thakur",
+			"dthakur@fortinet.com",
+			"2026-06-07 06:22:16",
+			"create a playbook for block ioc in symantec messaging gatway as per request - How Many IP: IP Address 1: IP Address 2: IP Address 3: How Many Domain: 2 Domain Name 1: phdint.com Domain Name 2: deluxelogistic.me Domain Name 3: Justification: SPAM reported by employee.",
+			"success",
+			"\"a7519b89-d0ce-49a8-a77e-4f3cf3f4c5d5\"",
+			"\"https://69.167.104.158:13006/playbooks/a7519b89-d0ce-49a8-a77e-4f3cf3f4c5d5\""
+		],
+		[
+			394,
+			"Ming Yin",
+			"myin@fortinet.com",
+			"2026-06-05 09:22:43",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"1764b58f-7b16-455d-80ab-b557b29d3198\"",
+			"\"https://69.167.104.158:13006/playbooks/1764b58f-7b16-455d-80ab-b557b29d3198\""
+		],
+		[
+			391,
+			"Hany Badawy Abouhaswa",
+			"habouhaswa@fortinet.com",
+			"2026-06-04 21:24:43",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"9795c30d-0b5e-43a8-8a01-88664e584ee9\"",
+			"\"https://69.167.104.158:13006/playbooks/9795c30d-0b5e-43a8-8a01-88664e584ee9\""
+		],
+		[
+			383,
+			"Pavlin Koldamov-Fortinet",
+			"pkoldamov@fortinet.com",
+			"2026-06-03 01:52:55",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"c4519e46-1225-496e-9f0e-9fea775f0c61\"",
+			"\"https://69.167.104.158:13006/playbooks/c4519e46-1225-496e-9f0e-9fea775f0c61\""
+		],
+		[
+			382,
+			"Simon Hoh",
+			"shoh@fortinet.com",
+			"2026-06-02 16:37:07",
+			"Create a FortiSOAR playbook which it has to fetch WiFi disconnect events with filter as 'disconnected' from FortiGate connector. Extract client MAC address and access point.If the same client disconnects more than 5 times → notify the analyst in email jkingsont@fortinet.com.",
+			"success",
+			"\"d904c43d-f0d7-471c-ae00-72484fabdf2a\"",
+			"\"https://69.167.104.158:13006/playbooks/d904c43d-f0d7-471c-ae00-72484fabdf2a\""
+		],
+		[
+			381,
+			"Nick Henderson",
+			"nhenderson@fortinet.com",
+			"2026-06-02 14:33:05",
+			"Create a FotiSOAR playbook that has a manual trigger to pull FortiOS versions that are available on a FortiManager for upgrading managed FortiGates",
+			"success",
+			"\"75c55fbe-f6b7-41cf-81ca-da601d643c97\"",
+			"\"https://69.167.104.158:13006/playbooks/75c55fbe-f6b7-41cf-81ca-da601d643c97\""
+		],
+		[
+			374,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-05-29 08:15:39",
+			"Trigger the playbook based on the alert creation where the condition is that the alert relates to a malware investigation discovered in Microsoft defender.   Fetch the incident details from Microsoft defender, Identify the process that triggered the alert, including the full command line string, suspicious flags and unusual paths, whilst noting any suspicious ancestry in the parent chain, also the account that executed the process with timestamps. Obtain the hostname from Microsoft Defender, Identify: device owner, department, OS version, patch level, and criticality tier.   In Service now, Classify device role, IP address, OS and current patch status. From within Microsoft Defender, pull the installed software inventory for the effected endpoint and Cross-reference the alerting binary/process against the approved software list, If the tool is not in the approved list, flag the alert as malicious. From within Microsoft defender check alerting binary's install date to see if it correlates with the actual alert date. Query Microsoft entra for the user account  that triggered the process, retrieve group memberships and assigned roles and determine if the user has local admin rights on their machine. Check Microsoft entra to see if the account is a service or a real person account. Check in Microsoft for password reset on the effected account in the last 72 hours. Check in Microsoft entra for the last 10 login events for the account that triggered the process In servicenow check to see if there is an approved change window that covers the affected machine during the timestamp of the alert, if there is mark the Alert  On microsoft defender run a KQL query determine if the process is to be whitelisted, add it to whitelist if needed. Create a manual task for the analyst to check whether the binary belongs to an existing scheduled task. From Microsoft defender, fetch the binary, rate with Recorded Future Threat Inteligence and Fortinet Fortiguard Threat Intelligence, if no reputation send to Fortinet FortiSandbox for analysis. If the binary or process is suspicious, create a manual task for the analyst to reach out directly to the user via Microsoft Teams to ask if they executed the process. Check Microsoft Sentinel to see if the impacted user and machine has any other correlated alerts over the past 72 hours. Check Microsoft sentinel to examine network logs for command-and-control indicators relating to the affected host machine. If any IOCs discovered, run a KQL search on Microsoft sentinel to determine whether the compromise is isolated to one machine or is part of a broader campaign. Check in Microsoft defender to see if the binary is regularly used by that user for the past 3 months Create a scoring playbook step would classify alerts based on one of the following 4 the following classifications: \t1) Authorised Known tool - approved user group. All checks pass, action is to close alert \t2) Unapproved tool - not on approved list but tool is not known to be malicious from the Threat inteligence lookup, action is to close the alert, and raise a ticket in Servicenow for the IT team to remove the unapproved software and investigate how it got installed. \t3) Suspicious Unusual lineage - not on approved list or unusual lineage or obfuscation detected, or behavioural anomaly or unclear intent, action is to isolate the endpoint via Microsoft defender, capture a memory dump and then terminate the malicious process \t4) Malicious IOCs confirmed - IOC's detected or process found to be malicious, action is to isolate the endpoint through Microsoft defender and raise a high severity case in service now linking any correlated assets running the process or calling the identified IOCs and label as an active threat. ",
+			"success",
+			"\"332d7edb-b75d-4651-97bd-67b1fea12c7b\"",
+			"\"https://69.167.104.158:13006/playbooks/332d7edb-b75d-4651-97bd-67b1fea12c7b\""
+		],
+		[
+			373,
+			"Angel D. Dituro",
+			"adituro@fortinet.com",
+			"2026-05-29 07:00:54",
+			"Create a FortiSOAR playbook which it has to fetch WiFi disconnect events with filter as 'disconnected' from FortiGate connector. Extract client MAC address and access point.If the same client disconnects more than 5 times → notify the analyst in email jkingsont@fortinet.com.",
+			"success",
+			"\"8c4631ba-2ac4-43bb-b962-f38c6c73e9a3\"",
+			"\"https://69.167.104.158:13006/playbooks/8c4631ba-2ac4-43bb-b962-f38c6c73e9a3\""
+		],
+		[
+			372,
+			"Daryn Utesbayev",
+			"dutesbayev@fortinet.com",
+			"2026-05-29 04:50:48",
+			"VPN Password Spraying/MFA Fatigue attack using a legitimate IP and ~10 valid credentials. The playbook must extract the Source IP and usernames, temporarily block the IP on FortiGate (Address Object, 1-2h TTL), and loop through the users in Active Directory to Revoke Sessions and Reset Passwords.  ",
+			"success",
+			"\"4b846a6b-94a3-415a-bf01-af4a15432daa\"",
+			"\"https://69.167.104.158:13006/playbooks/4b846a6b-94a3-415a-bf01-af4a15432daa\""
+		],
+		[
+			371,
+			"Daryn Utesbayev",
+			"dutesbayev@fortinet.com",
+			"2026-05-29 04:47:59",
+			"Develop a modular FortiSOAR playbook for responding to a VPN Brute Force / Password Spraying attack where an adversary possesses valid credentials for approximately 10 user accounts and cyclically attempts to connect from a single legitimate (residential) IP address, causing failures at the MFA stage. The playbook must extract the attacking Source IP and the list of compromised users, immediately and temporarily block this Source IP on FortiGate (by adding it to an Address Object with a short TTL of 1–2 hours) to instantly halt the attack at the perimeter, and then use a loop to apply containment measures to each targeted user account in Active Directory: force-terminate all active sessions (Revoke Sessions) and reset their current passwords (Reset Password). ",
+			"failed",
+			null,
+			null
+		],
+		[
+			370,
+			"Daryn Utesbayev",
+			"dutesbayev@fortinet.com",
+			"2026-05-29 04:46:40",
+			"Develop a modular FortiSOAR playbook for responding to a VPN Brute Force / Password Spraying attack where an adversary possesses valid credentials for approximately 10 user accounts and cyclically attempts to connect from a single legitimate (residential) IP address, causing failures at the MFA stage. The playbook must extract the attacking Source IP and the list of compromised users, immediately and temporarily block this Source IP on FortiGate (by adding it to an Address Object with a short TTL of 1–2 hours) to instantly halt the attack at the perimeter, and then use a loop to apply containment measures to each targeted user account in Active Directory: force-terminate all active sessions (Revoke Sessions) and reset their current passwords (Reset Password).",
+			"failed",
+			null,
+			null
+		],
+		[
+			369,
+			"Daryn Utesbayev",
+			"dutesbayev@fortinet.com",
+			"2026-05-29 04:43:46",
+			"Промпт на английском: Develop a modular FortiSOAR playbook for responding to a VPN Brute Force / Password Spraying attack where an adversary possesses valid credentials for approximately 10 user accounts and cyclically attempts to connect from a single legitimate (residential) IP address, causing failures at the MFA stage. The playbook must extract the attacking Source IP and the list of compromised users, immediately and temporarily block this Source IP on FortiGate (by adding it to an Address Object with a short TTL of 1–2 hours) to instantly halt the attack at the perimeter, and then use a loop to apply containment measures to each targeted user account in Active Directory: force-terminate all active sessions (Revoke Sessions) and reset their current passwords (Reset Password).",
+			"failed",
+			null,
+			null
+		],
+		[
+			367,
+			"Daryn Utesbayev",
+			"dutesbayev@fortinet.com",
+			"2026-05-29 04:25:52",
+			"Создать модульный плейбук для реагирования на VPN Brute Force (утечка кредов при блоке на этапе MFA), который верифицирует инцидент, временно блокирует Source IP на FortiGate и принудительно сбрасывает сессии и пароль пользователя в Active Directory с защитой от массовой блокировки (Throttling).",
+			"failed",
+			null,
+			null
+		],
+		[
+			366,
+			"Chanmin Bu",
+			"helenbu@fortinet.com",
+			"2026-05-28 21:12:42",
+			"生成一个防火墙策略生成的playbook",
+			"success",
+			"\"b1000b48-a5a0-41f6-8d5e-e42f8728cb56\"",
+			"\"https://69.167.104.158:13006/playbooks/b1000b48-a5a0-41f6-8d5e-e42f8728cb56\""
+		],
+		[
+			360,
+			"Alexandre Vizzari",
+			"avizzari@fortinet.com",
+			"2026-05-26 09:15:44",
+			"I want to create a BigPanda integration to raise incidents to it ",
+			"success",
+			"\"f7747288-9db9-4fd0-9caa-9da6001f5077\"",
+			"\"https://69.167.104.158:13006/playbooks/f7747288-9db9-4fd0-9caa-9da6001f5077\""
+		],
+		[
+			356,
+			"Philippe Hemmer",
+			"phemmer@fortinet.com",
+			"2026-05-26 02:18:42",
+			"je veux créer une règle firewall pour chaque ioc détecté",
+			"success",
+			"\"f17b6c20-dbb0-4757-a57b-28e312a201f2\"",
+			"\"https://69.167.104.158:13006/playbooks/f17b6c20-dbb0-4757-a57b-28e312a201f2\""
+		],
+		[
+			354,
+			"Naoki Hiraga",
+			"nhiraga@fortinet.com",
+			"2026-05-25 20:08:12",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"733027f9-413d-4026-b718-86d36d928eb0\"",
+			"\"https://69.167.104.158:13006/playbooks/733027f9-413d-4026-b718-86d36d928eb0\""
+		],
+		[
+			351,
+			"Cesar Urena",
+			"curena@fortinet.com",
+			"2026-05-25 07:48:52",
+			"Need a playbook to take fortianalyzer security events and parse it to stix format to export it to an external systems",
+			"success",
+			"\"4cb6d343-38dd-40fb-8d00-32e517558859\"",
+			"\"https://69.167.104.158:13006/playbooks/4cb6d343-38dd-40fb-8d00-32e517558859\""
+		],
+		[
+			346,
+			"Markus Stoltz",
+			"mstoltz@fortinet.com",
+			"2026-05-25 01:34:51",
+			"Generate a playbook that will: Monitor FortiAppSec Cloud for certificate expiry, then generate a Certificate Signing Request to the private CA, then apply the new certificate to FortiAppSec Cloud instance. ",
+			"success",
+			"\"2b80d216-1770-4e12-a97e-1bae7e88b0cb\"",
+			"\"https://69.167.104.158:13006/playbooks/2b80d216-1770-4e12-a97e-1bae7e88b0cb\""
+		],
+		[
+			344,
+			"Karim Abed",
+			"kabed@fortinet.com",
+			"2026-05-22 01:52:26",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"768c8f86-ccfe-47fe-9d22-e172b52d94c2\"",
+			"\"https://69.167.104.158:13006/playbooks/768c8f86-ccfe-47fe-9d22-e172b52d94c2\""
+		],
+		[
+			343,
+			"Markus Stoltz",
+			"mstoltz@fortinet.com",
+			"2026-05-22 01:13:24",
+			"Generate a CSR to my private CA and apply the certificate to FortiAppSec cloud via API ",
+			"success",
+			"\"66aef740-8af1-41f9-a5e7-2b49114fcdd9\"",
+			"\"https://69.167.104.158:13006/playbooks/66aef740-8af1-41f9-a5e7-2b49114fcdd9\""
+		],
+		[
+			341,
+			"Ricardo Guzman",
+			"rguzman@fortinet.com",
+			"2026-05-21 13:07:07",
+			"When a FortiEDR detects malware, block the IP on the FortiGate firewall, lock active directory account and email managment",
+			"success",
+			"\"9ae86b10-fde5-4d90-b02e-504f48b43e4a\"",
+			"\"https://69.167.104.158:13006/playbooks/9ae86b10-fde5-4d90-b02e-504f48b43e4a\""
+		],
+		[
+			339,
+			"Ricardo Guzman",
+			"rguzman@fortinet.com",
+			"2026-05-21 09:47:56",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out",
+			"success",
+			"\"28e46343-1a5f-41ed-ac49-1d5a817ffbba\"",
+			"\"https://69.167.104.158:13006/playbooks/28e46343-1a5f-41ed-ac49-1d5a817ffbba\""
+		],
+		[
+			336,
+			"Alessandro Vincenti",
+			"avincenti@fortinet.com",
+			"2026-05-21 05:20:14",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"5c01c3f3-43c5-4fdd-a621-7623c4f8e959\"",
+			"\"https://69.167.104.158:13006/playbooks/5c01c3f3-43c5-4fdd-a621-7623c4f8e959\""
+		],
+		[
+			335,
+			"Luisa Lavano",
+			"llavano@fortinet.com",
+			"2026-05-21 04:11:21",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"4bf252ba-9302-484b-b8ad-3c3bfaa6cf62\"",
+			"\"https://69.167.104.158:13006/playbooks/4bf252ba-9302-484b-b8ad-3c3bfaa6cf62\""
+		],
+		[
+			334,
+			"Stamatis Mandilas",
+			"smandilas@fortinet.com",
+			"2026-05-20 23:59:39",
+			"i will need a playbook that will connect to ServiceNow ticketing system to collect any new ticket that matches category \"FTP Access / Whitelisting\" and approval status equals Approved. Once the conditions are met, the soar should create a new task with the information from the ticket. It should extract the fields IP Address, Requester, Approval status and add them in the task details. Then it should validate the format of the IP address. In case the IP address is an IP of a private IP address space it should reject it and terminate the workflow, while also check on the cloudflare IP items list if it already exists (through http get request on /accounts/{account_id}/rules/lists/{list_id}/items), if it exists, the terminate the flow as well. In case it doesn't exist, the playbook should create the ip entry in cloudflare using http post POST /accounts/{account_id}/rules/lists/{list_id}/items ",
+			"success",
+			"\"2bedf904-6c06-4700-ab76-79ded4a7b02c\"",
+			"\"https://69.167.104.158:13006/playbooks/2bedf904-6c06-4700-ab76-79ded4a7b02c\""
+		],
+		[
+			333,
+			"Harald Bauschke",
+			"hbauschke@fortinet.com",
+			"2026-05-20 04:15:26",
+			"Create a FortiSOAR playbook that  when a failed login alert is received from FortiAnalyzer at root adom. The playbook should extract the username and source IP address from the alert, check how many failed login attempts are associated with that source IP, and take action based on the count. If the number of failed attempts is greater than 5, the playbook should block the source IP using FortiManager. If the attempts are 5 or fewer, it should simply log the event. Finally, the playbook should send a notification with the relevant details and update the incident with the extracted information and actions taken.",
+			"success",
+			"\"8163f985-2e18-4eb6-b5da-ee48c6b28822\"",
+			"\"https://69.167.104.158:13006/playbooks/8163f985-2e18-4eb6-b5da-ee48c6b28822\""
+		],
+		[
+			328,
+			"Osama Salman",
+			"osalman@fortinet.com",
+			"2026-05-19 01:32:55",
+			"playbook showing how FortiSOAR orchestrates between ManageEngine - ServiceDesk Plus (Existing ITSM solution) and FortiPAM",
+			"success",
+			"\"f7fefa45-9623-4dfd-b71b-29afb759b818\"",
+			"\"https://69.167.104.158:13006/playbooks/f7fefa45-9623-4dfd-b71b-29afb759b818\""
+		],
+		[
+			327,
+			"Osama Salman",
+			"osalman@fortinet.com",
+			"2026-05-19 01:30:45",
+			"playbook showing how FortiSOAR orchestrates between ManageEngine - ServiceDesk Plus (Existing ITSM solution) and FortiPAM ",
+			"success",
+			"\"6e4326b1-2936-4d98-a7b9-133c4a714cc4\"",
+			"\"https://69.167.104.158:13006/playbooks/6e4326b1-2936-4d98-a7b9-133c4a714cc4\""
+		],
+		[
+			321,
+			"Claus Bo Sorensen",
+			"sorensenc@fortinet.com",
+			"2026-05-18 03:58:27",
+			"Create a FortiSOAR playbook that integrates with FortiAnalyzer and FortiGate. The playbook should fetch alerts from the root ADOM in FortiAnalyzer using the filter threattype='malware', extract the source IP address from each alert, and automatically block that IP on FortiGate. Ensure the playbook handles duplicate IPs, includes proper parsing of fields, and logs the actions performed.",
+			"success",
+			"\"b6517e15-fb48-4d86-b458-ce0f0f527000\"",
+			"\"https://69.167.104.158:13006/playbooks/b6517e15-fb48-4d86-b458-ce0f0f527000\""
+		],
+		[
+			320,
+			"Zoltan@Fortinet.com",
+			"zoltan@fortinet.com",
+			"2026-05-17 10:44:31",
+			"On manual start I need to run the following cli commands on a fortigate running fortios 7.4:  get system ha status diagnose sys top 2 20 100 diagnose sys process pstack <sshd_pid>   For the last command you have to find the the pid for the sshd process: the \"diagnose sys top 2 20 100\" command gives back a table, where the first column contains the process name (look for \"sshd\"), the second columns contains the PID. YOu have to find this PID for the sshd process, so you can run the diagnose sys process pstack <sshd_pid> command. I need the output to be sent via e-mail to contact@ftnt.com address, subjext is the date and time.",
+			"success",
+			"\"5bf819ac-3016-441e-8c62-4451b0d18a21\"",
+			"\"https://69.167.104.158:13006/playbooks/5bf819ac-3016-441e-8c62-4451b0d18a21\""
+		],
+		[
+			319,
+			"Salim Abdul Baki",
+			"sabdulbaki@fortinet.com",
+			"2026-05-17 00:13:50",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"fe5e9d9b-17c7-4756-bcd0-c7e6e62f407a\"",
+			"\"https://69.167.104.158:13006/playbooks/fe5e9d9b-17c7-4756-bcd0-c7e6e62f407a\""
+		],
+		[
+			317,
+			"Abhay Dubey",
+			"adubey@fortinet.com",
+			"2026-05-15 10:04:46",
+			"Create a FortiSOAR playbook which it has to fetch WiFi disconnect events with filter as 'disconnected' from FortiGate connector. Extract client MAC address and access point.If the same client disconnects more than 5 times → notify the analyst in email jkingsont@fortinet.com.",
+			"success",
+			"\"78453087-4b6c-4350-a112-903438ea80d2\"",
+			"\"https://69.167.104.158:13006/playbooks/78453087-4b6c-4350-a112-903438ea80d2\""
+		],
+		[
+			314,
+			"Ricardo Guzman",
+			"rguzman@fortinet.com",
+			"2026-05-14 10:56:13",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"failed",
+			null,
+			null
+		],
+		[
+			312,
+			"Waheed Naidoo",
+			"wnaidoo@fortinet.com",
+			"2026-05-14 01:21:32",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2. ",
+			"success",
+			"\"820b7bbc-337b-4e96-abf6-b2c21e33f2b9\"",
+			"\"https://69.167.104.158:13006/playbooks/820b7bbc-337b-4e96-abf6-b2c21e33f2b9\""
+		],
+		[
+			310,
+			"Arun Pal",
+			"apal@fortinet.com",
+			"2026-05-13 01:06:10",
+			"Build a fortisoar playbook where If suspicious activity is confirmed for abnormal login behavior such as multiple failed login attempts, unusual login locations, or logins outside business hours. user account to be temporarily disabled on active directory for 10 minutes and the SOC team notified via email.",
+			"success",
+			"\"b574e040-7fb7-42e8-a684-be015196501c\"",
+			"\"https://69.167.104.158:13006/playbooks/b574e040-7fb7-42e8-a684-be015196501c\""
+		],
+		[
+			309,
+			"Arun Pal",
+			"apal@fortinet.com",
+			"2026-05-13 00:47:05",
+			"Build a fortisoar playbook where If suspicious activity is confirmed for abnormal login behavior such as multiple failed login attempts, unusual login locations, or logins outside business hours. user account to be temporarily disabled and the SOC team notified.",
+			"success",
+			"\"966777f2-da64-4550-be03-f1f46d337a70\"",
+			"\"https://69.167.104.158:13006/playbooks/966777f2-da64-4550-be03-f1f46d337a70\""
+		],
+		[
+			308,
+			"Parvees",
+			"pmannandavida@fortinet.com",
+			"2026-05-11 23:38:32",
+			"I want to create a play book to take a back of my network devices and it should be havign an option to enter the device IP address , username and password and save it in a storage location",
+			"success",
+			"\"ec16f68e-1625-4e7b-b14d-bf4374afeb61\"",
+			"\"https://69.167.104.158:13006/playbooks/ec16f68e-1625-4e7b-b14d-bf4374afeb61\""
+		],
+		[
+			297,
+			"Grzegorz Cebula",
+			"gcebula@fortinet.com",
+			"2026-05-06 14:29:24",
+			"Obsługa błędnego logowania na różne systemy. Procedura obejmuje kroki: Sprawdź czy to rzeczywiste konto czy też losowe/domyślne Jeśli z zewnątrz to sprawdź reputację artefaktów Sprawdź czy wcześniej było zmienione hasło Czy użytkownik lub administrator są w pracy Wyszukaj wagę użytkownika i odpowiednio oznacz incydent Oceń czy należy uruchomić procedure resetu hasła Threat Hunting – sprawdź czy są inne logowania błędne lub poprawne z tego adresu I na jakie systemy. Jeśli tak to powiadom administratora odpowiedzialnego za dany system Jeśli jest to nowy adres z którego nastąpiło błędne logowanie to zablokuj na 24h.",
+			"success",
+			"\"5d495313-810c-417b-af3c-345fc9990210\"",
+			"\"https://69.167.104.158:13006/playbooks/5d495313-810c-417b-af3c-345fc9990210\""
+		],
+		[
+			295,
+			"Tanios Zabaneh",
+			"tzabaneh@fortinet.com",
+			"2026-05-04 23:11:54",
+			"I have developed an agent, that runs on a windows server computer. the agent will intercept an USB storage and submit files to the SOAR. every files will go through a whole process in the SOAR to be scanned and analyzed against, FortiSandbox, FortiNDR, Virustotal, anomali. upon the file scan end, the agent will query the SOAR again to check its status. if the file is clean vs high risk.  the playbook needs to accept submit and query using sha256",
+			"success",
+			"\"b47297c0-8e3e-465c-8a36-93bd9d980377\"",
+			"\"https://69.167.104.158:13006/playbooks/b47297c0-8e3e-465c-8a36-93bd9d980377\""
+		],
+		[
+			293,
+			"Zoltan@Fortinet.com",
+			"zoltan@fortinet.com",
+			"2026-05-04 13:42:13",
+			"write a fortisoar playbook reads the emails in. the imap inbox folder and create a list, resulting an array shows how many e_mails has been received per sender.",
+			"success",
+			"\"85e54b3b-38d5-4122-af72-9ee2bb653c1f\"",
+			"\"https://69.167.104.158:13006/playbooks/85e54b3b-38d5-4122-af72-9ee2bb653c1f\""
+		],
+		[
+			292,
+			"Deepak Thakur",
+			"dthakur@fortinet.com",
+			"2026-05-04 00:59:13",
+			"i extracted field from bmc workorder - description, i want to extract destination ip, app, protocol, port, end date based on number of destinations; description     :    <p>Request Type: VPN Request\\nVPN Type: Add Access Request\\nUsername: a.aljoaib\\nHow Many Destination do you need?: More than 3\\nDestination IP (Rule1): \\nDestination Application Name (Rule1): \\nProtocol (Rule1): \\nPort (Rule1): \\nDate From (Rule1): \\nDate To (Rule1): \\nJustification (Rule1): \\n\\nDestination IP (Rule2): \\nDestination Application Name (Rule2): \\nProtocol (Rule2): \\nPort (Rule2): \\nDate From (Rule2): \\nDate To (Rule2): \\nJustification (Rule2): \\n\\nDestination IP (Rule3): \\nDestination Application Name (Rule3): \\nProtocol (Rule3): \\nPort (Rule3): \\nDate From (Rule3): \\nDate To (Rule3): \\nProject Name: Investment portal \\nJustification (Rule3): \\nPublic IP 1: \\nStatic IP Confirmation 1: \\n</p>; i want to extract destination ip, app, protocol, port, end date based on number of destinations",
+			"success",
+			"\"91c95820-09e0-4275-bdf2-ee3fde4adb2b\"",
+			"\"https://69.167.104.158:13006/playbooks/91c95820-09e0-4275-bdf2-ee3fde4adb2b\""
+		],
+		[
+			290,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 01:59:49",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then get the wids issues for each device present in ADOM \"210group\" and for the corresponding serial number. Finally if any Invalid MAC OUI is present as part of subclassifier then get the corresponding MAC address and block it at the \"FortiGate\".  MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls.",
+			"success",
+			"\"73611412-03b7-4aa6-979d-878f859f7fb1\"",
+			"\"https://69.167.104.158:13006/playbooks/73611412-03b7-4aa6-979d-878f859f7fb1\""
+		],
+		[
+			289,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 01:56:05",
+			"Get the access token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025",
+			"success",
+			"\"aead3391-d35e-4a86-9e56-1b7cf42976f7\"",
+			"\"https://69.167.104.158:13006/playbooks/aead3391-d35e-4a86-9e56-1b7cf42976f7\""
+		],
+		[
+			288,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 01:33:21",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then get the wids issues for each device present in ADOM \"210group\" and for the corresponding serial number. Finally if any Invalid MAC OUI is present as part of subclassifier then get the corresponding MAC address and block it at the \"FortiGate\".  MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls. this is not working - {% set macs = [] %}{% for result in vars.steps.get_wids_issues %}{% for entry in result.data.items.data %}{% if entry.subclassifier == 'Invalid MAC OUI' %}{% set _ = macs.append(entry.transmittermac) %}{% endif %}{% endfor %}{% endfor %}{{ macs }} ",
+			"success",
+			"\"edf5d230-fb6a-4132-82b2-3652220b3f76\"",
+			"\"https://69.167.104.158:13006/playbooks/edf5d230-fb6a-4132-82b2-3652220b3f76\""
+		],
+		[
+			287,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 01:19:12",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then get the wids issues for each device present in ADOM \"210group\" and for the corresponding serial number. Finally if any Invalid MAC OUI is present as part of subclassifier then get the corresponding MAC address and block it at the \"FortiGate\".  MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls. ",
+			"success",
+			"\"444795ef-6c75-4d6d-a1aa-cac25513b1b6\"",
+			"\"https://69.167.104.158:13006/playbooks/444795ef-6c75-4d6d-a1aa-cac25513b1b6\""
+		],
+		[
+			286,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 01:12:37",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then check if any bad radio channels were observed between 29th April 2026 and 30th April 2026 for ADOM \"252_group\". If any are detected, automatically optimize it.  MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls. you may or may not get 'arrp_bad' key. ",
+			"success",
+			"\"bea7e097-74f3-4382-aa4f-32a385debccf\"",
+			"\"https://69.167.104.158:13006/playbooks/bea7e097-74f3-4382-aa4f-32a385debccf\""
+		],
+		[
+			285,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 01:09:58",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then get the wids issues for each device present in ADOM \"210group\" and for the corresponding serial number. Finally if any Invalid MAC OUI is present then get the corresponding MAC address and block it at the \"FortiGate\".  MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls. ",
+			"success",
+			"\"6ed84b33-a827-4ac3-a342-4e2ef2aa0657\"",
+			"\"https://69.167.104.158:13006/playbooks/6ed84b33-a827-4ac3-a342-4e2ef2aa0657\""
+		],
+		[
+			284,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 01:03:38",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then get the wids issues for each device present in ADOM \"210group\" for the corresponding serial number. Finally if any Invalid MAC OUI is present then connect the corresponding MAC addresses and then block them on FortiGate.   MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls.",
+			"success",
+			"\"849e0080-b57c-4fb7-9d6e-a625980bb373\"",
+			"\"https://69.167.104.158:13006/playbooks/849e0080-b57c-4fb7-9d6e-a625980bb373\""
+		],
+		[
+			283,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 01:02:03",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then get the wids issues for each device present in ADOM \"210group\" and for the corresponding serial number. Finally if any Invalid MAC OUI is present then connect the corresponding MAC addresses and then block them on FortiGate.   MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls. ",
+			"success",
+			"\"a3135d0d-64b4-483f-b0ee-0d7f6b267609\"",
+			"\"https://69.167.104.158:13006/playbooks/a3135d0d-64b4-483f-b0ee-0d7f6b267609\""
+		],
+		[
+			282,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 00:51:26",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then get the wids issues for each device present in ADOM \"210group\". Finally if any Invalid MAC OUI is present then connect the corresponding MAC addresses and then block them on FortiGate.   MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls. ",
+			"success",
+			"\"0c421925-799f-4425-80a3-f8a89e379bac\"",
+			"\"https://69.167.104.158:13006/playbooks/0c421925-799f-4425-80a3-f8a89e379bac\""
+		],
+		[
+			281,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 00:51:03",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then check if any bad radio channels were observed between 29th April 2026 and 30th April 2026 for ADOM \"252_group\". If any are detected, automatically optimize the corresponding FortiGate radio configuration.  MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls. you may or may not get 'arrp_bad' key ",
+			"success",
+			"\"6f8308ec-2096-4b87-a0d8-496da9f23f3a\"",
+			"\"https://69.167.104.158:13006/playbooks/6f8308ec-2096-4b87-a0d8-496da9f23f3a\""
+		],
+		[
+			280,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 00:38:53",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then get the wids issues for each device present in ADOM \"210group\". Finally if any Invalid MAC OUI is present then connect the corresponding MAC addresses and then block them on FortiGate.   MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls. ",
+			"success",
+			"\"9088982a-9094-4840-af08-645d20b22ae3\"",
+			"\"https://69.167.104.158:13006/playbooks/9088982a-9094-4840-af08-645d20b22ae3\""
+		],
+		[
+			279,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 00:35:59",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then check if any bad radio channels were observed between 4th March 2026 and 5th March 2026. If any are detected, automatically optimize the corresponding FortiGate radio configuration.  MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls. you may or may not get 'arrp_bad' key",
+			"success",
+			"\"1a9d4409-5fe0-4479-b15f-468869f9bf78\"",
+			"\"https://69.167.104.158:13006/playbooks/1a9d4409-5fe0-4479-b15f-468869f9bf78\""
+		],
+		[
+			278,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 00:32:24",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then check if any bad radio channels were observed between 4th March 2026 and 5th March 2026. If any are detected, automatically optimize the corresponding FortiGate radio configuration.  MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls.",
+			"success",
+			"\"450513ae-1ee1-4500-b4d6-91ceff62d2c5\"",
+			"\"https://69.167.104.158:13006/playbooks/450513ae-1ee1-4500-b4d6-91ceff62d2c5\""
+		],
+		[
+			277,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 00:28:02",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then check if any bad radio channels were observed between 4th March 2026 and 5th March 2026. If any are detected, automatically optimize the corresponding FortiGate radio configuration by applying an appropriate channel.    MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls.",
+			"success",
+			"\"4a4da4f0-3e94-4f4a-a83e-1c2104168c46\"",
+			"\"https://69.167.104.158:13006/playbooks/4a4da4f0-3e94-4f4a-a83e-1c2104168c46\""
+		],
+		[
+			276,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-30 00:05:34",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then get the wids issues for each device present in ADOM \"210group\". Finally if any Invalid MAC OUI is present then connect the corresponding MAC addresses and then block them on FortiGate.   MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls.",
+			"success",
+			"\"7e80a796-6b58-4135-8364-03e38403f6e8\"",
+			"\"https://69.167.104.158:13006/playbooks/7e80a796-6b58-4135-8364-03e38403f6e8\""
+		],
+		[
+			275,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-29 23:59:27",
+			"Get the access token & aiops-token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then get the wids issues for each device present in ADOM \"210group\".   MANDATORY NOTE: always pass Authorization Bearer access token and aiops-token in all API calls.",
+			"success",
+			"\"a6a5173c-9065-43cf-9e27-e55b804356fa\"",
+			"\"https://69.167.104.158:13006/playbooks/a6a5173c-9065-43cf-9e27-e55b804356fa\""
+		],
+		[
+			274,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-29 23:16:09",
+			"Get the access token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then get the wids issues for each device present in ADOM \"210group\".  MANDATORY NOTE: Add 'Cookie': 'sessionid=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc3NTQzMzY0LCJpYXQiOjE3Nzc1Mjg5NjQsImp0aSI6IjkyNWE2MWI2YjNlYjQ2YWZiM2NjZDgxZjYzMWMzMWZhIiwidXNlcl9pZCI6ImFkbWluIiwidXNlcm5hbWUiOiJhZG1pbiIsInJvbGUiOiJTeXN0ZW0gQWRtaW5pc3RyYXRvciIsImFjY2VzcyI6Mn0.wVPITZ7UvcsUDFOL6V1ijY5w8It7Z0IYDqTe1n_3of4' in all the headers for all the API calls.",
+			"success",
+			"\"f9dc768e-0029-4b87-bd63-977b81b6edad\"",
+			"\"https://69.167.104.158:13006/playbooks/f9dc768e-0029-4b87-bd63-977b81b6edad\""
+		],
+		[
+			273,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-29 23:14:14",
+			"Get the access token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then get the wids issues for each device present in ADOM \"210group\". ",
+			"success",
+			"\"773a713a-d461-45dc-b453-d1cd1e210f48\"",
+			"\"https://69.167.104.158:13006/playbooks/773a713a-d461-45dc-b453-d1cd1e210f48\""
+		],
+		[
+			272,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-29 23:11:48",
+			"Get the access token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025, and then get the wids issues for each device present in ADOM 210. ",
+			"success",
+			"\"0b78601d-d540-47c6-85fa-ebe411cf6f95\"",
+			"\"https://69.167.104.158:13006/playbooks/0b78601d-d540-47c6-85fa-ebe411cf6f95\""
+		],
+		[
+			271,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-29 23:05:01",
+			"Get the access token from my FortiAIOPs whos IP is 10.34.159.13 and credentials are admin/Meru@2025",
+			"success",
+			"\"d71c088d-f144-40de-972a-1c4e540435e1\"",
+			"\"https://69.167.104.158:13006/playbooks/d71c088d-f144-40de-972a-1c4e540435e1\""
+		],
+		[
+			270,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-29 23:03:52",
+			"Get the access token from my FortiAIOPs whos IP is 10.37.27.10 and credentials are admin/Meru@2002",
+			"success",
+			"\"7fccdc0c-6058-4501-9269-2cc4f4fc86b4\"",
+			"\"https://69.167.104.158:13006/playbooks/7fccdc0c-6058-4501-9269-2cc4f4fc86b4\""
+		],
+		[
+			268,
+			"Tanios Zabaneh",
+			"tzabaneh@fortinet.com",
+			"2026-04-29 01:01:19",
+			"build me a playbook in soar, that is based on connecting to ServiceNow, pull password reset based tickets, and send an email for approval for an admin. if approved , the soar playbook will continue to connect to the ActiveDriectory and reset the user password. then send the user and email confirming the action. after that. soar will connect to ServiceNow and close the ticket with the success updates",
+			"success",
+			"\"d3c2566d-bd00-43ba-b1a7-2434ea4d8720\"",
+			"\"https://69.167.104.158:13006/playbooks/d3c2566d-bd00-43ba-b1a7-2434ea4d8720\""
+		],
+		[
+			266,
+			"Eelco Duijker",
+			"eduijker@fortinet.com",
+			"2026-04-28 08:08:45",
+			"find all alerts with name \"SIM-Swap Alert\" and delete these alerts",
+			"success",
+			"\"fd97a15d-d1ac-4e2b-af24-2047bd33c866\"",
+			"\"https://69.167.104.158:13006/playbooks/fd97a15d-d1ac-4e2b-af24-2047bd33c866\""
+		],
+		[
+			265,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-04-28 07:28:44",
+			"Build a playbook that runs on a schedule of every weekday at 9:00am GMT, makes an API call to https://api.api-ninjas.com/v1/jokeoftheday using the API key X-Api-Key to retrieve the joke of the day.  Email this joke of the day out to abutler@fortinet.com and include a joke rating option, on a scale of 1 - 10 as part of the email.",
+			"success",
+			"\"273c0a91-5e79-490a-8ed9-011238863569\"",
+			"\"https://69.167.104.158:13006/playbooks/273c0a91-5e79-490a-8ed9-011238863569\""
+		],
+		[
+			264,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-04-28 07:28:06",
+			"Build a playbook that runs on a schedule of every weekday at 9:00am GMT, makes an API call to https://api.api-ninjas.com/v1/jokeoftheday using the API key \"X-Api-Key\" to retrieve the joke of the day.  Email this joke of the day out to \"abutler@fortinet.com\" and include a joke rating option, on a scale of 1 - 10 as part of the email.",
+			"failed",
+			null,
+			null
+		],
+		[
+			263,
+			"Andrew Butler",
+			"abutler@fortinet.com",
+			"2026-04-28 07:08:27",
+			"1) Run the playbook on a schedule of every weekday 2) API call to https://api-ninjas.com/ and retrieve the joke of the day 3) email the joke out to a distribution list 4) include a function to rate the joke on a scale of 1 - 10",
+			"failed",
+			null,
+			null
+		],
+		[
+			259,
+			"FookYau Heng",
+			"fyheng@fortinet.com",
+			"2026-04-27 23:20:27",
+			"playbook to generate email when incident is triggered ",
+			"success",
+			"\"69dab6f8-b35d-4d44-bc3a-a43647752922\"",
+			"\"https://69.167.104.158:13006/playbooks/69dab6f8-b35d-4d44-bc3a-a43647752922\""
+		],
+		[
+			257,
+			"James Hilving",
+			"jhilving@fortinet.com",
+			"2026-04-27 11:42:48",
+			"Make me a playbook that will create random IP addresses using an input that will ask for how many ips to generate. ",
+			"success",
+			"\"8216a7b7-d4b2-4e3a-be10-0ed608a2741c\"",
+			"\"https://69.167.104.158:13006/playbooks/8216a7b7-d4b2-4e3a-be10-0ed608a2741c\""
+		],
+		[
+			255,
+			"Tom England",
+			"tengland@fortinet.com",
+			"2026-04-27 09:21:07",
+			"building an email phishing playbook, correlating Threat intelligence from Microsoft defender and Recorded futures, ingesting logs from MS Defender, and checking for risky behaviours, before remediating/isolating as required.  ",
+			"success",
+			"\"a6266546-1d80-4753-aee3-1bed5a85100e\"",
+			"\"https://69.167.104.158:13006/playbooks/a6266546-1d80-4753-aee3-1bed5a85100e\""
+		],
+		[
+			253,
+			"Glen Combe",
+			"gcombe@fortinet.com",
+			"2026-04-24 13:35:06",
+			"create me a siemens S7 playbook that has notifying plant operations as part of the playbook at the top if a indicators of compromise exist, and at the end if an investigation occurs.  Break this down into evaluating TTP and IOCS as well verses mis-conigurations.   The goal is to be able to deterministic results on OT traffic in SOAR,  If IOC threat level is high and level of confidence is about 8 create firewalls rules to quarantine and notify of action",
+			"success",
+			"\"bdf1134c-a22c-481b-8d3e-030a94398fa2\"",
+			"\"https://69.167.104.158:13006/playbooks/bdf1134c-a22c-481b-8d3e-030a94398fa2\""
+		],
+		[
+			252,
+			"Glen Combe",
+			"gcombe@fortinet.com",
+			"2026-04-24 13:30:16",
+			"create me a siemens S7 playbook that has notifying plant operations as part of the playbook at the top if a indicators of compromise exist, and at the end if an investigation occurs.  Break this down into evaluating TTP and IOCS as well verses mis-conigurations.   The goal is to be able to deterministic results on OT traffic in SOAR",
+			"success",
+			"\"b89a7b9a-2df8-4baa-a15d-4a7599929a1c\"",
+			"\"https://69.167.104.158:13006/playbooks/b89a7b9a-2df8-4baa-a15d-4a7599929a1c\""
+		],
+		[
+			251,
+			"Glen Combe",
+			"gcombe@fortinet.com",
+			"2026-04-24 13:26:17",
+			"Detect OT Ethernet CIP mis-configuattion data verses CIP attack  ",
+			"success",
+			"\"ee0e7166-b8f0-4157-9dac-babf94c51b1d\"",
+			"\"https://69.167.104.158:13006/playbooks/ee0e7166-b8f0-4157-9dac-babf94c51b1d\""
+		],
+		[
+			250,
+			"Glen Combe",
+			"gcombe@fortinet.com",
+			"2026-04-24 13:20:20",
+			"I want to detect mis configuration in OT modbus traffic verses modbus traffic that is being attacked  ",
+			"success",
+			"\"32704242-2cb7-4ae2-9a59-567cc2231663\"",
+			"\"https://69.167.104.158:13006/playbooks/32704242-2cb7-4ae2-9a59-567cc2231663\""
+		],
+		[
+			249,
+			"Rodrigo Micieli",
+			"rmicieli@fortinet.com",
+			"2026-04-24 09:10:29",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"9370bb07-dc40-403c-9d7a-d8c2948140e8\"",
+			"\"https://69.167.104.158:13006/playbooks/9370bb07-dc40-403c-9d7a-d8c2948140e8\""
+		],
+		[
+			248,
+			"Zoltan@Fortinet.com",
+			"zoltan@fortinet.com",
+			"2026-04-24 05:30:01",
+			"write a playbook fetching emails from Ferenec Vaspori using imap connector and examine the body with openai to get Ferenc's mood.",
+			"success",
+			"\"dba9dbe6-cc6b-4c2e-8e4c-607ce4537001\"",
+			"\"https://69.167.104.158:13006/playbooks/dba9dbe6-cc6b-4c2e-8e4c-607ce4537001\""
+		],
+		[
+			247,
+			"Zoltan@Fortinet.com",
+			"zoltan@fortinet.com",
+			"2026-04-24 02:48:14",
+			"Build a FortiSoar playbook what starts if a new e-mail arrives to an IMAP mailbox. send its body to openai through the openai connector of fortisoar to analyze the mood of the sender. the answer should be maximum five words descirbes the mood of the sender. this should added to a variable called: mood_tester.",
+			"success",
+			"\"cc646bf7-7a77-4d78-b88e-47bb739a142c\"",
+			"\"https://69.167.104.158:13006/playbooks/cc646bf7-7a77-4d78-b88e-47bb739a142c\""
+		],
+		[
+			246,
+			"Zoltan@Fortinet.com",
+			"zoltan@fortinet.com",
+			"2026-04-24 02:33:00",
+			"Build a FortiSoar playbook what collects all the e-mails from a specific IMAP mailbox, create a list of e-mails with subject \"BMW_Egnyte\". These emails body contain one IP address. Create a list contains al these IP addresses found in these emails. Create an array, where there are three columns: 1, the found ip address, 2, the date and time when the specific email is arrived, 3, the geo information where the specific IP address is registered.",
+			"success",
+			"\"ccecde32-2583-456b-9853-56cde5c19f8b\"",
+			"\"https://69.167.104.158:13006/playbooks/ccecde32-2583-456b-9853-56cde5c19f8b\""
+		],
+		[
+			243,
+			"Stamatis Mandilas",
+			"smandilas@fortinet.com",
+			"2026-04-23 02:06:34",
+			"I want you to help me build a playbook via the Wolt API (https://developer.wolt.com/docs/api/order-submitter), which will do the following. First, we will read the data from the building's access control system, from which we will see when each user enters the office in the morning between 08:00 and 10:00. Based on what each user has defined regarding their coffee preference through a list, you will proceed with the corresponding order for each one.",
+			"success",
+			"\"e5c00732-6f1a-4cf9-ad5c-fb94f4c13153\"",
+			"\"https://69.167.104.158:13006/playbooks/e5c00732-6f1a-4cf9-ad5c-fb94f4c13153\""
+		],
+		[
+			242,
+			"Melih Kirkgoz",
+			"mkirkgoz@fortinet.com",
+			"2026-04-23 01:47:18",
+			"I would like to check reputation of an external IP address",
+			"success",
+			"\"c2bd9290-38b0-4c2c-b172-5a99f8766f37\"",
+			"\"https://69.167.104.158:13006/playbooks/c2bd9290-38b0-4c2c-b172-5a99f8766f37\""
+		],
+		[
+			239,
+			"Grzegorz Cebula",
+			"gcebula@fortinet.com",
+			"2026-04-22 23:09:39",
+			"Prepare playbook for comparing logs from analyser with configured rules on fortigate. Flow should be as follows: get from fortianalyzer report where there are columns: device name, vdom name, policy id, policy name, hits. From this report get list of fortigates. From each fortigate collect policies. Compare policies with fortianalyzer report. Build list of policies, where there are no logs in fortianalyzer and prepare report. Send it to email.",
+			"success",
+			"\"6af0b634-1c43-4211-b03d-61c4e15f67b3\"",
+			"\"https://69.167.104.158:13006/playbooks/6af0b634-1c43-4211-b03d-61c4e15f67b3\""
+		],
+		[
+			236,
+			"Ricardo Guzman",
+			"rguzman@fortinet.com",
+			"2026-04-22 11:28:26",
+			"Connect to FortiAnalyzer and retrieve all report schedules for the specified ADOM. Then retrieve all the generated reports within the time range of 1st January 2026, 02:00 AM to 10th January 2026, 02:00 AM. Finally, run a report on FortiAnalyzer.",
+			"success",
+			"\"a97fd8b8-e0c3-412f-ae6f-f5b73459f7c7\"",
+			"\"https://69.167.104.158:13006/playbooks/a97fd8b8-e0c3-412f-ae6f-f5b73459f7c7\""
+		],
+		[
+			234,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-22 03:11:42",
+			"Create a FortiSOAR playbook that is triggered by suspicious traffic alerts from fortigate at root adom. Extract the source IP address and severity from the events.Apply simple decision logic: if the severity is High or Critical, block the IP automatically; if the severity is Medium, send it for analyst approval; if the severity is Low,close the incident.For blocking, use FortiManager to create or update the IP address object, add it to a deny policy, and push the policy to FortiGate devices. Finally, send a notification and log all actions. ",
+			"success",
+			"\"12a6ac10-b5b4-413c-b59a-de611fe46b04\"",
+			"\"https://69.167.104.158:13006/playbooks/12a6ac10-b5b4-413c-b59a-de611fe46b04\""
+		],
+		[
+			233,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-22 02:57:39",
+			"Create a FortiSOAR playbook that is triggered by suspicious traffic alerts from fortigate at root adom. Extract the source IP address and severity from the events.Apply simple decision logic: if the severity is High or Critical, block the IP automatically; if the severity is Medium, send it for analyst approval; if the severity is Low,close the incident.For blocking, use FortiManager to create or update the IP address object, add it to a deny policy, and push the policy to FortiGate devices. Finally, send a notification and log all actions. ",
+			"success",
+			"\"40a0d83f-0299-4bc6-82fa-f1dc2f453c55\"",
+			"\"https://69.167.104.158:13006/playbooks/40a0d83f-0299-4bc6-82fa-f1dc2f453c55\""
+		],
+		[
+			232,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-22 02:50:56",
+			"Create a FortiSOAR playbook that is triggered by suspicious traffic alerts from FortiAnalyzer at root adom. Extract the source IP address and severity from the alert.Apply simple decision logic: if the severity is High or Critical, block the IP automatically; if the severity is Medium, send it for analyst approval; if the severity is Low,close the incident.For blocking, use FortiManager to create or update the IP address object, add it to a deny policy, and push the policy to FortiGate devices. Finally, send a notification and log all actions.",
+			"success",
+			"\"cc162b66-6cc5-4bbb-9d14-9d7f4c21396f\"",
+			"\"https://69.167.104.158:13006/playbooks/cc162b66-6cc5-4bbb-9d14-9d7f4c21396f\""
+		],
+		[
+			231,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-22 02:47:47",
+			"in fortigate fetch first 10 Technology as Browser-Based applications and send me in email jkingston@fortinet-us.com",
+			"success",
+			"\"9454754a-48aa-423d-9824-6f71459f2213\"",
+			"\"https://69.167.104.158:13006/playbooks/9454754a-48aa-423d-9824-6f71459f2213\""
+		],
+		[
+			230,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-22 02:43:29",
+			"in fortigate, get list of clients mac address where Probe request dropped in last 100 rows and send me email to jkingston@fortinet-us.com format of the event is 'Client xx:xx:xx:xx:xx:xx  Probe request dropped due to low rssi",
+			"success",
+			"\"e263048c-8716-4af5-9762-738191b92a67\"",
+			"\"https://69.167.104.158:13006/playbooks/e263048c-8716-4af5-9762-738191b92a67\""
+		],
+		[
+			229,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-22 02:37:33",
+			"in fortigate, get list of clients mac address where Probe request dropped in last 100 rows and send me email to jkingston@fortinet-us.com format of the event is 'Client xx:xx:xx:xx:xx:xx  Probe request dropped due to low rssi",
+			"success",
+			"\"56b00eaa-ba4d-40bf-beed-6a036ecde136\"",
+			"\"https://69.167.104.158:13006/playbooks/56b00eaa-ba4d-40bf-beed-6a036ecde136\""
+		],
+		[
+			228,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-22 02:28:48",
+			"in fortigate, get list of clients mac address where Probe request dropped in last 100 rows and send me email to jkingston@fortinet-us.com format of the event is 'Client xx:xx:xx:xx:xx:xx  Probe request dropped due to low rssi",
+			"success",
+			"\"dc6e37d1-6866-46d3-8cfe-3abc10f30b3e\"",
+			"\"https://69.167.104.158:13006/playbooks/dc6e37d1-6866-46d3-8cfe-3abc10f30b3e\""
+		],
+		[
+			227,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-22 02:02:51",
+			"Create a FortiSOAR playbook triggered by new WiFi client connection logs from fortigate events. Extract client MAC and SSID.If the client connects to a Corp_AIOPs_Test → send alert notification to email jkingston@fortinet.com",
+			"success",
+			"\"aa27bfae-b1b5-43f8-9b99-b4ca54672a06\"",
+			"\"https://69.167.104.158:13006/playbooks/aa27bfae-b1b5-43f8-9b99-b4ca54672a06\""
+		],
+		[
+			226,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-22 01:57:29",
+			"Create a FortiSOAR playbook triggered by WiFi authentication failure logs from FortiGate. Extract client MAC address.If authentication fails more than 3 times → block the client MAC using FortiManager",
+			"success",
+			"\"d7a42971-a513-4a64-a3d8-14a14f526ea1\"",
+			"\"https://69.167.104.158:13006/playbooks/d7a42971-a513-4a64-a3d8-14a14f526ea1\""
+		],
+		[
+			225,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-22 00:35:13",
+			"Create a FortiSOAR playbook triggered by WiFi disconnect events from FortiGate. Extract client MAC address (stamac) and access point.If the same client disconnects more than 5 times → notify the analyst in email jkingsont@fortinet.com.",
+			"success",
+			"\"9e7c8c6c-b550-48ac-baaa-31224e66dbac\"",
+			"\"https://69.167.104.158:13006/playbooks/9e7c8c6c-b550-48ac-baaa-31224e66dbac\""
+		],
+		[
+			224,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-22 00:27:26",
+			"Create a FortiSOAR playbook that is triggered by WiFi event logs from FortiGate (station logs). Extract key details such as client MAC address (stamac), access point, action type with auth-req , auth-resp,assoc-req,assoc-resp,deauth and timestamp. Analyze the sequence of events for each client MAC. If a pattern of repeated authentication → association → deauthentication occurs multiple times within a short duration (indicating unstable or suspicious behavior), classify the client as suspicious.If the same client MAC shows this pattern more than 3 times → block the client by creating a MAC address object via FortiManager and applying it to a deny policy on FortiGate. If the pattern occurs fewer times → send for analyst review in mail at jkingston@fortinet.com",
+			"success",
+			"\"7363bb64-4bbb-4c70-aae6-cf9ef444404e\"",
+			"\"https://69.167.104.158:13006/playbooks/7363bb64-4bbb-4c70-aae6-cf9ef444404e\""
+		],
+		[
+			223,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-22 00:14:43",
+			"Create a FortiSOAR playbook triggered by multiple suspicious traffic alerts from FortiAnalyzer. Extract the source IP and count how many times it appears within a short duration.If the same IP appears more than 3 times → block the IP using FortiManager. Otherwise, send it for analyst review.Send notification to jkingston@fortinet.com",
+			"success",
+			"\"1b2aba1f-6bd9-45e9-88e3-00d8eafc761e\"",
+			"\"https://69.167.104.158:13006/playbooks/1b2aba1f-6bd9-45e9-88e3-00d8eafc761e\""
+		],
+		[
+			222,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-22 00:02:20",
+			"Create a FortiSOAR playbook triggered by multiple suspicious traffic alerts from FortiAnalyzer. Extract the source IP and count how many times it appears within a short duration.If the same IP appears more than 3 times → block the IP using FortiManager. Otherwise, send it for analyst review.Send notification to jkingston@fortinet.com",
+			"success",
+			"\"94ae5446-e9d3-4513-afd1-98de39c2f0cd\"",
+			"\"https://69.167.104.158:13006/playbooks/94ae5446-e9d3-4513-afd1-98de39c2f0cd\""
+		],
+		[
+			221,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-21 23:48:22",
+			"Create a FortiSOAR playbook triggered by malware detection alerts from FortiAnalyzer in root adom. Extract the infected host IP.If severity is High → isolate/block the IP using FortiManager. Otherwise, notify the analyst.Log all actions and close the incident.",
+			"success",
+			"\"3659b346-e4fa-441c-aa69-ec5a23cbc5c6\"",
+			"\"https://69.167.104.158:13006/playbooks/3659b346-e4fa-441c-aa69-ec5a23cbc5c6\""
+		],
+		[
+			220,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-21 23:41:07",
+			"Create a FortiSOAR playbook that is triggered when a failed login alert is received from FortiAnalyzer. Extract the username and source IP.If failed attempts are more than 5 → block the IP using FortiManager. Otherwise, just log the event.Finally, send a notification and update the incident.",
+			"success",
+			"\"e5c76db2-dc13-413d-80a6-a19179bf570e\"",
+			"\"https://69.167.104.158:13006/playbooks/e5c76db2-dc13-413d-80a6-a19179bf570e\""
+		],
+		[
+			219,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-21 23:28:11",
+			"Create a FortiSOAR playbook that is triggered when a failed login alert is received from FortiAnalyzer. Extract the username and source IP.If failed attempts are more than 5 → block the IP using FortiManager. Otherwise, just log the event.Finally, send a notification and update the incident.",
+			"success",
+			"\"4d1e9ef8-3f23-4e2c-a1b9-2bb4f3ff5207\"",
+			"\"https://69.167.104.158:13006/playbooks/4d1e9ef8-3f23-4e2c-a1b9-2bb4f3ff5207\""
+		],
+		[
+			218,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-21 23:13:20",
+			"Create a FortiSOAR playbook that is triggered by suspicious traffic alerts from FortiAnalyzer at root adom. Extract the source IP address and severity from the alert.Apply simple decision logic: if the severity is High or Critical, block the IP automatically; if the severity is Medium, send it for analyst approval; if the severity is Low,close the incident.For blocking, use FortiManager to create or update the IP address object, add it to a deny policy, and push the policy to FortiGate devices. Finally, send a notification and log all actions.",
+			"success",
+			"\"405bba6b-bdb2-406b-93af-6a647a5c98c3\"",
+			"\"https://69.167.104.158:13006/playbooks/405bba6b-bdb2-406b-93af-6a647a5c98c3\""
+		],
+		[
+			217,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-21 22:55:19",
+			"Create a FortiSOAR playbook triggered by FortiAnalyzer malware alerts from root adom that extracts source IP and blocks it on FortiGate.",
+			"success",
+			"\"8bbff3cf-f86a-4930-81f1-befdbd97d225\"",
+			"\"https://69.167.104.158:13006/playbooks/8bbff3cf-f86a-4930-81f1-befdbd97d225\""
+		],
+		[
+			216,
+			"Joel Kingston",
+			"jkingston@fortinet.com",
+			"2026-04-21 22:38:02",
+			"Create a FortiSOAR playbook triggered by FortiAnalyzer malware alerts from root adom that extracts source IP and blocks it on FortiGate.",
+			"success",
+			"\"bef1e16d-a8e5-408f-aa90-dd0f281743c9\"",
+			"\"https://69.167.104.158:13006/playbooks/bef1e16d-a8e5-408f-aa90-dd0f281743c9\""
+		],
+		[
+			207,
+			"Deepak Thakur",
+			"dthakur@fortinet.com",
+			"2026-04-19 05:39:00",
+			"release quarantined emails from symantec messaging gateway; receive trigger from bmc remedy; approve the email based on message id ",
+			"success",
+			"\"b2eafc42-8362-4003-84e8-6238c6a5e6e8\"",
+			"\"https://69.167.104.158:13006/playbooks/b2eafc42-8362-4003-84e8-6238c6a5e6e8\""
+		],
+		[
+			206,
+			"Fabian Ubogi",
+			"fubogi@fortinet.com",
+			"2026-04-17 13:10:11",
+			"create a playbook upon an alert from fortisiem showing multiple logons from many locations in a short period disable the user within the fortiauthenticator, quarantine the end users IP on the fortigate and disable any ztna / vpn sessions",
+			"failed",
+			null,
+			null
+		],
+		[
+			204,
+			"Brady Liu",
+			"bradyliu@fortinet.com",
+			"2026-04-16 14:00:24",
+			"Create a FortiSOAR playbook that integrates with FortiAnalyzer and FortiGate. The playbook should fetch alerts from the root ADOM in FortiAnalyzer using the filter threattype='malware', extract the source IP address from each alert, and automatically block that IP on FortiGate. Ensure the playbook handles duplicate IPs, includes proper parsing of fields, and logs the actions performed.",
+			"success",
+			"\"032a4a75-d9ce-411b-bcb5-4d0dd9a0600b\"",
+			"\"https://69.167.104.158:13006/playbooks/032a4a75-d9ce-411b-bcb5-4d0dd9a0600b\""
+		],
+		[
+			203,
+			"Juan Morais",
+			"juan.morais@dxc.com",
+			"2026-04-16 03:58:12",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"776dbfa6-e64c-4749-b6f3-633e18fcaa55\"",
+			"\"https://69.167.104.158:13006/playbooks/776dbfa6-e64c-4749-b6f3-633e18fcaa55\""
+		],
+		[
+			199,
+			"Chong Jin Lim",
+			"limc@fortinet.com",
+			"2026-04-15 21:55:20",
+			"configure smtp with the following parameters: Name: FortiMAIL-demo IP: 10.0.1.200 user: soar@internal.lab password: soar@internal.lab enable TLS",
+			"success",
+			"\"e4cea4ee-8f77-4b4c-b089-8efccad86bb1\"",
+			"\"https://69.167.104.158:13006/playbooks/e4cea4ee-8f77-4b4c-b089-8efccad86bb1\""
+		],
+		[
+			198,
+			"Chong Jin Lim",
+			"limc@fortinet.com",
+			"2026-04-15 21:52:24",
+			"retrieve critical alert",
+			"success",
+			"\"edd5316a-9a04-43f9-a4eb-3eec899380ee\"",
+			"\"https://69.167.104.158:13006/playbooks/edd5316a-9a04-43f9-a4eb-3eec899380ee\""
+		],
+		[
+			197,
+			"Simon Hoh",
+			"shoh@fortinet.com",
+			"2026-04-15 18:44:13",
+			"Create a FortiSOAR playbook that  when a failed login alert is received from FortiAnalyzer at root adom. The playbook should extract the username and source IP address from the alert, check how many failed login attempts are associated with that source IP, and take action based on the count. If the number of failed attempts is greater than 5, the playbook should block the source IP using FortiManager. If the attempts are 5 or fewer, it should simply log the event. Finally, the playbook should send a notification with the relevant details and update the incident with the extracted information and actions taken.",
+			"success",
+			"\"db47c941-46da-4b5c-8b54-d222badb1771\"",
+			"\"https://69.167.104.158:13006/playbooks/db47c941-46da-4b5c-8b54-d222badb1771\""
+		],
+		[
+			196,
+			"Simon Hoh",
+			"shoh@fortinet.com",
+			"2026-04-15 18:38:11",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"cfecb51f-45b2-41ca-901c-011b009b7be1\"",
+			"\"https://69.167.104.158:13006/playbooks/cfecb51f-45b2-41ca-901c-011b009b7be1\""
+		],
+		[
+			195,
+			"Steve Perich",
+			"sperich@fortinet.com",
+			"2026-04-15 17:08:06",
+			"create a fortisoar playbook that will cure world hunger, reopen the strait of hormuz and make me rich beyond my wildest dreams",
+			"success",
+			"\"3b0f1149-1c28-450c-9225-6c0ea4956589\"",
+			"\"https://69.167.104.158:13006/playbooks/3b0f1149-1c28-450c-9225-6c0ea4956589\""
+		],
+		[
+			194,
+			"Steve Perich",
+			"sperich@fortinet.com",
+			"2026-04-15 17:02:35",
+			"create a fortisoar playbook that will prevent customers churning away from fortisoar to another product",
+			"success",
+			"\"e3a355ea-f64e-4202-b532-48907fc8c32e\"",
+			"\"https://69.167.104.158:13006/playbooks/e3a355ea-f64e-4202-b532-48907fc8c32e\""
+		],
+		[
+			193,
+			"Steve Perich",
+			"sperich@fortinet.com",
+			"2026-04-15 16:58:19",
+			"make me a playbook that will look up the user logged onto the computer and then email them",
+			"success",
+			"\"424d6790-7d10-41ad-9f3b-a22a0ad7a21f\"",
+			"\"https://69.167.104.158:13006/playbooks/424d6790-7d10-41ad-9f3b-a22a0ad7a21f\""
+		],
+		[
+			188,
+			"Deepak Thakur",
+			"dthakur@fortinet.com",
+			"2026-04-15 01:44:37",
+			"firewall policy creation - trigger - bmc remedy -> ip address object created ->create schedule object name - > create firewall policy in fortigate (details from bmc ticket) -> if server in dmz, do it again for Palo Alto FW",
+			"success",
+			"\"c0686a59-45c1-41ef-9ccf-931027b180cf\"",
+			"\"https://69.167.104.158:13006/playbooks/c0686a59-45c1-41ef-9ccf-931027b180cf\""
+		],
+		[
+			185,
+			"Michael Wong",
+			"wongm@fortinet.com",
+			"2026-04-14 16:48:03",
+			"get latet 10 attack alert from fortiweb and send to soc@fortinet.local",
+			"success",
+			"\"ea07cf88-44c4-44ad-a6af-9e54c548d16e\"",
+			"\"https://69.167.104.158:13006/playbooks/ea07cf88-44c4-44ad-a6af-9e54c548d16e\""
+		],
+		[
+			181,
+			"Jonas Juliard",
+			"jjuliard@fortinet.com",
+			"2026-04-14 02:06:18",
+			"Create a playbook to enrichir URL and Domain with Fortiguard",
+			"success",
+			"\"8d569056-545f-4efa-9bb4-9cbd3b804988\"",
+			"\"https://69.167.104.158:13006/playbooks/8d569056-545f-4efa-9bb4-9cbd3b804988\""
+		],
+		[
+			180,
+			"Jonas Juliard",
+			"jjuliard@fortinet.com",
+			"2026-04-14 02:05:13",
+			"Enrichement an URL and a Domain with FortiGuard",
+			"success",
+			"\"96e62b5b-f8c6-49d3-a72a-85913cfff2bb\"",
+			"\"https://69.167.104.158:13006/playbooks/96e62b5b-f8c6-49d3-a72a-85913cfff2bb\""
+		],
+		[
+			178,
+			"Michael Wong",
+			"wongm@fortinet.com",
+			"2026-04-13 19:55:55",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out. ",
+			"success",
+			"\"d2d31943-05ee-42c8-bb28-c675a561bb63\"",
+			"\"https://69.167.104.158:13006/playbooks/d2d31943-05ee-42c8-bb28-c675a561bb63\""
+		],
+		[
+			177,
+			"Michael Wong",
+			"wongm@fortinet.com",
+			"2026-04-13 19:29:47",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out. ",
+			"success",
+			"\"681b4dab-8298-415f-8bb8-f1103f056367\"",
+			"\"https://69.167.104.158:13006/playbooks/681b4dab-8298-415f-8bb8-f1103f056367\""
+		],
+		[
+			176,
+			"Amine G",
+			"agaabab@fortinet.com",
+			"2026-04-13 12:58:03",
+			"for any new IOC created add it a fortigate block list",
+			"success",
+			"\"9421abaa-6659-442b-bc0c-7650eebd6785\"",
+			"\"https://69.167.104.158:13006/playbooks/9421abaa-6659-442b-bc0c-7650eebd6785\""
+		],
+		[
+			175,
+			"Michael Wong",
+			"wongm@fortinet.com",
+			"2026-04-13 08:28:15",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out. ",
+			"success",
+			"\"9be631f9-0be7-4577-b1c9-f58ad444fc0b\"",
+			"\"https://69.167.104.158:13006/playbooks/9be631f9-0be7-4577-b1c9-f58ad444fc0b\""
+		],
+		[
+			174,
+			"Michael Wong",
+			"wongm@fortinet.com",
+			"2026-04-13 08:15:56",
+			"Create a playbook which read the ssl cert including CA, server cert of sn, exp date, if almost expire, request to renew and update fortiweb ",
+			"failed",
+			null,
+			null
+		],
+		[
+			172,
+			"Guoxiong Zou",
+			"gzou@fortinet.com",
+			"2026-04-12 23:37:16",
+			"If the Alert name contain 'IPS', then check if the source IP is a Pulic IP, if it is a public IP, add to the block list of FortiGate.",
+			"success",
+			"\"6b07392c-f5af-46b8-8602-6f9567701066\"",
+			"\"https://69.167.104.158:13006/playbooks/6b07392c-f5af-46b8-8602-6f9567701066\""
+		],
+		[
+			171,
+			"Guoxiong Zou",
+			"gzou@fortinet.com",
+			"2026-04-12 23:17:17",
+			"If the Alert name contain 'IPS', then check if the source IP is a Pulic IP, if it is a public IP, add to the block list of FortiGate.",
+			"success",
+			"\"4995de41-0a6e-444c-8a1b-11ec1ab520f8\"",
+			"\"https://69.167.104.158:13006/playbooks/4995de41-0a6e-444c-8a1b-11ec1ab520f8\""
+		],
+		[
+			170,
+			"Guoxiong Zou",
+			"gzou@fortinet.com",
+			"2026-04-12 22:29:29",
+			"Create a FortiSOAR playbook which it has to fetch WiFi disconnect events with filter as 'disconnected' from FortiGate connector. Extract client MAC address and access point.If the same client disconnects more than 5 times → notify the analyst in email jkingsont@fortinet.com. ",
+			"success",
+			"\"8974a28a-0e30-47a5-a149-510c0a735696\"",
+			"\"https://69.167.104.158:13006/playbooks/8974a28a-0e30-47a5-a149-510c0a735696\""
+		],
+		[
+			169,
+			"Guoxiong Zou",
+			"gzou@fortinet.com",
+			"2026-04-12 22:28:52",
+			"Create a FortiSOAR playbook which it has to fetch WiFi disconnect events with filter as 'disconnected' from FortiGate connector. Extract client MAC address and access point.If the same client disconnects more than 5 times → notify the analyst in email jkingsont@fortinet.com.",
+			"success",
+			"\"b27de781-573c-49cb-b906-d2f507b961de\"",
+			"\"https://69.167.104.158:13006/playbooks/b27de781-573c-49cb-b906-d2f507b961de\""
+		],
+		[
+			168,
+			"Michael Wong",
+			"wongm@fortinet.com",
+			"2026-04-12 20:57:33",
+			"what ",
+			"failed",
+			null,
+			null
+		],
+		[
+			167,
+			"Michael Wong",
+			"wongm@fortinet.com",
+			"2026-04-12 20:49:10",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"091cbda8-a70e-49dc-9c4a-d1017093aee2\"",
+			"\"https://69.167.104.158:13006/playbooks/091cbda8-a70e-49dc-9c4a-d1017093aee2\""
+		],
+		[
+			166,
+			"Lawrence Tsui",
+			"ltsui@fortinet.com",
+			"2026-04-12 20:25:26",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.  And create a relevant decoy in FortiDeceptor for the protection",
+			"success",
+			"\"53085c70-0b40-48f1-b475-ed3d665f4f71\"",
+			"\"https://69.167.104.158:13006/playbooks/53085c70-0b40-48f1-b475-ed3d665f4f71\""
+		],
+		[
+			165,
+			"Guoxiong Zou",
+			"gzou@fortinet.com",
+			"2026-04-12 06:08:06",
+			"Create a FortiSOAR playbook which it has to fetch WiFi disconnect events with filter as 'disconnected' from FortiGate connector. Extract client MAC address and access point.If the same client disconnects more than 5 times → notify the analyst in email jkingsont@fortinet.com.",
+			"success",
+			"\"b591f01d-ad22-4ac5-a2dd-f595e964104e\"",
+			"\"https://69.167.104.158:13006/playbooks/b591f01d-ad22-4ac5-a2dd-f595e964104e\""
+		],
+		[
+			164,
+			"Mike Poeschl",
+			"ppoeschl@fortinet.com",
+			"2026-04-10 09:33:34",
+			"Connect to FortiAnalyzer and retrieve all report schedules for the specified ADOM. Then retrieve all the generated reports within the time range of 1st January 2026, 02:00 AM to 10th January 2026, 02:00 AM. Finally, run a report on FortiAnalyzer.",
+			"success",
+			"\"c8fdd9e2-e8d0-4af2-a0a1-5238635052a4\"",
+			"\"https://69.167.104.158:13006/playbooks/c8fdd9e2-e8d0-4af2-a0a1-5238635052a4\""
+		],
+		[
+			160,
+			"Firas Al Koussa",
+			"falkoussa@fortinet.com",
+			"2026-04-09 14:11:03",
+			"Generate a FortiSOAR playbook that ingests FortiRecon data via it's API.  - https://fndn.fortinet.net/index.php?/fortiapi/2232-fortirecon/5522/2232/ACI/ - https://fndn.fortinet.net/index.php?/fortiapi/2232-fortirecon/5522/2232/BP/ - https://fndn.fortinet.net/index.php?/fortiapi/2232-fortirecon/5522/2232/EASM/  The customer  custom report should look corporate grade and include details regarding the EASM security issues, brand protection threats, and dark web reports, and with stealer infection records.   The playbook should be filterable by existing groups or domains/ips if possible.   ",
+			"success",
+			"\"4b89ac95-0e5f-44fb-96b0-5343dc5c2903\"",
+			"\"https://69.167.104.158:13006/playbooks/4b89ac95-0e5f-44fb-96b0-5343dc5c2903\""
+		],
+		[
+			159,
+			"Firas Al Koussa",
+			"falkoussa@fortinet.com",
+			"2026-04-09 13:57:16",
+			"Generate a FortiSOAR playbook that ingests FortiRecon data via it's API.  - https://fndn.fortinet.net/index.php?/fortiapi/2232-fortirecon/5522/2232/ACI/ - https://fndn.fortinet.net/index.php?/fortiapi/2232-fortirecon/5522/2232/BP/ - https://fndn.fortinet.net/index.php?/fortiapi/2232-fortirecon/5522/2232/EASM/  The customer  custom report should look corporate grade and include details regarding the EASM security issues, brand protection threats, and dark web reports, and with stealer infection records.   The playbook should be filterable by existing groups or domains/ips if possible.   ",
+			"success",
+			"\"5fcaf0f6-a69e-4af2-89e4-da4980f58724\"",
+			"\"https://69.167.104.158:13006/playbooks/5fcaf0f6-a69e-4af2-89e4-da4980f58724\""
+		],
+		[
+			158,
+			"Firas Al Koussa",
+			"falkoussa@fortinet.com",
+			"2026-04-09 13:54:17",
+			"Generate a FortiSOAR playbook that ingests FortiRecon data via it's API.  - https://fndn.fortinet.net/index.php?/fortiapi/2232-fortirecon/5522/2232/ACI/ - https://fndn.fortinet.net/index.php?/fortiapi/2232-fortirecon/5522/2232/BP/ - https://fndn.fortinet.net/index.php?/fortiapi/2232-fortirecon/5522/2232/EASM/  The custom report should look corporate grade and include details regarding the EASM security issues, brand protection threats, and dark web reports, and with stealer infection reccords. ",
+			"success",
+			"\"57edccf1-39fe-4cd1-99dc-bf71d10621e5\"",
+			"\"https://69.167.104.158:13006/playbooks/57edccf1-39fe-4cd1-99dc-bf71d10621e5\""
+		],
+		[
+			153,
+			"Abdul Azeem Arakkal",
+			"aarakkal@fortinet.com",
+			"2026-04-09 03:56:53",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"7807a1f4-ed5b-4956-aa63-e8c0bd312dd8\"",
+			"\"https://69.167.104.158:13006/playbooks/7807a1f4-ed5b-4956-aa63-e8c0bd312dd8\""
+		],
+		[
+			152,
+			"Farouq Douma",
+			"fdouma@fortinet.com",
+			"2026-04-09 00:54:21",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"6941cd47-0e84-408d-93c6-a47c76f3e396\"",
+			"\"https://69.167.104.158:13006/playbooks/6941cd47-0e84-408d-93c6-a47c76f3e396\""
+		],
+		[
+			151,
+			"Mokrane Hellal",
+			"mhellal@fortinet.com",
+			"2026-04-08 23:12:42",
+			"can you create a playbook that retrieve fortiguard outbreak alert and then start a decoy in deceptor related to the specific outbreak  ",
+			"success",
+			"\"fcb806e9-11a1-469a-a21b-52543ddea1e3\"",
+			"\"https://69.167.104.158:13006/playbooks/fcb806e9-11a1-469a-a21b-52543ddea1e3\""
+		],
+		[
+			150,
+			"Venkatesh Babu Anna",
+			"vanna@fortinet.com",
+			"2026-04-08 21:42:38",
+			"generate a playbook which normalizes the indicator string into a list of indicators.  example: Input: 4.3.2.5 - examplemail@abc.com | www.hostname.com - webhost.com output should be: ['4.3.2.5','examplemail@abc.com', 'www.hostname.com', 'webhost.com'] ",
+			"success",
+			"\"b5d31977-2ecf-48cd-9eae-c088eca1c7d1\"",
+			"\"https://69.167.104.158:13006/playbooks/b5d31977-2ecf-48cd-9eae-c088eca1c7d1\""
+		],
+		[
+			143,
+			"Jingyi Ma",
+			"mjingyi@fortinet.com",
+			"2026-04-08 16:12:52",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"success",
+			"\"4f0606fb-2244-4138-b3c4-c892af805044\"",
+			"\"https://69.167.104.158:13006/playbooks/4f0606fb-2244-4138-b3c4-c892af805044\""
+		],
+		[
+			138,
+			"Ajay Sharma",
+			"ajsharma@fortinet.com",
+			"2026-04-08 15:57:15",
+			"create a playbook to block IP 10.1.1.1",
+			"success",
+			"\"5680016e-3757-41a4-9839-00011f2b64e7\"",
+			"\"https://69.167.104.158:13006/playbooks/5680016e-3757-41a4-9839-00011f2b64e7\""
+		],
+		[
+			134,
+			"Yazan Omar",
+			"yomar@fortinet.com",
+			"2026-04-08 05:28:26",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"success",
+			"\"c3868adf-666b-425d-a39d-8130974baac6\"",
+			"\"https://69.167.104.158:13006/playbooks/c3868adf-666b-425d-a39d-8130974baac6\""
+		],
+		[
+			133,
+			"Daehyeob Kim",
+			"kimd@fortinet.com",
+			"2026-04-08 04:54:41",
+			"I would like to build a phishing email detection playbook. Using below connectors, 1. outlook 2. virus total",
+			"success",
+			"\"9b51e8ac-df68-4e97-a2f0-d745149b7033\"",
+			"\"https://69.167.104.158:13006/playbooks/9b51e8ac-df68-4e97-a2f0-d745149b7033\""
+		],
+		[
+			131,
+			"Esakki Rajan Madakulathuran",
+			"emadakulathuran@fortinet.com",
+			"2026-04-08 03:07:34",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"success",
+			"\"607196dd-fde1-43c0-931b-027eeb218455\"",
+			"\"https://69.167.104.158:13006/playbooks/607196dd-fde1-43c0-931b-027eeb218455\""
+		],
+		[
+			128,
+			"Amine G",
+			"agaabab@fortinet.com",
+			"2026-04-08 00:28:43",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"success",
+			"\"7cb6e9f5-a217-447d-9ccb-31992831b8a1\"",
+			"\"https://69.167.104.158:13006/playbooks/7cb6e9f5-a217-447d-9ccb-31992831b8a1\""
+		],
+		[
+			127,
+			"Muppirala Venkata Rahul",
+			"mvenkatarahul@fortinet.com",
+			"2026-04-07 21:41:16",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out. ",
+			"success",
+			"\"b593e881-e05e-44b4-ab30-434e5469edba\"",
+			"\"https://69.167.104.158:13006/playbooks/b593e881-e05e-44b4-ab30-434e5469edba\""
+		],
+		[
+			126,
+			"Sushant Pawar",
+			"pawars@fortinet.com",
+			"2026-04-07 20:40:37",
+			"genrate a playbook for blocking a ip at fortigate firewall",
+			"success",
+			"\"59673a49-2918-48dd-a17a-c46c9f16fd72\"",
+			"\"https://69.167.104.158:13006/playbooks/59673a49-2918-48dd-a17a-c46c9f16fd72\""
+		],
+		[
+			123,
+			"Angel D. Dituro",
+			"adituro@fortinet.com",
+			"2026-04-07 15:43:48",
+			"Create a playbook that read a email from a specific account, and check the IoC and URLs, and do treath hunting against a FSIEM",
+			"success",
+			"\"45cf38e5-4a74-447e-8a20-b41c9dc51316\"",
+			"\"https://69.167.104.158:13006/playbooks/45cf38e5-4a74-447e-8a20-b41c9dc51316\""
+		],
+		[
+			116,
+			"Abhishek Narula",
+			"anarula@fortinet.com",
+			"2026-04-07 03:00:24",
+			"put together a playbook to respond to port scanning alert. ensure that we can handle authorized scans ",
+			"success",
+			"\"013694cc-2d3b-4e75-85d8-5465b54b7e8b\"",
+			"\"https://69.167.104.158:13006/playbooks/013694cc-2d3b-4e75-85d8-5465b54b7e8b\""
+		],
+		[
+			114,
+			"Mohamed Taher",
+			"mtaher@fortinet.com",
+			"2026-04-07 01:38:07",
+			"Create a playbook to extract IoC from email body and send the URL to fortisandnox to analyize it and extract more IOC and push the IP to Fortigate block list and hash to FortiEDR block list ",
+			"failed",
+			null,
+			null
+		],
+		[
+			111,
+			"Mohamed Osama",
+			"mosama@fortinet.com",
+			"2026-04-06 23:34:40",
+			"create a playbook that blocks an ip address then sends email to mosama@fortinet.com informing him that IP has been blocked",
+			"success",
+			"\"b106086e-a0bc-4c8f-8552-4418043a6227\"",
+			"\"https://69.167.104.158:13006/playbooks/b106086e-a0bc-4c8f-8552-4418043a6227\""
+		],
+		[
+			108,
+			"Ryogo Honda",
+			"rhonda@fortinet.com",
+			"2026-04-06 18:11:17",
+			"test2",
+			"success",
+			"\"a3e5c2c4-7e2d-4968-aa60-18019cc7531a\"",
+			"\"https://69.167.104.158:13006/playbooks/a3e5c2c4-7e2d-4968-aa60-18019cc7531a\""
+		],
+		[
+			107,
+			"Ryogo Honda",
+			"rhonda@fortinet.com",
+			"2026-04-06 18:09:44",
+			"test",
+			"success",
+			"\"0dbb75a0-9275-43a1-a26b-8bc80dbce8fc\"",
+			"\"https://69.167.104.158:13006/playbooks/0dbb75a0-9275-43a1-a26b-8bc80dbce8fc\""
+		],
+		[
+			104,
+			"NNugera",
+			"nnugera@fortinet.com",
+			"2026-04-06 06:42:01",
+			"Build a FortiSOAR where user can input a subnet, host-IP, FQDN, or IP range. On receiving these details, query FortiManager to find if the object exists. If yes, set variable \"source\" with the name found and if not, create the new object in appropriate format and output the name of the object newly created. If creating new object, please use \"host-x.x.x.x\", \"net-x.x.x.x/xx\", \"FQDN-abc.com\" and \"range-x.x.x.x-y.y.y.y\" format.",
+			"success",
+			"\"11878650-2423-44f3-84e6-4c4f27f82eb4\"",
+			"\"https://69.167.104.158:13006/playbooks/11878650-2423-44f3-84e6-4c4f27f82eb4\""
+		],
+		[
+			103,
+			"NNugera",
+			"nnugera@fortinet.com",
+			"2026-04-06 06:26:12",
+			"I will specify the source IP and I need to find matching objects in a given FortiManager ADOM. If there's a match, give me the object name, if not, create the IP in \"host-x.x.x.x\" format.",
+			"success",
+			"\"ef8951f3-9f77-4b0f-a810-5bf926a8e5b1\"",
+			"\"https://69.167.104.158:13006/playbooks/ef8951f3-9f77-4b0f-a810-5bf926a8e5b1\""
+		],
+		[
+			102,
+			"Khaled Al Razzak",
+			"kalrazzak@fortinet.com",
+			"2026-04-06 06:02:10",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"success",
+			"\"9e586196-9ee6-4200-af1f-3c4310c5e89f\"",
+			"\"https://69.167.104.158:13006/playbooks/9e586196-9ee6-4200-af1f-3c4310c5e89f\""
+		],
+		[
+			99,
+			"Teerapat Panyachonkool",
+			"tpanyachonkool@fortinet.com",
+			"2026-04-06 02:23:48",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"275e6f29-5422-4c21-af01-0cf62280db8b\"",
+			"\"https://69.167.104.158:13006/playbooks/275e6f29-5422-4c21-af01-0cf62280db8b\""
+		],
+		[
+			95,
+			"Mohamed Amr Salem",
+			"msalem@fortinet.com",
+			"2026-04-05 09:25:38",
+			"create a playbook, that blocks a ip recieved on a mil on 2 fortigates and a Palo alto.",
+			"failed",
+			null,
+			null
+		],
+		[
+			92,
+			"Marcin Gryga",
+			"mgryga@fortinet.com",
+			"2026-04-03 22:57:24",
+			"retrieve offenses from Qradar, create alertas in fortisoar, extract IoC (email, ip, file hash, url, domain etc.), create IoC in the system, enrich IoC from external feeds like VirusTotal, check alert status if malicous rise an incident, close aleert in fortisoar and qradar.",
+			"success",
+			"\"06a455d3-11d5-4dcd-998c-d0fe948bd3f8\"",
+			"\"https://69.167.104.158:13006/playbooks/06a455d3-11d5-4dcd-998c-d0fe948bd3f8\""
+		],
+		[
+			91,
+			"Marcin Gryga",
+			"mgryga@fortinet.com",
+			"2026-04-03 22:44:50",
+			"connect to exchange, search for ana emaila with specific topic and delete that email from all mailboxem on exchange",
+			"success",
+			"\"1fc8c7aa-c805-4468-affe-911ca9e03c84\"",
+			"\"https://69.167.104.158:13006/playbooks/1fc8c7aa-c805-4468-affe-911ca9e03c84\""
+		],
+		[
+			87,
+			"Muhammad Arsalan",
+			"marsalan@fortinet.com",
+			"2026-04-02 22:24:02",
+			"create a playbook to block the malicious IP on Cisco FMC ",
+			"success",
+			"\"d4bc20ad-c3df-4290-9b03-8787e156bdc5\"",
+			"\"https://69.167.104.158:13006/playbooks/d4bc20ad-c3df-4290-9b03-8787e156bdc5\""
+		],
+		[
+			86,
+			"Renjie Xu",
+			"xrenjie@fortinet.com",
+			"2026-04-02 11:46:53",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out. ",
+			"success",
+			"\"e2506f8a-7765-427a-90d1-a6c8feee70b0\"",
+			"\"https://69.167.104.158:13006/playbooks/e2506f8a-7765-427a-90d1-a6c8feee70b0\""
+		],
+		[
+			85,
+			"Mark Borrow",
+			"mborrow@fortinet.com",
+			"2026-04-02 08:48:55",
+			"Connect to FortiAnalyzer and retrieve all report schedules for the specified ADOM. Then retrieve all the generated reports within the time range of 1st January 2026, 02:00 AM to 10th January 2026, 02:00 AM. Finally, run a report on FortiAnalyzer.",
+			"success",
+			"\"e13ac438-eb13-4bba-803f-5b0a0da6c0f0\"",
+			"\"https://69.167.104.158:13006/playbooks/e13ac438-eb13-4bba-803f-5b0a0da6c0f0\""
+		],
+		[
+			81,
+			"Mark Borrow",
+			"mborrow@fortinet.com",
+			"2026-04-02 06:58:56",
+			"Create a playbook that polls a fortigate via API and retrieves the bandwidth statistics for an interface or ipsec tunnel.  ",
+			"success",
+			"\"ab4ea2b6-6e71-4f65-bd5a-fc400167f96e\"",
+			"\"https://69.167.104.158:13006/playbooks/ab4ea2b6-6e71-4f65-bd5a-fc400167f96e\""
+		],
+		[
+			80,
+			"Mark Borrow",
+			"mborrow@fortinet.com",
+			"2026-04-02 06:41:15",
+			"Create a playbook that polls a fortigate and retrieves the bandwidth statistics for an interface or ipsec tunnel. ",
+			"success",
+			"\"fb2707d1-cc4a-48bf-9c5f-f70c256a2970\"",
+			"\"https://69.167.104.158:13006/playbooks/fb2707d1-cc4a-48bf-9c5f-f70c256a2970\""
+		],
+		[
+			79,
+			"Mark Borrow",
+			"mborrow@fortinet.com",
+			"2026-04-02 06:25:58",
+			"Create a playbook that polls a fortigate and retrieves the bandwidth statistics for an interface or ipsec tunnel. Average this bandwidth over a 5 minute period and create a notification if the bandwidth exceeds a specified amount.",
+			"success",
+			"\"f0d87655-c301-44f0-9c97-9298fe409303\"",
+			"\"https://69.167.104.158:13006/playbooks/f0d87655-c301-44f0-9c97-9298fe409303\""
+		],
+		[
+			75,
+			"Arun Pal",
+			"apal@fortinet.com",
+			"2026-04-02 01:11:24",
+			"when an alert is triggered in the Fortisiem, it will first check the reputation check on fortiguard of IP if its malicious block the IP on fortigate firewall ",
+			"success",
+			"\"4f851ed5-254b-4ba6-a100-05a794102fc9\"",
+			"\"https://69.167.104.158:13006/playbooks/4f851ed5-254b-4ba6-a100-05a794102fc9\""
+		],
+		[
+			74,
+			"Pawan Singh",
+			"spawan@fortinet.com",
+			"2026-04-01 23:53:57",
+			"I want a playbook to help me extract md5 hashes from email and push it as a signature to firewall ",
+			"success",
+			"\"df79f54b-b30c-4355-a375-99036163faf5\"",
+			"\"https://69.167.104.158:13006/playbooks/df79f54b-b30c-4355-a375-99036163faf5\""
+		],
+		[
+			73,
+			"Li Xu",
+			"lixu@fortinet.com",
+			"2026-04-01 22:51:48",
+			"Create a FortiGate firewall policy named demo_policy that denies traffic where both the source IP and destination IP are 10.10.10.10. Set both the incoming interface (Incoming Interface) and outgoing interface (Outgoing Interface) to port2. The firewall version is 7.6.0.",
+			"success",
+			"\"c09fa22c-ef2e-49ec-a4e4-47d96796e941\"",
+			"\"https://69.167.104.158:13006/playbooks/c09fa22c-ef2e-49ec-a4e4-47d96796e941\""
+		],
+		[
+			72,
+			"Li Xu",
+			"lixu@fortinet.com",
+			"2026-04-01 22:47:57",
+			"Create a FortiGate version was 7.6.0 firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"success",
+			"\"e7b87345-e3e6-46ed-9afe-52d177ad3821\"",
+			"\"https://69.167.104.158:13006/playbooks/e7b87345-e3e6-46ed-9afe-52d177ad3821\""
+		],
+		[
+			71,
+			"Li Xu",
+			"lixu@fortinet.com",
+			"2026-04-01 22:36:18",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"success",
+			"\"a99b0dba-e204-49c2-be72-887eb4462287\"",
+			"\"https://69.167.104.158:13006/playbooks/a99b0dba-e204-49c2-be72-887eb4462287\""
+		],
+		[
+			68,
+			"Mark Borrow",
+			"mborrow@fortinet.com",
+			"2026-04-01 12:14:48",
+			"Create a playbook that pulls the bandwidth statistics for an interface or ipsec tunnel over a 5 minute average and create a notification if the bandwidth exceeds a specified amount",
+			"success",
+			"\"5da6683f-f97f-46af-85d6-2d544d5a2881\"",
+			"\"https://69.167.104.158:13006/playbooks/5da6683f-f97f-46af-85d6-2d544d5a2881\""
+		],
+		[
+			67,
+			"Juan Morais",
+			"juan.morais@dxc.com",
+			"2026-04-01 10:56:26",
+			"Create a FortiSOAR 7.6.5 playbook collection named \"01 - MSD Ingestion v5\" containing 4 playbooks for ingesting Microsoft Defender XDR incidents into FortiSOAR alerts. The design uses batch Create Record steps with bulk loop mode for performance, config-driven entity extraction for maintainability, and a clear separation between source-specific (MSD.MOD prefix) and source-agnostic (PLAT.CORE prefix) playbooks. PLAYBOOK 1: \"PLAT.CORE > Orchestrator\" Trigger: Manual on alerts module, noRecordExecution=true, executeButtonText=\"Ingest MSD\" Step 1: Reference Playbook → \"MSD.MOD > Get Tenant Configs\", output: .configs[] Step 2: Reference Playbook → \"MSD.MOD > Ingest Per Tenant\", for_each item in Get_Tenant_Configs.configs, parallel=true, arguments: config={{vars.item}} PLAYBOOK 2: \"MSD.MOD > Get Tenant Configs\" Trigger: Referenced Step 1 \"Configuration\": Set Variable — connector=\"microsoft-365-defender\", version=\"1.2.0\", tenants_map={}, configs_list=[] Step 2 \"Get Connector Configs\": Connector cyops_utilities make_cyops_request POST /api/integration/connectors/{{vars.connector}}/{{vars.version}}/?format=json Step 3 \"Get FSR Tenants\": Connector cyops_utilities make_cyops_request GET /api/3/tenants Step 4 \"Build Configs List\": Set Variable with Jinja to iterate tenants hydra:member, build tenants_map {name: @id}, then iterate connector configs and append {name, config_id, tenant_iri} to configs_list where tenant name matches Step 5 \"Output\": Set Variable — configs={{vars.configs_list}} PLAYBOOK 3: \"MSD.MOD > Ingest Per Tenant\" Trigger: Referenced, receives params.config = {name, config_id, tenant_iri} Start step_variables:  status_map: {\"Active\":\"{{\"AlertStatus\" | picklist(\"Open\",\"@id\")}}\",\"Redirected\":\"{{\"AlertStatus\" | picklist(\"Closed\",\"@id\")}}\",\"InProgress\":\"{{\"AlertStatus\" | picklist(\"Investigating\",\"@id\")}}\",\"Resolved\":\"{{\"AlertStatus\" | picklist(\"Closed\",\"@id\")}}\"} severity_map: {\"Low\":\"{{\"Severity\" | picklist(\"Low\",\"@id\")}}\",\"High\":\"{{\"Severity\" | picklist(\"High\",\"@id\")}}\",\"Medium\":\"{{\"Severity\" | picklist(\"Medium\",\"@id\")}}\",\"Informational\":\"{{\"Severity\" | picklist(\"Minimal\",\"@id\")}}\"} entity_map: (see below in entity extraction section)  Step 1 \"Fetch MSD Incidents\": Connector microsoft-365-defender list_incidents, config={{vars.input.params.config.config_id}}, params: top=100, tags=\"DXC-MDR\", lastUpdateTime={{arrow.utcnow().shift(hours=-1).format('YYYY-MM-DDTHH:mm:ss')}}.000Z, get_all_records=false Step 2 \"Has Incidents\": Decision — if data.value length > 0 goto Build Alert Payloads, else goto End Step 3 \"Build Alert Payloads\": Set Variable with for_each loop over Fetch_MSD_Incidents.data.value (sequential, not bulk). This step produces three variables per incident:  alert_payload: the FSR alert record fields _indicators: extracted indicator entities _assets: extracted device/asset entities _comms: extracted MailMessage communication entities Step 4 \"Flatten and Dedup Entities\": Set Variable that flattens the per-incident entity lists into cross-incident deduped flat lists using json_query and yaql distinct Step 5 \"Persist Records\": Reference Playbook → \"PLAT.CORE > Persist Records\" with arguments: alert_payloads, flat_indicators, flat_assets, flat_comms, tenant_iri Step 6 \"End\": cyops_utilities no_op  PLAYBOOK 4: \"PLAT.CORE > Persist Records\" Trigger: Referenced, receives params: alert_payloads[], flat_indicators[], flat_assets[], flat_comms[], tenant_iri Step 1 \"Create or Update Alerts\": Create Record on alerts module, for_each bulk loop (batch_size=100) over alert_payloads. On uniqueness conflict (ticketID): selectively update name, status, severity, sourcedata, description, metrics, recordTags. Fields: name={{vars.item.name}}, ticketID={{vars.item.ticketID}}, source={{vars.item.source}}, sourceId={{vars.item.sourceId}}, tenant={{vars.item.tenant}}, status, severity, type, state, sourcedata, description, metrics, recordTags Step 2 \"Build Alert IRI Map\": Set Variable — iterate Create_or_Update_Alerts output, build dict mapping ticketID string to @id Step 3 \"Resolve Entity to Alert Links\": Set Variable — for each entity in flat_indicators/flat_assets/flat_comms, look up parent_ticket_id in the IRI map, add alert_iri field. Drop entities whose parent alert failed. Step 4 \"Create or Update Indicators\": Create Record on indicators module, bulk loop (batch_size=100). Unique by value+typeofindicator. On conflict: selective update + append alerts relation. Fields: value, typeofindicator={{\"IndicatorType\" | picklist(vars.item.type,\"@id\")}}, indicatorStatus=Active, tlp=Amber, source, sourceData={{vars.item.metadata|toJSON}}, tenant, alerts={{vars.item.alert_iri}}, recordTags=[\"MSD\",\"auto-extracted\"] Step 5 \"Create or Update Assets\": Create Record on assets module, bulk loop. Unique by hostname. Append alerts relation. Step 6 \"Create or Update Comms\": Create Record on communications module, bulk loop. Unique by msgId. Append alerts relation. Step 7 \"Update Alert States\": Update Record, bulk loop over Create_or_Update_Alerts output, set state={{\"AlertState\" | picklist(\"Indicator Extracted\",\"@id\")}}. This triggers downstream On Update playbooks for enrichment and correlation.",
+			"success",
+			"\"6c9c96a2-02b2-4d2f-8f0b-b15cf92e659c\"",
+			"\"https://69.167.104.158:13006/playbooks/6c9c96a2-02b2-4d2f-8f0b-b15cf92e659c\""
+		],
+		[
+			66,
+			"Juan Morais",
+			"juan.morais@dxc.com",
+			"2026-04-01 10:54:28",
+			"Create a FortiSOAR 7.6.5 playbook collection named \"01 - MSD Ingestion v5\" containing 4 playbooks for ingesting Microsoft Defender XDR incidents into FortiSOAR alerts. The design uses batch Create Record steps with bulk loop mode for performance, config-driven entity extraction for maintainability, and a clear separation between source-specific (MSD.MOD prefix) and source-agnostic (PLAT.CORE prefix) playbooks. PLAYBOOK 1: \"PLAT.CORE > Orchestrator\" Trigger: Manual on alerts module, noRecordExecution=true, executeButtonText=\"Ingest MSD\" Step 1: Reference Playbook → \"MSD.MOD > Get Tenant Configs\", output: .configs[] Step 2: Reference Playbook → \"MSD.MOD > Ingest Per Tenant\", for_each item in Get_Tenant_Configs.configs, parallel=true, arguments: config={{vars.item}} PLAYBOOK 2: \"MSD.MOD > Get Tenant Configs\" Trigger: Referenced Step 1 \"Configuration\": Set Variable — connector=\"microsoft-365-defender\", version=\"1.2.0\", tenants_map={}, configs_list=[] Step 2 \"Get Connector Configs\": Connector cyops_utilities make_cyops_request POST /api/integration/connectors/{{vars.connector}}/{{vars.version}}/?format=json Step 3 \"Get FSR Tenants\": Connector cyops_utilities make_cyops_request GET /api/3/tenants Step 4 \"Build Configs List\": Set Variable with Jinja to iterate tenants hydra:member, build tenants_map {name: @id}, then iterate connector configs and append {name, config_id, tenant_iri} to configs_list where tenant name matches Step 5 \"Output\": Set Variable — configs={{vars.configs_list}} PLAYBOOK 3: \"MSD.MOD > Ingest Per Tenant\" Trigger: Referenced, receives params.config = {name, config_id, tenant_iri} Start step_variables:  status_map: {\"Active\":\"{{\"AlertStatus\" | picklist(\"Open\",\"@id\")}}\",\"Redirected\":\"{{\"AlertStatus\" | picklist(\"Closed\",\"@id\")}}\",\"InProgress\":\"{{\"AlertStatus\" | picklist(\"Investigating\",\"@id\")}}\",\"Resolved\":\"{{\"AlertStatus\" | picklist(\"Closed\",\"@id\")}}\"} severity_map: {\"Low\":\"{{\"Severity\" | picklist(\"Low\",\"@id\")}}\",\"High\":\"{{\"Severity\" | picklist(\"High\",\"@id\")}}\",\"Medium\":\"{{\"Severity\" | picklist(\"Medium\",\"@id\")}}\",\"Informational\":\"{{\"Severity\" | picklist(\"Minimal\",\"@id\")}}\"} entity_map: (see below in entity extraction section)  Step 1 \"Fetch MSD Incidents\": Connector microsoft-365-defender list_incidents, config={{vars.input.params.config.config_id}}, params: top=100, tags=\"DXC-MDR\", lastUpdateTime={{arrow.utcnow().shift(hours=-1).format('YYYY-MM-DDTHH:mm:ss')}}.000Z, get_all_records=false Step 2 \"Has Incidents\": Decision — if data.value length > 0 goto Build Alert Payloads, else goto End Step 3 \"Build Alert Payloads\": Set Variable with for_each loop over Fetch_MSD_Incidents.data.value (sequential, not bulk). This step produces three variables per incident:  alert_payload: the FSR alert record fields _indicators: extracted indicator entities _assets: extracted device/asset entities _comms: extracted MailMessage communication entities Step 4 \"Flatten and Dedup Entities\": Set Variable that flattens the per-incident entity lists into cross-incident deduped flat lists using json_query and yaql distinct Step 5 \"Persist Records\": Reference Playbook → \"PLAT.CORE > Persist Records\" with arguments: alert_payloads, flat_indicators, flat_assets, flat_comms, tenant_iri Step 6 \"End\": cyops_utilities no_op  PLAYBOOK 4: \"PLAT.CORE > Persist Records\" Trigger: Referenced, receives params: alert_payloads[], flat_indicators[], flat_assets[], flat_comms[], tenant_iri Step 1 \"Create or Update Alerts\": Create Record on alerts module, for_each bulk loop (batch_size=100) over alert_payloads. On uniqueness conflict (ticketID): selectively update name, status, severity, sourcedata, description, metrics, recordTags. Fields: name={{vars.item.name}}, ticketID={{vars.item.ticketID}}, source={{vars.item.source}}, sourceId={{vars.item.sourceId}}, tenant={{vars.item.tenant}}, status, severity, type, state, sourcedata, description, metrics, recordTags Step 2 \"Build Alert IRI Map\": Set Variable — iterate Create_or_Update_Alerts output, build dict mapping ticketID string to @id Step 3 \"Resolve Entity to Alert Links\": Set Variable — for each entity in flat_indicators/flat_assets/flat_comms, look up parent_ticket_id in the IRI map, add alert_iri field. Drop entities whose parent alert failed. Step 4 \"Create or Update Indicators\": Create Record on indicators module, bulk loop (batch_size=100). Unique by value+typeofindicator. On conflict: selective update + append alerts relation. Fields: value, typeofindicator={{\"IndicatorType\" | picklist(vars.item.type,\"@id\")}}, indicatorStatus=Active, tlp=Amber, source, sourceData={{vars.item.metadata|toJSON}}, tenant, alerts={{vars.item.alert_iri}}, recordTags=[\"MSD\",\"auto-extracted\"] Step 5 \"Create or Update Assets\": Create Record on assets module, bulk loop. Unique by hostname. Append alerts relation. Step 6 \"Create or Update Comms\": Create Record on communications module, bulk loop. Unique by msgId. Append alerts relation. Step 7 \"Update Alert States\": Update Record, bulk loop over Create_or_Update_Alerts output, set state={{\"AlertState\" | picklist(\"Indicator Extracted\",\"@id\")}}. This triggers downstream On Update playbooks for enrichment and correlation.",
+			"failed",
+			null,
+			null
+		],
+		[
+			65,
+			"Juan Morais",
+			"juan.morais@dxc.com",
+			"2026-04-01 10:49:40",
+			"Build a FortiSOAR 7.6.5 importable playbook collection implementing a modular MSD XDR ingestion pipeline. The design enforces a strict data contract between source-specific and source-agnostic layers. ARCHITECTURE:  Collection: \"01 - MSD Ingestion v5\" PB1 \"PLAT.CORE > Orchestrator\": entry point, manual trigger, dispatches per-tenant PB2 \"MSD.MOD > Get Tenant Configs\": resolves connector configs to tenant IRIs PB3 \"MSD.MOD > Ingest Per Tenant\": source-specific fetch + transform + entity extraction PB4 \"PLAT.CORE > Persist Records\": source-agnostic batch record creation  DATA CONTRACT (PB3 output → PB4 input): alert_payloads[]: array of objects, each representing one FSR alert to create/update { \"name\": string,              // MSD incidentName \"ticketID\": string,          // MSD incidentId (uniqueness key) \"source\": \"Microsoft 365 Defender\", \"sourceId\": string,          // MSD incidentUri \"status\": string,            // FSR AlertStatus picklist IRI \"severity\": string,          // FSR Severity picklist IRI \"state\": string,             // FSR AlertState picklist IRI (\"Detail Extracted\") \"tenant\": string,            // FSR tenant IRI \"sourcedata\": object,        // lean envelope: incidentId, incidentUri, incidentName, //   createdTime, lastUpdateTime, assignedTo, classification, //   determination, status, severity, tags, redirectIncidentId, //   alertCount. NEVER the full alerts[] array. \"description\": string,       // HTML table of MSD alerts (max 50 rows) via json2html \"metrics\": string,           // determination + classification text \"recordTags\": string[]       // [\"MSD\", \"DXC-MDR\", \"MSD-Incident:{id}\"] } flat_indicators[]: array of deduplicated indicator entities across all incidents { \"value\": string,             // the IOC value (IP, hash, URL, etc.) \"type\": string,              // FSR IndicatorType picklist value name \"source\": \"Microsoft 365 Defender\", \"parent_ticket_id\": string,  // links back to alert via ticketID \"metadata\": { \"entityType\": string,      // original MSD entity type \"verdict\": string, \"remediationStatus\": string } } flat_assets[]: array of deduplicated device entities { \"hostname\": string,          // uniqueness key \"deviceId\": string, \"os\": string, \"osVersion\": string, \"riskScore\": string, \"healthStatus\": string, \"source\": \"Microsoft 365 Defender\", \"parent_ticket_id\": string } flat_comms[]: array of deduplicated MailMessage entities { \"to\": string, \"from\": string, \"subject\": string, \"messageId\": string,         // uniqueness key \"source\": \"Microsoft 365 Defender\", \"parent_ticket_id\": string } tenant_iri: string ENTITY EXTRACTION (in PB3 \"Build Alert Payloads\" step): > Uses a config-driven entity_map where each key is an MSD entityType and value contains indicator_type (FSR picklist value) and value_from (MSD field name to read). For File entities, both indicator_type and value_from are ordered lists for fallback: [sha256→FileHash-SHA256, sha1→FileHash-SHA1, md5→FileHash-MD5, fileName→File]. A single generic loop iterates all entities from all alerts (flattened via json_query(\"[].entities[]\")), checks if entityType is in entity_map, tries candidate fields in order, and appends to the indicators list. Dedup uses yaql .distinct(.distinct( .distinct(.type + ':' + $.value). Assets come from alerts[].devices[] (separate structure, not entities). Communications come from entities where entityType=='MailMessage'.  PERSIST LOGIC (PB4): Phase 1: Create Record step, alerts module, bulk loop (batch_size=100) over alert_payloads. Upsert by ticketID. On conflict: selectively update name, status, severity, sourcedata, description, metrics, recordTags. Do NOT update assignedTo, escalation fields, or manually added data. Phase 2: Set Variable to build alert_iri_map = {ticketID: @id} from Phase 1 output. Then resolve each entity's parent_ticket_id to actual alert @id. Entities whose parent failed to create are silently dropped. Phase 3: Three Create Record steps (indicators, assets, communications), each with bulk loop. Indicators unique by value+typeofindicator. Assets unique by hostname. Comms unique by msgId. All use append on the alerts relation field so existing links are preserved. Set indicatorStatus=Active, tlp=Amber for new indicators. Phase 4: Update Record step, bulk loop over Phase 1 output, set state to \"Indicator Extracted\" picklist value. This fires On Update triggers for downstream enrichment/correlation playbooks. IMPORTANT CONSTRAINTS:  No SLA fields set during ingestion sourcedata must be lean (~1-2KB) — only incident envelope, never full alerts payload Description table capped at 50 alert rows with truncation notice State progression: \"Detail Extracted\" (set at upsert) → \"Indicator Extracted\" (set after entity creation) Record uniqueness must be configured on modules: ticketID on alerts, value+typeofindicator on indicators, hostname on assets, msgId on communications All Create Record steps use bulk mode (single API request per batch) for performance The PLAT.CORE > Persist Records playbook must be completely source-agnostic — it should work unchanged when fed payloads from Sentinel, CrowdStrike, or any other source that conforms to the data contract above",
+			"success",
+			"\"98c8ef38-decd-4aeb-9de4-f78aaba8d5ac\"",
+			"\"https://69.167.104.158:13006/playbooks/98c8ef38-decd-4aeb-9de4-f78aaba8d5ac\""
+		],
+		[
+			64,
+			"Juan Morais",
+			"juan.morais@dxc.com",
+			"2026-04-01 10:03:08",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"4160dd11-848e-4696-a8ab-bbe766d697e5\"",
+			"\"https://69.167.104.158:13006/playbooks/4160dd11-848e-4696-a8ab-bbe766d697e5\""
+		],
+		[
+			56,
+			"Kishore  Reddy T N",
+			"kreddy@fortinet.com",
+			"2026-03-31 23:14:35",
+			"When FortiGate logs show any policy violations by user send a mail to admin@xyz.com",
+			"success",
+			"\"ec2e1e9e-4344-45de-9f90-b03e148d03c3\"",
+			"\"https://69.167.104.158:13006/playbooks/ec2e1e9e-4344-45de-9f90-b03e148d03c3\""
+		],
+		[
+			50,
+			"Arun Pal",
+			"apal@fortinet.com",
+			"2026-03-31 08:58:14",
+			"retrieve all alert triggered in fortisiem in realtime",
+			"success",
+			"\"fa088978-a117-4ec8-be03-c344d25390f1\"",
+			"\"https://69.167.104.158:13006/playbooks/fa088978-a117-4ec8-be03-c344d25390f1\""
+		],
+		[
+			45,
+			"Esger Mutsaerts1",
+			"emutsaerts@fortinet.com",
+			"2026-03-31 06:20:04",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out. ",
+			"success",
+			"\"7421148d-e741-4645-8a37-6b9e39e98c91\"",
+			"\"https://69.167.104.158:13006/playbooks/7421148d-e741-4645-8a37-6b9e39e98c91\""
+		],
+		[
+			44,
+			"Frederic Villata1",
+			"fvillata@fortinet.com",
+			"2026-03-31 06:16:05",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"45100255-a5d4-4915-bd0e-f95bdf33f258\"",
+			"\"https://69.167.104.158:13006/playbooks/45100255-a5d4-4915-bd0e-f95bdf33f258\""
+		],
+		[
+			43,
+			"Frederic Villata1",
+			"fvillata@fortinet.com",
+			"2026-03-31 05:55:34",
+			"Build a FortiSoar playbook that I can schedule where malicious indicators are checked against FortiGuard and VirusTotal to update the reputation. ",
+			"success",
+			"\"6cd90e9b-371b-40ec-b21d-c4e1771e91e5\"",
+			"\"https://69.167.104.158:13006/playbooks/6cd90e9b-371b-40ec-b21d-c4e1771e91e5\""
+		],
+		[
+			42,
+			"Stamatis Mandilas",
+			"smandilas@fortinet.com",
+			"2026-03-31 05:53:48",
+			"from the data that are being collected by FortiSIEM, i need to check IP reputation of IP Address extracted indicators agains AbuseIPDB connector. Once an IP is being identified as malicious within the abuseipdb database and the confidence score is above 75, i need to update the Indicator information with relevant details like confidence score, domain, and any information collected by the IP lookup function of abusedipdb. Once this is done, i need to create an approval task within FortiSOAR that will ask the analyst to black list the ip. If the analyst selects yes, the IP should be added in the Threat Intel management module with the appropriate information including an expiration date of 30 days after the entry is being added. The entry shall also include a tag \"Analyst Blacklisted IPs\"",
+			"failed",
+			null,
+			null
+		],
+		[
+			41,
+			"Frederic Villata1",
+			"fvillata@fortinet.com",
+			"2026-03-31 05:50:23",
+			"Build a FortiSOAR playbook that runs from an incident and does all the remediation actions required for a phishing incident. Get malicious indicators from all related alerts. Block IP in FortiGates. Block domains in office 365. Block URL by adding them to a URL list (policy)  in Netskope. Reset affected users password in ActiveDirectory.   ",
+			"success",
+			"\"5fc2136f-2fc9-4762-8feb-4203734aa8f1\"",
+			"\"https://69.167.104.158:13006/playbooks/5fc2136f-2fc9-4762-8feb-4203734aa8f1\""
+		],
+		[
+			40,
+			"Frederic Villata1",
+			"fvillata@fortinet.com",
+			"2026-03-31 05:48:55",
+			"Build a FortiSOAR playbook that runs from an incident and does all the remediation actions required for a phishing incident. Get malicious indicators from all related alerts. Block IP in FortiGates. Block domains in office 365. Block URL by adding them to a URL list (policy)  in Netskope. Reset affected users password in ActiveDirectory.   ",
+			"failed",
+			null,
+			null
+		],
+		[
+			39,
+			"Frederic Villata1",
+			"fvillata@fortinet.com",
+			"2026-03-31 05:37:18",
+			"Build a SOAR playbooks that triggers from a Proofpoint TAP \"click permitted\" alert. Enrich the alert with users that clicked on the URL (by searching in netskope events). Enrich the alert with a list of users that received the same email (Office 365). Extract indicators and validate them with FortiGuard, then automatically block them : 1. IP address and domains in FortiGates 2. IP address URLs and domains in Netskope 3. Sender domain and Sender IP in Proofpoint  Delete emails in Office 365. Create a ServiceNow incident for password reset for the users that generated clicks. ",
+			"success",
+			"\"8778d3bd-daef-45dd-b526-b22084d3962a\"",
+			"\"https://69.167.104.158:13006/playbooks/8778d3bd-daef-45dd-b526-b22084d3962a\""
+		],
+		[
+			38,
+			"Stamatis Mandilas",
+			"smandilas@fortinet.com",
+			"2026-03-31 05:36:07",
+			"I need to connect to FortiRecon and retrieve once a day any ACI report or Ransomware event that has been triggered for a Greek company during the last 24 hours. Once this is completed and in case there is an actual event, i need to get this information to be sent through an email to some email address in a nice presentable format",
+			"success",
+			"\"38f0b7b5-ac42-4e38-8031-4a2748c965bd\"",
+			"\"https://69.167.104.158:13006/playbooks/38f0b7b5-ac42-4e38-8031-4a2748c965bd\""
+		],
+		[
+			37,
+			"Stamatis Mandilas",
+			"smandilas@fortinet.com",
+			"2026-03-31 05:33:10",
+			"from the data that are being collected by FortiSIEM, i need to check IP reputation of IP Address extracted indicators agains AbuseIPDB connector. Once an IP is being identified as malicious within the abuseipdb database and the confidence score is above 75, i need to update the Indicator information with relevant details like confidence score, domain, and any information collected by the IP lookup function of abusedipdb. Once this is done, i need to create an approval task within FortiSOAR that will ask the analyst to black list the ip. If the analyst selects yes, the IP should be added in the Threat Intel management module with the appropriate information including an expiration date of 30 days after the entry is being added. The entry shall also include a tag \"Analyst Blacklisted IPs\"",
+			"failed",
+			null,
+			null
+		],
+		[
+			36,
+			"Stamatis Mandilas",
+			"smandilas@fortinet.com",
+			"2026-03-31 05:31:49",
+			"from the data that are being collected by FortiSIEM, i need to check IP reputation of IP Address extracted indicators agains AbuseIPDB connector. Once an IP is being identified as malicious within the abuseipdb database and the confidence score is above 75, i need to update the Indicator information with relevant details like confidence score, domain, and any information collected by the IP lookup function of abusedipdb. Once this is done, i need to create an approval task within FortiSOAR that will ask the analyst to black list the ip. If the analyst selects yes, the IP should be added in the Threat Intel management module with the appropriate information including an expiration date of 30 days after the entry is being added. The entry shall also include a tag \"Analyst Blacklisted IPs\"",
+			"failed",
+			null,
+			null
+		],
+		[
+			35,
+			"Jonas Juliard",
+			"jjuliard@fortinet.com",
+			"2026-03-31 05:26:20",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"success",
+			"\"3bc652dd-1b44-4742-b4a1-b0b55e1ec385\"",
+			"\"https://69.167.104.158:13006/playbooks/3bc652dd-1b44-4742-b4a1-b0b55e1ec385\""
+		],
+		[
+			34,
+			"Jaehwan Kim",
+			"kjaehwan@fortinet.com",
+			"2026-03-31 05:23:42",
+			"IPS 및 IDS 에서 발생한 이벤트에 대해서 Virustotal 및 Fortiguard 평판 정보를 조회하고, 타임라인 상 이전에 문제가 없는지 Splunk 에 쿼리를 질의해서 추가적인 이벤트들을 식별해, 해당 공격이 통과했는지, 평판이 악성인지 등에 따라서 자동으로 verdict 를 낼 수 있는 플레이북을 만들어줘",
+			"success",
+			"\"6e7bd1c1-725a-41cd-ae2c-541955f8a5b0\"",
+			"\"https://69.167.104.158:13006/playbooks/6e7bd1c1-725a-41cd-ae2c-541955f8a5b0\""
+		],
+		[
+			33,
+			"Andreas Bawart1",
+			"abawart@fortinet.com",
+			"2026-03-31 04:42:55",
+			"Build a FortiSOAR Playbook to identifiy possible threats coming from FortiPAM events to disconnect the user automatically from a live FortiPAM session ",
+			"success",
+			"\"449b05de-2f93-4ca8-8b43-4b7a931f9292\"",
+			"\"https://69.167.104.158:13006/playbooks/449b05de-2f93-4ca8-8b43-4b7a931f9292\""
+		],
+		[
+			31,
+			"Ignacio Corral Orgaz1",
+			"icorralorgaz@fortinet.com",
+			"2026-03-31 02:24:57",
+			"Necesito un playbook que detecte ataques de fuerza bruta por ssh contra cualquier activo en cuestion de 1 minuto ",
+			"success",
+			"\"f011b08b-d175-4dae-a653-3645766b6c3b\"",
+			"\"https://69.167.104.158:13006/playbooks/f011b08b-d175-4dae-a653-3645766b6c3b\""
+		],
+		[
+			30,
+			"Martin Johansson",
+			"mjohansson@fortinet.com",
+			"2026-03-31 00:07:33",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"28622c47-7e0a-46e9-9e8a-7c557571e146\"",
+			"\"https://69.167.104.158:13006/playbooks/28622c47-7e0a-46e9-9e8a-7c557571e146\""
+		],
+		[
+			27,
+			"Eelco Duijker",
+			"eduijker@fortinet.com",
+			"2026-03-30 22:58:14",
+			"retrieve all the IPpools from a fortigate, create for each IP Pool a record with a start IP, end IP and IP CIDR block. Check the IPs for a hit in the Threat Intel Management Record. If found add that IP to a IP reputation Record and exclude that IP from the IPpool at the FortiManager",
+			"success",
+			"\"c628d395-ffbb-43ed-bbe4-4f94c9a6b837\"",
+			"\"https://69.167.104.158:13006/playbooks/c628d395-ffbb-43ed-bbe4-4f94c9a6b837\""
+		],
+		[
+			23,
+			"Carlos Castro",
+			"ccastro@fortinet.com",
+			"2026-03-30 11:59:42",
+			"Create a FortiGate firewall rule named \"test_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"success",
+			"\"d1bc55c4-0265-47d0-ada7-8545eb476a0d\"",
+			"\"https://69.167.104.158:13006/playbooks/d1bc55c4-0265-47d0-ada7-8545eb476a0d\""
+		],
+		[
+			22,
+			"David Almeida Alcantara Ribeiro",
+			"dalcantara@fortinet.com",
+			"2026-03-30 11:27:08",
+			"Create a playbook with FortiNDR and Crowdstrike falcon, to block a host based on the veredict",
+			"success",
+			"\"95ca9654-5184-4788-8c61-8a511300b717\"",
+			"\"https://69.167.104.158:13006/playbooks/95ca9654-5184-4788-8c61-8a511300b717\""
+		],
+		[
+			21,
+			"David Almeida Alcantara Ribeiro",
+			"dalcantara@fortinet.com",
+			"2026-03-30 11:24:52",
+			"Create a playbook with FortiNDR and Crowdstrike falcon, to block a host based on the veredict",
+			"success",
+			"\"6f971c35-d4e3-4106-84a7-f87b277de538\"",
+			"\"https://69.167.104.158:13006/playbooks/6f971c35-d4e3-4106-84a7-f87b277de538\""
+		],
+		[
+			20,
+			"Krishnan Rajagopalan",
+			"krajagopalan@fortinet.com",
+			"2026-03-30 09:18:46",
+			"The Playbook generated the Reputation of IP ",
+			"success",
+			"\"2b7e1e58-15af-4df2-9766-3f1e741e69f4\"",
+			"\"https://69.167.104.158:13006/playbooks/2b7e1e58-15af-4df2-9766-3f1e741e69f4\""
+		],
+		[
+			19,
+			"Dylan_Spille",
+			"dspille@fortinet.com",
+			"2026-03-30 08:34:52",
+			"Connect to FortiAnalyzer and retrieve all report schedules for the specified ADOM. Then retrieve all the generated reports within the time range of 1st January 2026, 02:00 AM to 10th January 2026, 02:00 AM. Finally, run a report on FortiAnalyzer.",
+			"success",
+			"\"2bd7f632-690b-43a7-9901-31a771e769b3\"",
+			"\"https://69.167.104.158:13006/playbooks/2bd7f632-690b-43a7-9901-31a771e769b3\""
+		],
+		[
+			18,
+			"Roy Reynolds1",
+			"reynoldsr@fortinet.com",
+			"2026-03-30 06:26:17",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"58d97d23-c595-41cf-85e7-877aac5fd724\"",
+			"\"https://69.167.104.158:13006/playbooks/58d97d23-c595-41cf-85e7-877aac5fd724\""
+		],
+		[
+			17,
+			"Itay Goren",
+			"itay@fortinet.com",
+			"2026-03-30 05:49:32",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"eb5b3616-6b31-43f0-a074-a9b253c266ca\"",
+			"\"https://69.167.104.158:13006/playbooks/eb5b3616-6b31-43f0-a074-a9b253c266ca\""
+		],
+		[
+			16,
+			"Minh Hai Nguyen",
+			"nguyenm@fortinet.com",
+			"2026-03-30 01:10:44",
+			"Build a FortiSOAR playbook where FortiRecon provides zero-day threat intelligence. On receiving high-confidence indicators from FortiRecon ACI reports, validate them with FortiGuard, then automatically push emergency deny rules to FortiGate to block malicious IPs and domains. Tag all rules with an incident ID and make sure SOC notification is sent out.",
+			"success",
+			"\"44905eaa-01df-43f1-b614-8df6a714dedc\"",
+			"\"https://69.167.104.158:13006/playbooks/44905eaa-01df-43f1-b614-8df6a714dedc\""
+		],
+		[
+			15,
+			"Wayne Lam",
+			"waynel@fortinet.com",
+			"2026-03-30 00:41:23",
+			"create playbook for threat search ",
+			"success",
+			"\"f075baab-25f5-4fdf-bcc9-013f6bebd9dd\"",
+			"\"https://69.167.104.158:13006/playbooks/f075baab-25f5-4fdf-bcc9-013f6bebd9dd\""
+		],
+		[
+			14,
+			"Cesar Urena",
+			"curena@fortinet.com",
+			"2026-03-29 15:44:35",
+			"Need a playbook that get all alerts and intrusions from fortianalyzer and exports it a stix format to another entity ",
+			"success",
+			"\"b06d55c2-ecad-4229-837d-7ab1911341e6\"",
+			"\"https://69.167.104.158:13006/playbooks/b06d55c2-ecad-4229-837d-7ab1911341e6\""
+		],
+		[
+			11,
+			"Saeed Awad1",
+			"sawad@fortinet.com",
+			"2026-03-28 02:09:25",
+			"Build a SOAR playbook for phishing incident response covering detection, enrichment, containment, and lateral movement prevention.  Trigger on suspicious email or user-reported phishing.",
+			"success",
+			"\"3f8348fc-d147-41f0-859b-5a3ea054c517\"",
+			"\"https://69.167.104.158:13006/playbooks/3f8348fc-d147-41f0-859b-5a3ea054c517\""
+		],
+		[
+			9,
+			"Hele Du",
+			"duh@fortinet.com",
+			"2026-03-27 19:29:13",
+			"我需要创建一个自动封禁的playbook",
+			"success",
+			"\"685819cd-54f7-4ec5-a95f-3f84446bc875\"",
+			"\"https://69.167.104.158:13006/playbooks/685819cd-54f7-4ec5-a95f-3f84446bc875\""
+		],
+		[
+			2,
+			"Brady Liu",
+			"bradyliu@fortinet.com",
+			"2026-03-23 16:36:18",
+			"Create a FortiGate firewall rule named \"demo_policy\" that denies traffic from the source and destination IP 10.10.10.10, with both the incoming and outgoing interfaces set to port2.",
+			"success",
+			"\"b1fc07a9-4e0a-48ee-a564-5f2076793142\"",
+			"\"https://69.167.104.158:13006/playbooks/b1fc07a9-4e0a-48ee-a564-5f2076793142\""
+		]
+	]
+}

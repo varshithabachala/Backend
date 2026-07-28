@@ -17,7 +17,7 @@ class UserService:
             "id": self._counter,
             "username": user_data.username,
             "email": user_data.email,
-            "password": user_data.password  # In production, hash this password!
+            "password": user_data.password  
         }
         self._db[self._counter] = user_dict
         self._counter += 1
