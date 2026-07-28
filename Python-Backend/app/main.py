@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.routers import playbook_router
+
 # Import routers from the routers package inside app
 from app.routers import auth_router, user_router
 
@@ -24,7 +26,7 @@ app.add_middleware(
 # Include the API Routers
 app.include_router(auth_router.router)
 app.include_router(user_router.router)
-
+app.include_router(playbook_router.router)
 # Root Endpoint
 @app.get("/")
 def root():

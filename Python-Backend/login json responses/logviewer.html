@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook Request Log</title>
+    <link rel="stylesheet" href="logviewer.css">
+</head>
+<body>
+
+    <div class="page-wrap">
+        <h2>Playbook Request Log</h2>
+        <p class="subtitle">Key information from the request log file</p>
+
+        <div class="summary">
+            <div class="card">
+                <div class="number" id="totalCount">-</div>
+                <div class="label">Total Requests</div>
+            </div>
+            <div class="card success">
+                <div class="number" id="successCount">-</div>
+                <div class="label">Successful</div>
+            </div>
+            <div class="card failed">
+                <div class="number" id="failedCount">-</div>
+                <div class="label">Failed</div>
+            </div>
+            <div class="card">
+                <div class="number" id="successRate">-</div>
+                <div class="label">Success Rate</div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="searchBox" placeholder="Search by name, email, or request text...">
+            <select id="statusFilter">
+                <option value="all">All Status</option>
+                <option value="success">Success only</option>
+                <option value="failed">Failed only</option>
+            </select>
+        </div>
+
+        <div class="table-wrap">
+            <div class="table-scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Timestamp</th>
+                            <th>Request</th>
+                            <th>Status</th>
+                            <th>Playbook</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-box">
+            <h3>Full Request</h3>
+            <p id="modalText"></p>
+            <button class="modal-close" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script src="logviewer.js"></script>
+</body>
+</html>
