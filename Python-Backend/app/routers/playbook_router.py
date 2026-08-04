@@ -14,15 +14,17 @@ from typing import Optional
 import psycopg2
 import psycopg2.extras
 
-router = APIRouter(prefix="/api", tags=["playbook_requests"])
+router = APIRouter(prefix="/api", tags=["Authentication"])
 
 # ---- adjust these to match your setup ----
+import os
+
 DB_CONFIG = {
-    "dbname": "fortisoar_logs",
-    "user": "postgres",
-    "password": "Varshi@10",   # the password you set with ALTER USER
-    "host": "localhost",
-    "port": "5432",
+    "dbname": os.environ.get("DB_NAME", "fortisoar_logs"),
+    "user": os.environ.get("DB_USER", "postgres"),
+    "password": os.environ.get("DB_PASSWORD", "Varshi@10"),
+    "host": os.environ.get("DB_HOST", "localhost"),
+    "port": os.environ.get("DB_PORT", "5432"),
 }
 # -------------------------------------------
 
