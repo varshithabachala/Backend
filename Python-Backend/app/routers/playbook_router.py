@@ -13,6 +13,9 @@ from fastapi import APIRouter, Query
 from typing import Optional
 import psycopg2
 import psycopg2.extras
+import csv
+import io
+from fastapi.responses import StreamingResponse
 
 router = APIRouter(prefix="/api", tags=["Authentication"])
 
@@ -94,3 +97,30 @@ def get_stats():
         "failed": total - success,
         "unique_requesters": unique_users,
     }
+
+@router.get("/requests/csv")
+def download_requests_csv():
+    conn = get_connection()
+    cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+    cur.execute(
+        "SELECT requester_name, request_text, requester_email, status, requested_at "
+        "FROM playbook_requests ORDER BY requested_at DESC"
+    )
+    rows = cur.fetchall()
+    cur.close()
+    conn.close()
+
+    output = io.StringIO()
+    writer = csv.writer(output)
+    writer.writerow(["Requester", "Request", "Status", "Email", "Timestamp"])
+
+    for r in rows:
+        timestamp = r["requested_at"].isoformat(sep=" ") if r["requested_at"] else ""
+        writer.writerow([r["requester_name"], r["request_text"], r["status"], r["requester_email"], timestamp])
+
+    output.seek(0)
+    return StreamingResponse(
+        iter([output.getvalue()]),
+        media_type="text/csv",
+        headers={"Content-Disposition": "attachment; filename=playbook_requests.csv"}
+    )
