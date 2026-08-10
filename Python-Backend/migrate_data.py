@@ -1,22 +1,3 @@
-"""
-Local PostgreSQL -> Render PostgreSQL migration script.
-Bypasses pg_dump/pg_restore entirely (avoids SNI / client-version issues)
-by using psycopg2 directly (same library your FastAPI backend already uses).
-
-USAGE:
-    1. Activate your venv:
-         source venv/bin/activate      (Linux/Mac)
-    2. Run:
-         python migrate_data.py
-
-It will:
-    - Connect to your LOCAL fortisoar_logs database
-    - Read the exact column structure of playbook_requests
-    - Create the same table on RENDER (if it doesn't exist)
-    - Copy every row across
-    - Verify row counts match
-"""
-
 import psycopg2
 import psycopg2.extras
 
@@ -30,7 +11,6 @@ LOCAL_CONFIG = {
     "port": "5432",
 }
 
-# Render external DB URL + sslmode=require
 RENDER_URL = (
     "postgresql://fortisoar_db_user:2U8spKKQNVepVWvnx7x54PV9XFaxg8De@"
     "dpg-d9oof5qd0e5s73c1rkl0-a.singapore-postgres.render.com/fortisoar_db"
@@ -73,7 +53,7 @@ def build_create_table_sql(cols):
         elif dtype == "text":
             coltype = "TEXT"
         else:
-            coltype = "TEXT"  # safe fallback
+            coltype = "TEXT"  
         parts.append(f'"{name}" {coltype}')
     cols_sql = ", ".join(parts)
     return f'CREATE TABLE IF NOT EXISTS {TABLE_NAME} ({cols_sql});'
