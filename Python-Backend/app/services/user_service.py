@@ -3,7 +3,6 @@ from app.schemas.user_schema import UserCreateSchema, UserUpdateSchema
 
 class UserService:
     def __init__(self):
-        # In-memory mock database: { id: user_dict }
         self._db: Dict[int, dict] = {}
         self._counter = 1
 
@@ -53,5 +52,4 @@ class UserService:
             return True
         return False
 
-# Global singleton service instance
 user_service = UserService()

@@ -1,14 +1,3 @@
-"""
-FastAPI router that serves playbook_requests data from PostgreSQL.
-
-Place this file at: app/routers/playbook_router.py
-(next to your existing auth_router.py and user_router.py)
-
-Then in main.py, add:
-    from app.routers import playbook_router
-    app.include_router(playbook_router.router)
-"""
-
 from fastapi import APIRouter, Query
 from typing import Optional
 import psycopg2
@@ -19,7 +8,6 @@ from fastapi.responses import StreamingResponse
 
 router = APIRouter(prefix="/api", tags=["Authentication"])
 
-# ---- adjust these to match your setup ----
 import os
 
 DB_CONFIG = {
@@ -29,7 +17,7 @@ DB_CONFIG = {
     "host": os.environ.get("DB_HOST", "localhost"),
     "port": os.environ.get("DB_PORT", "5432"),
 }
-# -------------------------------------------
+
 
 
 def get_connection():
