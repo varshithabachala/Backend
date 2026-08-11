@@ -112,3 +112,98 @@ def download_requests_csv():
         media_type="text/csv",
         headers={"Content-Disposition": "attachment; filename=playbook_requests.csv"}
     )
+
+@router.get("/common-failures")
+def get_common_failures():
+   
+    conn = get_connection()
+    cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+
+    cur.execute("SELECT COUNT(*) AS total FROM playbook_requests;")
+    total = cur.fetchone()["total"]
+
+    cur.execute("SELECT COUNT(*) AS failed FROM playbook_requests WHERE status = 'failed';")
+    failed = cur.fetchone()["failed"]
+
+    cur.execute(
+        "SELECT COUNT(DISTINCT requester_email) AS people "
+        "FROM playbook_requests WHERE status = 'failed';"
+    )
+    people_affected = cur.fetchone()["people"]
+
+    cur.execute(
+        "SELECT requester_name, requester_email, request_text "
+        "FROM playbook_requests WHERE status = 'failed';"
+    )
+    failed_rows = cur.fetchall()
+    cur.close()
+    conn.close()
+
+  
+    groups = {}
+    for row in failed_rows:
+        key = row["request_text"]
+        if key not in groups:
+            groups[key] = {}
+        name = row["requester_name"]
+        groups[key][name] = groups[key].get(name, 0) + 1
+
+    
+    patterns = []
+    for request_text, people_counts in groups.items():
+        if len(people_counts) >= 2:
+            people_list = [{"name": n, "count": c} for n, c in people_counts.items()]
+            total_failures = sum(people_counts.values())
+            patterns.append({
+                "request_text": request_text,
+                "people": people_list,
+                "total_failures": total_failures,
+            })
+
+    
+    patterns.sort(key=lambda p: -p["total_failures"])
+
+    return {
+        "total": total,
+        "failed": failed,
+        "people_affected": people_affected,
+        "shared_patterns": len(patterns),
+        "patterns": patterns,
+    }
+
+@router.get("/forti-products")
+def get_forti_products():
+    
+    conn = get_connection()
+    cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+    cur.execute("SELECT requester_name, request_text FROM playbook_requests;")
+    rows = cur.fetchall()
+    cur.close()
+    conn.close()
+
+
+    known_products = [
+        "FortiGate-ips-signature", "FortiMAIL-demo", "FortiAnalyzer", "FortiAppSec",
+        "FortiDeceptor", "FortiManager", "FortiRecon", "FortiSandbox", "FortiSIEM",
+        "FortiSOAR", "FortiNDR", "FortiPAM", "FortiEDR", "FortiAIOPs", "FortiGate",
+        "FortiGuard", "FortiOS", "Fortinet",
+    ]
+
+    product_to_names = {}
+    for row in rows:
+        text = row["request_text"] or ""
+        name = row["requester_name"]
+        remaining_text = text
+        for product in known_products:
+            if product.lower() in remaining_text.lower():
+                product_to_names.setdefault(product, set()).add(name)
+                # remove matched part so a shorter overlapping name isn't double counted
+                idx = remaining_text.lower().find(product.lower())
+                remaining_text = remaining_text[:idx] + remaining_text[idx + len(product):]
+
+    result = [
+        {"product": product, "requesters": sorted(names)}
+        for product, names in sorted(product_to_names.items())
+    ]
+
+    return {"products": result}
