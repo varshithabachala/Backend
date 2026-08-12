@@ -115,7 +115,6 @@ def download_requests_csv():
 
 @router.get("/common-failures")
 def get_common_failures():
-   
     conn = get_connection()
     cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
 
@@ -139,7 +138,6 @@ def get_common_failures():
     cur.close()
     conn.close()
 
-  
     groups = {}
     for row in failed_rows:
         key = row["request_text"]
@@ -148,8 +146,9 @@ def get_common_failures():
         name = row["requester_name"]
         groups[key][name] = groups[key].get(name, 0) + 1
 
-    
     patterns = []
+    other_failures = []
+
     for request_text, people_counts in groups.items():
         if len(people_counts) >= 2:
             people_list = [{"name": n, "count": c} for n, c in people_counts.items()]
@@ -159,9 +158,17 @@ def get_common_failures():
                 "people": people_list,
                 "total_failures": total_failures,
             })
+        else:
+            name = list(people_counts.keys())[0]
+            count = people_counts[name]
+            other_failures.append({
+                "request_text": request_text,
+                "name": name,
+                "count": count,
+            })
 
-    
     patterns.sort(key=lambda p: -p["total_failures"])
+    other_failures.sort(key=lambda o: -o["count"])
 
     return {
         "total": total,
@@ -169,6 +176,8 @@ def get_common_failures():
         "people_affected": people_affected,
         "shared_patterns": len(patterns),
         "patterns": patterns,
+        "other_failures_count": len(other_failures),
+        "other_failures": other_failures,
     }
 
 @router.get("/forti-products")
