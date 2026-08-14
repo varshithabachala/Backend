@@ -1,0 +1,625 @@
+{
+  "table": "UnknownTable",
+  "rows": [
+    [
+      851,
+      "Tom Bennett",
+      "tbennett@fortinet.com",
+      "2026-08-08 22:03:00",
+      "Create a FortiGate firewall rule named 'test_block_30' that denies traffic from source IP 192.168.30.10 on port2.",
+      "success",
+      "ee86202b-5996-4c16-827b-2f203e7bcaf9",
+      "https://69.167.104.158:13006/playbooks/ee86202b-5996-4c16-827b-2f203e7bcaf9"
+    ],
+    [
+      814,
+      "Carlos Mendes",
+      "cmendes@fortinet.com",
+      "2026-07-22 21:54:00",
+      "Build a FortiSOAR playbook that fetches high severity alerts from FortiAnalyzer and blocks the source IP on FortiGate.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      832,
+      "Tom Bennett",
+      "tbennett@fortinet.com",
+      "2026-08-04 16:11:00",
+      "Create a playbook that reads SSL certificate expiry from FortiWeb and requests renewal automatically.",
+      "success",
+      "5b02a494-c46a-47eb-bc6e-01f8f21d4fe1",
+      "https://69.167.104.158:13006/playbooks/5b02a494-c46a-47eb-bc6e-01f8f21d4fe1"
+    ],
+    [
+      807,
+      "Sam Okafor",
+      "sokafor@fortinet.com",
+      "2026-08-04 10:51:00",
+      "Generate a playbook that monitors FortiGate VPN logs and disables accounts after 5 failed login attempts.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      839,
+      "Dmitri Volkov",
+      "dvolkov@fortinet.com",
+      "2026-08-03 11:29:00",
+      "Create a FortiGate firewall rule named 'test_block_77' that denies traffic from source IP 192.168.77.10 on port2.",
+      "success",
+      "c45bae7b-b9af-484f-bb14-520aec7c6df4",
+      "https://69.167.104.158:13006/playbooks/c45bae7b-b9af-484f-bb14-520aec7c6df4"
+    ],
+    [
+      804,
+      "Dmitri Volkov",
+      "dvolkov@fortinet.com",
+      "2026-07-29 09:48:00",
+      "Trigger a playbook on WiFi disconnect events from FortiGate and notify analyst if it repeats 5+ times.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      840,
+      "Ravi Teja",
+      "rteja@fortinet.com",
+      "2026-07-22 15:07:00",
+      "Build a FortiSOAR playbook that fetches high severity alerts from FortiAnalyzer and blocks the source IP on FortiGate.",
+      "success",
+      "fb809634-9d76-4f49-9fc3-a254a97f37df",
+      "https://69.167.104.158:13006/playbooks/fb809634-9d76-4f49-9fc3-a254a97f37df"
+    ],
+    [
+      846,
+      "Dmitri Volkov",
+      "dvolkov@fortinet.com",
+      "2026-08-03 17:35:00",
+      "Trigger a playbook when FortiEDR detects malware, lock the AD account and notify the SOC team via email.",
+      "success",
+      "f2061c81-d079-41ec-8ece-70e58f05643e",
+      "https://69.167.104.158:13006/playbooks/f2061c81-d079-41ec-8ece-70e58f05643e"
+    ],
+    [
+      843,
+      "Priya Nair",
+      "pnair@fortinet.com",
+      "2026-08-07 16:52:00",
+      "Create a playbook that reads SSL certificate expiry from FortiWeb and requests renewal automatically.",
+      "success",
+      "87d3225f-eaab-4a01-80d4-4c575f07c6a7",
+      "https://69.167.104.158:13006/playbooks/87d3225f-eaab-4a01-80d4-4c575f07c6a7"
+    ],
+    [
+      811,
+      "Youssef Amir",
+      "yamir@fortinet.com",
+      "2026-08-04 02:07:00",
+      "Build a FortiSOAR playbook that fetches high severity alerts from FortiAnalyzer and blocks the source IP on FortiGate.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      833,
+      "Tom Bennett",
+      "tbennett@fortinet.com",
+      "2026-08-04 02:33:00",
+      "Create a FortiSOAR playbook to onboard a new user in Microsoft Entra ID and assign default groups.",
+      "success",
+      "f6ae8ffe-cead-4909-8347-e9e7de756ac0",
+      "https://69.167.104.158:13006/playbooks/f6ae8ffe-cead-4909-8347-e9e7de756ac0"
+    ],
+    [
+      845,
+      "Dmitri Volkov",
+      "dvolkov@fortinet.com",
+      "2026-07-20 19:47:00",
+      "Trigger a playbook on WiFi disconnect events from FortiGate and notify analyst if it repeats 5+ times.",
+      "success",
+      "aad2d49f-a463-4814-b161-ad77d1534093",
+      "https://69.167.104.158:13006/playbooks/aad2d49f-a463-4814-b161-ad77d1534093"
+    ],
+    [
+      802,
+      "Tom Bennett",
+      "tbennett@fortinet.com",
+      "2026-07-28 18:33:00",
+      "Create a playbook that reads SSL certificate expiry from FortiWeb and requests renewal automatically.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      819,
+      "Dmitri Volkov",
+      "dvolkov@fortinet.com",
+      "2026-07-31 12:36:00",
+      "Trigger a playbook when FortiEDR detects malware, lock the AD account and notify the SOC team via email.",
+      "success",
+      "84c108b3-5cca-4cf2-a8aa-9da3213cf6f3",
+      "https://69.167.104.158:13006/playbooks/84c108b3-5cca-4cf2-a8aa-9da3213cf6f3"
+    ],
+    [
+      808,
+      "Lena Fischer",
+      "lfischer@fortinet.com",
+      "2026-08-08 09:36:00",
+      "Create a FortiSOAR playbook to onboard a new user in Microsoft Entra ID and assign default groups.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      821,
+      "Ravi Teja",
+      "rteja@fortinet.com",
+      "2026-07-24 04:40:00",
+      "Trigger a playbook when FortiEDR detects malware, lock the AD account and notify the SOC team via email.",
+      "success",
+      "45f12399-d703-49d1-8173-d6c8370b566a",
+      "https://69.167.104.158:13006/playbooks/45f12399-d703-49d1-8173-d6c8370b566a"
+    ],
+    [
+      852,
+      "Ravi Teja",
+      "rteja@fortinet.com",
+      "2026-07-30 09:45:00",
+      "Create a FortiSOAR playbook to onboard a new user in Microsoft Entra ID and assign default groups.",
+      "success",
+      "dc641c1e-c0e0-4b0a-bb15-ffc00af2f2ff",
+      "https://69.167.104.158:13006/playbooks/dc641c1e-c0e0-4b0a-bb15-ffc00af2f2ff"
+    ],
+    [
+      820,
+      "Carlos Mendes",
+      "cmendes@fortinet.com",
+      "2026-07-26 18:40:00",
+      "Create a playbook that reads SSL certificate expiry from FortiWeb and requests renewal automatically.",
+      "success",
+      "80349d85-94be-4534-88d0-c4601f596697",
+      "https://69.167.104.158:13006/playbooks/80349d85-94be-4534-88d0-c4601f596697"
+    ],
+    [
+      838,
+      "Aiko Tanaka",
+      "atanaka@fortinet.com",
+      "2026-07-21 00:11:00",
+      "Create a playbook to check IP reputation via AbuseIPDB and quarantine the endpoint if malicious.",
+      "success",
+      "97976efe-d0ab-44a1-956f-ca4c2a7bd884",
+      "https://69.167.104.158:13006/playbooks/97976efe-d0ab-44a1-956f-ca4c2a7bd884"
+    ],
+    [
+      850,
+      "Fatima Zahra",
+      "fzahra@fortinet.com",
+      "2026-08-08 20:15:00",
+      "Trigger a playbook when FortiEDR detects malware, lock the AD account and notify the SOC team via email.",
+      "success",
+      "dfa8e934-8c79-4338-9edf-c7b31c0074ee",
+      "https://69.167.104.158:13006/playbooks/dfa8e934-8c79-4338-9edf-c7b31c0074ee"
+    ],
+    [
+      828,
+      "Ravi Teja",
+      "rteja@fortinet.com",
+      "2026-07-27 23:50:00",
+      "Build a FortiSOAR playbook that fetches high severity alerts from FortiAnalyzer and blocks the source IP on FortiGate.",
+      "success",
+      "de0c8d8b-b4cf-40b2-8e29-250541dd89c8",
+      "https://69.167.104.158:13006/playbooks/de0c8d8b-b4cf-40b2-8e29-250541dd89c8"
+    ],
+    [
+      822,
+      "Youssef Amir",
+      "yamir@fortinet.com",
+      "2026-08-05 20:02:00",
+      "Build a playbook that pulls FortiSIEM alerts and sends a daily summary report to soc@fortinet.local.",
+      "success",
+      "add39dcc-a5fc-4cd6-a43c-b8a7fdf38c97",
+      "https://69.167.104.158:13006/playbooks/add39dcc-a5fc-4cd6-a43c-b8a7fdf38c97"
+    ],
+    [
+      844,
+      "Tom Bennett",
+      "tbennett@fortinet.com",
+      "2026-08-06 20:44:00",
+      "Build a playbook to fetch FortiRecon zero-day intel and push emergency deny rules to FortiGate.",
+      "success",
+      "85a2bec3-2744-4dfa-80c5-08d75b0baf45",
+      "https://69.167.104.158:13006/playbooks/85a2bec3-2744-4dfa-80c5-08d75b0baf45"
+    ],
+    [
+      842,
+      "Fatima Zahra",
+      "fzahra@fortinet.com",
+      "2026-07-25 18:29:00",
+      "Build a FortiSOAR playbook that fetches high severity alerts from FortiAnalyzer and blocks the source IP on FortiGate.",
+      "success",
+      "f5f4670f-5874-4e45-8ca4-7c9177a4f83f",
+      "https://69.167.104.158:13006/playbooks/f5f4670f-5874-4e45-8ca4-7c9177a4f83f"
+    ],
+    [
+      859,
+      "Priya Nair",
+      "pnair@fortinet.com",
+      "2026-08-06 07:26:00",
+      "Trigger a playbook when FortiEDR detects malware, lock the AD account and notify the SOC team via email.",
+      "success",
+      "578ded8a-daa2-42e5-98c6-b2b4f1c28217",
+      "https://69.167.104.158:13006/playbooks/578ded8a-daa2-42e5-98c6-b2b4f1c28217"
+    ],
+    [
+      837,
+      "Tom Bennett",
+      "tbennett@fortinet.com",
+      "2026-08-06 03:51:00",
+      "Create a playbook that reads SSL certificate expiry from FortiWeb and requests renewal automatically.",
+      "success",
+      "ec290ab4-7ceb-4c78-bdcd-7fbbc128d827",
+      "https://69.167.104.158:13006/playbooks/ec290ab4-7ceb-4c78-bdcd-7fbbc128d827"
+    ],
+    [
+      817,
+      "Tom Bennett",
+      "tbennett@fortinet.com",
+      "2026-07-21 09:17:00",
+      "Build a playbook that pulls FortiSIEM alerts and sends a daily summary report to soc@fortinet.local.",
+      "success",
+      "dc1aeb3b-af5a-4f44-8094-9fb889b03328",
+      "https://69.167.104.158:13006/playbooks/dc1aeb3b-af5a-4f44-8094-9fb889b03328"
+    ],
+    [
+      823,
+      "Fatima Zahra",
+      "fzahra@fortinet.com",
+      "2026-07-27 09:29:00",
+      "Create a FortiSOAR playbook to onboard a new user in Microsoft Entra ID and assign default groups.",
+      "success",
+      "6eff9f0b-48ce-4252-b184-bb1c152779f6",
+      "https://69.167.104.158:13006/playbooks/6eff9f0b-48ce-4252-b184-bb1c152779f6"
+    ],
+    [
+      861,
+      "Grace Kim",
+      "gkim@fortinet.com",
+      "2026-07-31 22:09:00",
+      "Trigger a playbook when FortiEDR detects malware, lock the AD account and notify the SOC team via email.",
+      "success",
+      "c09d9635-78e8-4785-8c30-0db665211f03",
+      "https://69.167.104.158:13006/playbooks/c09d9635-78e8-4785-8c30-0db665211f03"
+    ],
+    [
+      801,
+      "Lena Fischer",
+      "lfischer@fortinet.com",
+      "2026-07-25 15:54:00",
+      "Trigger a playbook when FortiEDR detects malware, lock the AD account and notify the SOC team via email.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      858,
+      "Priya Nair",
+      "pnair@fortinet.com",
+      "2026-07-25 20:39:00",
+      "Create a FortiGate firewall rule named 'test_block_52' that denies traffic from source IP 192.168.52.10 on port2.",
+      "success",
+      "c3b669d0-f5c5-4653-a1fa-e88015b95f82",
+      "https://69.167.104.158:13006/playbooks/c3b669d0-f5c5-4653-a1fa-e88015b95f82"
+    ],
+    [
+      836,
+      "Dmitri Volkov",
+      "dvolkov@fortinet.com",
+      "2026-08-04 00:07:00",
+      "Build a FortiSOAR playbook that fetches high severity alerts from FortiAnalyzer and blocks the source IP on FortiGate.",
+      "success",
+      "221b3b1c-fedf-4da0-b548-c1bf4f9b2c29",
+      "https://69.167.104.158:13006/playbooks/221b3b1c-fedf-4da0-b548-c1bf4f9b2c29"
+    ],
+    [
+      812,
+      "Tom Bennett",
+      "tbennett@fortinet.com",
+      "2026-07-29 01:48:00",
+      "Trigger a playbook on WiFi disconnect events from FortiGate and notify analyst if it repeats 5+ times.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      809,
+      "Priya Nair",
+      "pnair@fortinet.com",
+      "2026-07-28 11:44:00",
+      "Create a FortiSOAR playbook to onboard a new user in Microsoft Entra ID and assign default groups.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      847,
+      "Tom Bennett",
+      "tbennett@fortinet.com",
+      "2026-07-22 04:27:00",
+      "Create a FortiSOAR playbook to onboard a new user in Microsoft Entra ID and assign default groups.",
+      "success",
+      "419329d2-1da6-473e-97d7-303d799961f8",
+      "https://69.167.104.158:13006/playbooks/419329d2-1da6-473e-97d7-303d799961f8"
+    ],
+    [
+      827,
+      "Lena Fischer",
+      "lfischer@fortinet.com",
+      "2026-07-30 20:55:00",
+      "Create a playbook to check IP reputation via AbuseIPDB and quarantine the endpoint if malicious.",
+      "success",
+      "7cefe1c8-ac46-441f-a67c-b3e91b213c1c",
+      "https://69.167.104.158:13006/playbooks/7cefe1c8-ac46-441f-a67c-b3e91b213c1c"
+    ],
+    [
+      818,
+      "Tom Bennett",
+      "tbennett@fortinet.com",
+      "2026-07-27 19:50:00",
+      "Build a FortiSOAR playbook that fetches high severity alerts from FortiAnalyzer and blocks the source IP on FortiGate.",
+      "success",
+      "ef5f4a42-05c4-419c-85b4-07b28c0e8b45",
+      "https://69.167.104.158:13006/playbooks/ef5f4a42-05c4-419c-85b4-07b28c0e8b45"
+    ],
+    [
+      829,
+      "Tom Bennett",
+      "tbennett@fortinet.com",
+      "2026-08-09 00:36:00",
+      "Generate a playbook that monitors FortiGate VPN logs and disables accounts after 5 failed login attempts.",
+      "success",
+      "f7dd5c0e-b014-4cb3-9ada-f3040e18ae28",
+      "https://69.167.104.158:13006/playbooks/f7dd5c0e-b014-4cb3-9ada-f3040e18ae28"
+    ],
+    [
+      816,
+      "Aiko Tanaka",
+      "atanaka@fortinet.com",
+      "2026-08-02 19:47:00",
+      "Create a playbook to check IP reputation via AbuseIPDB and quarantine the endpoint if malicious.",
+      "success",
+      "7b514ac0-811d-4ec7-bd05-425a8f54ea3b",
+      "https://69.167.104.158:13006/playbooks/7b514ac0-811d-4ec7-bd05-425a8f54ea3b"
+    ],
+    [
+      856,
+      "Tom Bennett",
+      "tbennett@fortinet.com",
+      "2026-08-01 08:34:00",
+      "Generate a playbook that monitors FortiGate VPN logs and disables accounts after 5 failed login attempts.",
+      "success",
+      "390789a1-41be-4976-86ee-3320500281f5",
+      "https://69.167.104.158:13006/playbooks/390789a1-41be-4976-86ee-3320500281f5"
+    ],
+    [
+      860,
+      "Grace Kim",
+      "gkim@fortinet.com",
+      "2026-08-06 11:43:00",
+      "Create a playbook to check IP reputation via AbuseIPDB and quarantine the endpoint if malicious.",
+      "success",
+      "aa60a27b-d0e4-4049-bf32-1b1b67ec269d",
+      "https://69.167.104.158:13006/playbooks/aa60a27b-d0e4-4049-bf32-1b1b67ec269d"
+    ],
+    [
+      824,
+      "Youssef Amir",
+      "yamir@fortinet.com",
+      "2026-08-04 17:52:00",
+      "Build a playbook to fetch FortiRecon zero-day intel and push emergency deny rules to FortiGate.",
+      "success",
+      "201737db-d568-464d-8e66-ecfae9ab3563",
+      "https://69.167.104.158:13006/playbooks/201737db-d568-464d-8e66-ecfae9ab3563"
+    ],
+    [
+      849,
+      "Aiko Tanaka",
+      "atanaka@fortinet.com",
+      "2026-07-29 13:46:00",
+      "Create a FortiGate firewall rule named 'test_block_76' that denies traffic from source IP 192.168.76.10 on port2.",
+      "success",
+      "46dbc245-3314-4c81-9e93-c902c8dc680f",
+      "https://69.167.104.158:13006/playbooks/46dbc245-3314-4c81-9e93-c902c8dc680f"
+    ],
+    [
+      857,
+      "Grace Kim",
+      "gkim@fortinet.com",
+      "2026-07-27 10:19:00",
+      "Create a FortiGate firewall rule named 'test_block_87' that denies traffic from source IP 192.168.87.10 on port2.",
+      "success",
+      "e368843a-7793-4172-ad1e-db1c3eeded85",
+      "https://69.167.104.158:13006/playbooks/e368843a-7793-4172-ad1e-db1c3eeded85"
+    ],
+    [
+      825,
+      "Lena Fischer",
+      "lfischer@fortinet.com",
+      "2026-08-04 18:13:00",
+      "Create a playbook that reads SSL certificate expiry from FortiWeb and requests renewal automatically.",
+      "success",
+      "f91db609-a9df-4a6a-a8dd-c8df6a06fc91",
+      "https://69.167.104.158:13006/playbooks/f91db609-a9df-4a6a-a8dd-c8df6a06fc91"
+    ],
+    [
+      813,
+      "Meera Iyer",
+      "miyer@fortinet.com",
+      "2026-07-27 06:46:00",
+      "Build a FortiSOAR playbook that fetches high severity alerts from FortiAnalyzer and blocks the source IP on FortiGate.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      830,
+      "Youssef Amir",
+      "yamir@fortinet.com",
+      "2026-07-30 02:44:00",
+      "Trigger a playbook on WiFi disconnect events from FortiGate and notify analyst if it repeats 5+ times.",
+      "success",
+      "dcd52be6-8eec-4045-bb1d-2f9ffc524914",
+      "https://69.167.104.158:13006/playbooks/dcd52be6-8eec-4045-bb1d-2f9ffc524914"
+    ],
+    [
+      831,
+      "Dmitri Volkov",
+      "dvolkov@fortinet.com",
+      "2026-07-25 23:53:00",
+      "Create a FortiGate firewall rule named 'test_block_88' that denies traffic from source IP 192.168.88.10 on port2.",
+      "success",
+      "803a0238-ac26-4cb4-b899-5997651f287e",
+      "https://69.167.104.158:13006/playbooks/803a0238-ac26-4cb4-b899-5997651f287e"
+    ],
+    [
+      826,
+      "Fatima Zahra",
+      "fzahra@fortinet.com",
+      "2026-08-01 20:37:00",
+      "Generate a playbook that monitors FortiGate VPN logs and disables accounts after 5 failed login attempts.",
+      "success",
+      "31afaeb0-3e80-4749-b7b3-9fc884e71326",
+      "https://69.167.104.158:13006/playbooks/31afaeb0-3e80-4749-b7b3-9fc884e71326"
+    ],
+    [
+      810,
+      "Ravi Teja",
+      "rteja@fortinet.com",
+      "2026-08-07 17:01:00",
+      "Build a playbook to fetch FortiRecon zero-day intel and push emergency deny rules to FortiGate.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      815,
+      "Youssef Amir",
+      "yamir@fortinet.com",
+      "2026-07-27 19:07:00",
+      "Build a playbook that pulls FortiSIEM alerts and sends a daily summary report to soc@fortinet.local.",
+      "success",
+      "958d136c-6912-43be-8bb2-dfabb8002feb",
+      "https://69.167.104.158:13006/playbooks/958d136c-6912-43be-8bb2-dfabb8002feb"
+    ],
+    [
+      848,
+      "Grace Kim",
+      "gkim@fortinet.com",
+      "2026-08-05 13:56:00",
+      "Build a FortiSOAR playbook that fetches high severity alerts from FortiAnalyzer and blocks the source IP on FortiGate.",
+      "success",
+      "9dd55b3e-acf4-4693-9382-2053328fa849",
+      "https://69.167.104.158:13006/playbooks/9dd55b3e-acf4-4693-9382-2053328fa849"
+    ],
+    [
+      805,
+      "Meera Iyer",
+      "miyer@fortinet.com",
+      "2026-08-05 16:32:00",
+      "Create a playbook that reads SSL certificate expiry from FortiWeb and requests renewal automatically.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      800,
+      "Tom Bennett",
+      "tbennett@fortinet.com",
+      "2026-07-25 13:43:00",
+      "Build a FortiSOAR playbook that fetches high severity alerts from FortiAnalyzer and blocks the source IP on FortiGate.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      853,
+      "Carlos Mendes",
+      "cmendes@fortinet.com",
+      "2026-07-29 20:52:00",
+      "Build a playbook to fetch FortiRecon zero-day intel and push emergency deny rules to FortiGate.",
+      "success",
+      "cd9d284a-7ce4-4680-b113-d9d4251887dd",
+      "https://69.167.104.158:13006/playbooks/cd9d284a-7ce4-4680-b113-d9d4251887dd"
+    ],
+    [
+      834,
+      "Sam Okafor",
+      "sokafor@fortinet.com",
+      "2026-07-21 00:14:00",
+      "Build a playbook to fetch FortiRecon zero-day intel and push emergency deny rules to FortiGate.",
+      "success",
+      "eb4111df-85a7-484c-af9a-950573cd14aa",
+      "https://69.167.104.158:13006/playbooks/eb4111df-85a7-484c-af9a-950573cd14aa"
+    ],
+    [
+      841,
+      "Carlos Mendes",
+      "cmendes@fortinet.com",
+      "2026-08-05 05:04:00",
+      "Trigger a playbook when FortiEDR detects malware, lock the AD account and notify the SOC team via email.",
+      "success",
+      "cf586dae-e2a3-40de-9fa0-0876940692e3",
+      "https://69.167.104.158:13006/playbooks/cf586dae-e2a3-40de-9fa0-0876940692e3"
+    ],
+    [
+      803,
+      "Ravi Teja",
+      "rteja@fortinet.com",
+      "2026-08-05 17:46:00",
+      "Create a FortiGate firewall rule named 'test_block_12' that denies traffic from source IP 192.168.12.10 on port2.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      806,
+      "Fatima Zahra",
+      "fzahra@fortinet.com",
+      "2026-07-25 04:09:00",
+      "Build a playbook that pulls FortiSIEM alerts and sends a daily summary report to soc@fortinet.local.",
+      "failed",
+      null,
+      null
+    ],
+    [
+      835,
+      "Meera Iyer",
+      "miyer@fortinet.com",
+      "2026-07-25 02:49:00",
+      "Build a playbook that pulls FortiSIEM alerts and sends a daily summary report to soc@fortinet.local.",
+      "success",
+      "be1d101a-5af4-40c3-99dd-bece15523aac",
+      "https://69.167.104.158:13006/playbooks/be1d101a-5af4-40c3-99dd-bece15523aac"
+    ],
+    [
+      854,
+      "Meera Iyer",
+      "miyer@fortinet.com",
+      "2026-07-31 06:45:00",
+      "Trigger a playbook on WiFi disconnect events from FortiGate and notify analyst if it repeats 5+ times.",
+      "success",
+      "ad76b526-99f7-4d77-bd01-c5c94517bac3",
+      "https://69.167.104.158:13006/playbooks/ad76b526-99f7-4d77-bd01-c5c94517bac3"
+    ],
+    [
+      855,
+      "Grace Kim",
+      "gkim@fortinet.com",
+      "2026-08-08 08:54:00",
+      "Generate a playbook that monitors FortiGate VPN logs and disables accounts after 5 failed login attempts.",
+      "success",
+      "ae75bb99-ea1f-477e-bf31-785106bb99a6",
+      "https://69.167.104.158:13006/playbooks/ae75bb99-ea1f-477e-bf31-785106bb99a6"
+    ]
+  ]
+}
