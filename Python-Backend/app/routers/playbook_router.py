@@ -1,7 +1,8 @@
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, Query, UploadFile, File
 from typing import Optional
 import psycopg2
 import psycopg2.extras
+import json
 import csv
 import io
 from fastapi.responses import StreamingResponse
@@ -182,7 +183,7 @@ def get_common_failures():
 
 @router.get("/forti-products")
 def get_forti_products():
-    
+
     conn = get_connection()
     cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
     cur.execute("SELECT requester_name, request_text FROM playbook_requests;")
@@ -206,7 +207,6 @@ def get_forti_products():
         for product in known_products:
             if product.lower() in remaining_text.lower():
                 product_to_names.setdefault(product, set()).add(name)
-                # remove matched part so a shorter overlapping name isn't double counted
                 idx = remaining_text.lower().find(product.lower())
                 remaining_text = remaining_text[:idx] + remaining_text[idx + len(product):]
 
@@ -216,3 +216,64 @@ def get_forti_products():
     ]
 
     return {"products": result}
+
+@router.post("/import-json")
+async def import_json_upload(file: UploadFile = File(...)):
+    content = await file.read()
+    data = json.loads(content)
+    rows = data["rows"]
+
+    def clean(v):
+        if isinstance(v, str):
+            v = v.strip().strip('"')
+            if v == "":
+                return None
+        return v
+
+    conn = get_connection()
+    cur = conn.cursor()
+
+    added = 0
+    updated = 0
+
+    for row in rows:
+        row_id, name, email, timestamp, request_text, status, playbook_id, playbook_url = row
+
+        name = clean(name)
+        email = clean(email)
+        timestamp = clean(timestamp)
+        request_text = clean(request_text)
+        status = clean(status)
+        playbook_id = clean(playbook_id)
+        playbook_url = clean(playbook_url)
+
+        cur.execute("SELECT id FROM playbook_requests WHERE id = %s;", (row_id,))
+        exists = cur.fetchone()
+
+        if exists:
+            cur.execute(
+                """
+                UPDATE playbook_requests
+                SET requester_name = %s, requester_email = %s, requested_at = %s,
+                    request_text = %s, status = %s, playbook_id = %s, playbook_url = %s
+                WHERE id = %s;
+                """,
+                (name, email, timestamp, request_text, status, playbook_id, playbook_url, row_id),
+            )
+            updated += 1
+        else:
+            cur.execute(
+                """
+                INSERT INTO playbook_requests
+                (id, requester_name, requester_email, requested_at, request_text, status, playbook_id, playbook_url)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s);
+                """,
+                (row_id, name, email, timestamp, request_text, status, playbook_id, playbook_url),
+            )
+            added += 1
+
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    return {"added": added, "updated": updated}
