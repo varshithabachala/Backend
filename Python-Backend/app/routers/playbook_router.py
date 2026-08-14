@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Query, UploadFile, File
+from fastapi import APIRouter, Query, UploadFile, File, Body
 from typing import Optional
 import psycopg2
 import psycopg2.extras
@@ -235,6 +235,7 @@ async def import_json_upload(file: UploadFile = File(...)):
 
     added = 0
     updated = 0
+    added_ids = []
 
     for row in rows:
         row_id, name, email, timestamp, request_text, status, playbook_id, playbook_url = row
@@ -271,9 +272,27 @@ async def import_json_upload(file: UploadFile = File(...)):
                 (row_id, name, email, timestamp, request_text, status, playbook_id, playbook_url),
             )
             added += 1
+            added_ids.append(row_id)
 
     conn.commit()
     cur.close()
     conn.close()
 
-    return {"added": added, "updated": updated}
+    return {"added": added, "updated": updated, "added_ids": added_ids}
+
+
+@router.delete("/requests/bulk-delete")
+def delete_requests(payload: dict = Body(...)):
+    ids = payload.get("ids", [])
+    if not ids:
+        return {"deleted": 0}
+
+    conn = get_connection()
+    cur = conn.cursor()
+    cur.execute("DELETE FROM playbook_requests WHERE id = ANY(%s);", (ids,))
+    deleted = cur.rowcount
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    return {"deleted": deleted}
