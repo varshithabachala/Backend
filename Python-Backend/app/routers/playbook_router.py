@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Query, UploadFile, File, Body
+from fastapi import APIRouter, Query, UploadFile, File
 from typing import Optional
 import psycopg2
 import psycopg2.extras
@@ -217,6 +217,55 @@ def get_forti_products():
 
     return {"products": result}
 
+def normalize_row(row):
+    """
+    Accepts a row in either of two shapes and returns a single tuple:
+    (row_id, name, email, timestamp, request_text, status, playbook_id, playbook_url)
+
+    Shape 1 (old/simple exports): a list/tuple with exactly those 8 values, in order.
+
+    Shape 2 (FortiSOAR AI-agent session exports, e.g. Gautam's files): a dict with
+    keys like id, name, email, "FROM_UNIXTIME(created_at)", DESCRIPTION, signature
+    (signature is a JSON string containing playbook_url / workflow_uuid when the
+    playbook was actually generated, or empty/null when the request failed).
+    Some exports from this same source only have id, DESCRIPTION, member_id,
+    signature (no name/email/timestamp) - those are handled too, with a
+    placeholder name and no timestamp, since that data simply isn't in the file.
+    """
+    if isinstance(row, (list, tuple)):
+        row_id, name, email, timestamp, request_text, status, playbook_id, playbook_url = row
+        return row_id, name, email, timestamp, request_text, status, playbook_id, playbook_url
+
+    if isinstance(row, dict):
+        row_id = row.get("id")
+        name = row.get("name")
+        email = row.get("email")
+        timestamp = row.get("FROM_UNIXTIME(created_at)") or row.get("timestamp") or row.get("created_at")
+        request_text = row.get("DESCRIPTION") or row.get("description") or row.get("request_text")
+
+        if not name and row.get("member_id") is not None:
+            name = f"Member {row.get('member_id')}"
+
+        signature_raw = row.get("signature")
+        playbook_id = None
+        playbook_url = None
+
+        if signature_raw:
+            status = "success"
+            try:
+                sig = json.loads(signature_raw) if isinstance(signature_raw, str) else signature_raw
+                playbook_url = sig.get("playbook_url")
+                playbook_id = sig.get("workflow_uuid")
+            except Exception:
+                pass
+        else:
+            status = "failed"
+
+        return row_id, name, email, timestamp, request_text, status, playbook_id, playbook_url
+
+    raise ValueError(f"Unsupported row format: {type(row)}")
+
+
 @router.post("/import-json")
 async def import_json_upload(file: UploadFile = File(...)):
     content = await file.read()
@@ -235,10 +284,9 @@ async def import_json_upload(file: UploadFile = File(...)):
 
     added = 0
     updated = 0
-    added_ids = []
 
     for row in rows:
-        row_id, name, email, timestamp, request_text, status, playbook_id, playbook_url = row
+        row_id, name, email, timestamp, request_text, status, playbook_id, playbook_url = normalize_row(row)
 
         name = clean(name)
         email = clean(email)
@@ -272,27 +320,9 @@ async def import_json_upload(file: UploadFile = File(...)):
                 (row_id, name, email, timestamp, request_text, status, playbook_id, playbook_url),
             )
             added += 1
-            added_ids.append(row_id)
 
     conn.commit()
     cur.close()
     conn.close()
 
-    return {"added": added, "updated": updated, "added_ids": added_ids}
-
-
-@router.delete("/requests/bulk-delete")
-def delete_requests(payload: dict = Body(...)):
-    ids = payload.get("ids", [])
-    if not ids:
-        return {"deleted": 0}
-
-    conn = get_connection()
-    cur = conn.cursor()
-    cur.execute("DELETE FROM playbook_requests WHERE id = ANY(%s);", (ids,))
-    deleted = cur.rowcount
-    conn.commit()
-    cur.close()
-    conn.close()
-
-    return {"deleted": deleted}
+    return {"added": added, "updated": updated}
